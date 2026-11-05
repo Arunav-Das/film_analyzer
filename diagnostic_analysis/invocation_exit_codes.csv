@@ -1,0 +1,17 @@
+invocation,mode,rag_tier,exit_code,end
+grid,nlq_general,no_evidence,0,2026-11-05T06:36:11+00:00
+grid,nlq_general,year_list_only,1,2026-11-05T06:36:12+00:00
+grid,nlq_general,titles_authors,1,2026-11-05T06:36:14+00:00
+grid,nlq_general,titles_authors_prize,1,2026-11-05T06:36:15+00:00
+grid,nlq_general,full_with_birthplace,0,2026-11-05T06:41:43+00:00
+grid,nlq_general,full_with_population,0,2026-11-05T06:46:51+00:00
+grid,nlq_general,full_with_distractors,0,2026-11-05T06:52:19+00:00
+grid,nlq_wikipedia,no_evidence,0,2026-11-05T06:57:47+00:00
+grid,nlq_wikipedia,year_list_only,0,2026-11-05T07:02:46+00:00
+grid,nlq_wikipedia,titles_authors,0,2026-11-05T07:07:48+00:00
+grid,nlq_wikipedia,titles_authors_prize,0,2026-11-05T07:12:58+00:00
+grid,nlq_wikipedia,full_with_birthplace,0,2026-11-05T07:18:16+00:00
+grid,nlq_wikipedia,full_with_population,0,2026-11-05T07:23:17+00:00
+grid,nlq_wikipedia,full_with_distractors,0,2026-11-05T07:27:17+00:00
+grid,nlq_cot_general,no_evidence,0,2026-11-05T07:32:59+00:00
+grid,nlq_cot_general,year_list_only,0,2026-11-05T07:38:05+00:00

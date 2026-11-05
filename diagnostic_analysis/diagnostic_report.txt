@@ -1,0 +1,75 @@
+NLQ x RAG-TIER DIAGNOSTIC REPORT  (claude-sonnet-4-6, S1 flat_conjunctive, max_new_tokens=3000, 2 films/cell)
+==============================================================================================================
+
+Invocations logged: 16  (exit 0: 13, exit !=0: 3)
+Calls recorded: 26   answered: 1   Claude Code output-cap error: 25
+Output tokens billed: 305674   of which thinking: 305240
+Total reported cost: $6.1311   mean latency/call: 152.7s
+
+INVOCATION EXIT CODES
+invocation            mode              rag_tier  exit_code                       end
+      grid     nlq_general           no_evidence          0 2026-11-05T06:36:11+00:00
+      grid     nlq_general        year_list_only          1 2026-11-05T06:36:12+00:00
+      grid     nlq_general        titles_authors          1 2026-11-05T06:36:14+00:00
+      grid     nlq_general  titles_authors_prize          1 2026-11-05T06:36:15+00:00
+      grid     nlq_general  full_with_birthplace          0 2026-11-05T06:41:43+00:00
+      grid     nlq_general  full_with_population          0 2026-11-05T06:46:51+00:00
+      grid     nlq_general full_with_distractors          0 2026-11-05T06:52:19+00:00
+      grid   nlq_wikipedia           no_evidence          0 2026-11-05T06:57:47+00:00
+      grid   nlq_wikipedia        year_list_only          0 2026-11-05T07:02:46+00:00
+      grid   nlq_wikipedia        titles_authors          0 2026-11-05T07:07:48+00:00
+      grid   nlq_wikipedia  titles_authors_prize          0 2026-11-05T07:12:58+00:00
+      grid   nlq_wikipedia  full_with_birthplace          0 2026-11-05T07:18:16+00:00
+      grid   nlq_wikipedia  full_with_population          0 2026-11-05T07:23:17+00:00
+      grid   nlq_wikipedia full_with_distractors          0 2026-11-05T07:27:17+00:00
+      grid nlq_cot_general           no_evidence          0 2026-11-05T07:32:59+00:00
+      grid nlq_cot_general        year_list_only          0 2026-11-05T07:38:05+00:00
+
+CELL SUMMARY
+           mode              rag_tier  calls  answered  cli_cap_errors  mean_api_attempts  mean_output_tokens  mean_thinking_tokens  mean_latency_s  cost_usd  rag_rows
+    nlq_general           no_evidence      2         0               2              4.000           12000.000             11999.500         168.680     0.433     0.000
+    nlq_general  full_with_birthplace      2         0               2              4.000           12000.000             11999.000         160.958     0.484    46.500
+    nlq_general  full_with_population      2         0               2              4.000           12000.000             11999.500         150.718     0.493    46.500
+    nlq_general full_with_distractors      2         0               2              4.000           12000.000             11999.500         160.343     0.565    46.500
+  nlq_wikipedia           no_evidence      2         0               2              4.000           12000.000             11999.500         161.276     0.432     0.000
+  nlq_wikipedia        year_list_only      2         0               2              4.000           12000.000             12000.000         145.546     0.460    47.500
+  nlq_wikipedia        titles_authors      2         0               2              4.000           12000.000             12000.000         147.462     0.472    47.500
+  nlq_wikipedia  titles_authors_prize      2         0               2              4.000           12000.000             11999.500         152.284     0.492    47.500
+  nlq_wikipedia  full_with_birthplace      2         0               2              4.000           12000.000             12000.000         156.173     0.484    46.500
+  nlq_wikipedia  full_with_population      2         0               2              4.000           12000.000             11999.000         146.347     0.493    46.500
+  nlq_wikipedia full_with_distractors      2         1               1              3.000            8837.000              8627.000         117.042     0.421    46.500
+nlq_cot_general           no_evidence      2         0               2              4.000           12000.000             11999.000         168.272     0.438     0.000
+nlq_cot_general        year_list_only      2         0               2              4.000           12000.000             11998.500         149.650     0.465    47.500
+
+PER CALL
+           mode              rag_tier  Query_ID    Film_Title  answered  api_attempts  attempts_max_tokens final_stop_reason  output_tokens_total  thinking_tokens  text_chars  latency_s  cost_usd  n_directors_parsed
+    nlq_general           no_evidence         1 The Godfather     False             4                    4        max_tokens                12000            11999         156    164.697  0.216312                   0
+    nlq_general           no_evidence         2  Citizen Kane     False             4                    4        max_tokens                12000            12000         156    172.663  0.216240                   0
+    nlq_general  full_with_birthplace         1 The Godfather     False             4                    4        max_tokens                12000            11999         156    158.510  0.239592                   0
+    nlq_general  full_with_birthplace         2  Citizen Kane     False             4                    4        max_tokens                12000            11999         156    163.406  0.243984                   0
+    nlq_general  full_with_population         1 The Godfather     False             4                    4        max_tokens                12000            11999         156    150.088  0.243720                   0
+    nlq_general  full_with_population         2  Citizen Kane     False             4                    4        max_tokens                12000            12000         156    151.348  0.249192                   0
+    nlq_general full_with_distractors         1 The Godfather     False             4                    4        max_tokens                12000            11999         156    156.853  0.276528                   0
+    nlq_general full_with_distractors         2  Citizen Kane     False             4                    4        max_tokens                12000            12000         156    163.833  0.287976                   0
+  nlq_wikipedia           no_evidence         1 The Godfather     False             4                    4        max_tokens                12000            11999         156    166.680  0.216240                   0
+  nlq_wikipedia           no_evidence         2  Citizen Kane     False             4                    4        max_tokens                12000            12000         156    155.873  0.216192                   0
+  nlq_wikipedia        year_list_only         1 The Godfather     False             4                    4        max_tokens                12000            12000         156    148.135  0.230664                   0
+  nlq_wikipedia        year_list_only         2  Citizen Kane     False             4                    4        max_tokens                12000            12000         156    142.958  0.228840                   0
+  nlq_wikipedia        titles_authors         1 The Godfather     False             4                    4        max_tokens                12000            12000         156    148.282  0.237624                   0
+  nlq_wikipedia        titles_authors         2  Citizen Kane     False             4                    4        max_tokens                12000            12000         156    146.642  0.234600                   0
+  nlq_wikipedia  titles_authors_prize         1 The Godfather     False             4                    4        max_tokens                12000            11999         156    156.236  0.248376                   0
+  nlq_wikipedia  titles_authors_prize         2  Citizen Kane     False             4                    4        max_tokens                12000            12000         156    148.332  0.243960                   0
+  nlq_wikipedia  full_with_birthplace         1 The Godfather     False             4                    4        max_tokens                12000            12000         156    154.988  0.239688                   0
+  nlq_wikipedia  full_with_birthplace         2  Citizen Kane     False             4                    4        max_tokens                12000            12000         156    157.358  0.243888                   0
+  nlq_wikipedia  full_with_population         1 The Godfather     False             4                    4        max_tokens                12000            11999         156    142.100  0.243672                   0
+  nlq_wikipedia  full_with_population         2  Citizen Kane     False             4                    4        max_tokens                12000            11999         156    150.594  0.249264                   0
+  nlq_wikipedia full_with_distractors         1 The Godfather      True             2                    1          end_turn                 5674             5254        1188     72.228  0.132894                  30
+  nlq_wikipedia full_with_distractors         2  Citizen Kane     False             4                    4        max_tokens                12000            12000         156    161.857  0.288144                   0
+nlq_cot_general           no_evidence         1 The Godfather     False             4                    4        max_tokens                12000            11999         156    169.505  0.219120                   0
+nlq_cot_general           no_evidence         2  Citizen Kane     False             4                    4        max_tokens                12000            11999         156    167.040  0.219000                   0
+nlq_cot_general        year_list_only         1 The Godfather     False             4                    4        max_tokens                12000            11998         156    143.975  0.233616                   0
+nlq_cot_general        year_list_only         2  Citizen Kane     False             4                    4        max_tokens                12000            11999         156    155.326  0.231744                   0
+
+GROUND-TRUTH SCORING OF ANSWERED CALLS (tp / n_pred / n_gt from the script's eval_per_record.csv)
+         mode              rag_tier  Query_ID    Film_Title  tp  n_pred  n_gt  precision  recall  birth_ok  birth_n  pop_5_n  pop_cmp_n year_ok
+nlq_wikipedia full_with_distractors         1 The Godfather  30      30    30        1.0     1.0        22       30       20         20    True

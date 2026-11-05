@@ -1,0 +1,27 @@
+mode,rag_tier,Query_ID,Film_Title,release_year,rag_rows_injected,est_prompt_tokens,script_status,cli_cap_error,answered,api_attempts,attempts_max_tokens,final_stop_reason,output_tokens_total,thinking_tokens,input_tokens_total,text_chars,latency_s,cost_usd,n_directors_parsed,tp,n_pred,n_gt,birth_ok,birth_n,pop_5_n,pop_cmp_n,year_ok,precision,recall
+nlq_general,no_evidence,1,The Godfather,,0,402,truncated_length,True,False,4,4,max_tokens,12000,11999,6058,156,164.697,0.216312,0,0,0,30,0,0,0,0,,,0.0
+nlq_general,no_evidence,2,Citizen Kane,,0,401,truncated_length,True,False,4,4,max_tokens,12000,12000,6046,156,172.663,0.21624000000000002,0,0,0,26,0,0,0,0,,,0.0
+nlq_general,full_with_birthplace,1,The Godfather,1972,42,1124,truncated_length,True,False,4,4,max_tokens,12000,11999,9938,156,158.51,0.23959199999999997,0,0,0,30,0,0,0,0,,,0.0
+nlq_general,full_with_birthplace,2,Citizen Kane,1941,51,1244,truncated_length,True,False,4,4,max_tokens,12000,11999,10670,156,163.406,0.243984,0,0,0,26,0,0,0,0,,,0.0
+nlq_general,full_with_population,1,The Godfather,1972,42,1307,truncated_length,True,False,4,4,max_tokens,12000,11999,10626,156,150.088,0.24372,0,0,0,30,0,0,0,0,,,0.0
+nlq_general,full_with_population,2,Citizen Kane,1941,51,1475,truncated_length,True,False,4,4,max_tokens,12000,12000,11538,156,151.348,0.249192,0,0,0,26,0,0,0,0,,,0.0
+nlq_general,full_with_distractors,1,The Godfather,1972,42,2113,truncated_length,True,False,4,4,max_tokens,12000,11999,16094,156,156.853,0.276528,0,0,0,30,0,0,0,0,,,0.0
+nlq_general,full_with_distractors,2,Citizen Kane,1941,51,2424,truncated_length,True,False,4,4,max_tokens,12000,12000,18002,156,163.833,0.287976,0,0,0,26,0,0,0,0,,,0.0
+nlq_wikipedia,no_evidence,1,The Godfather,,0,401,truncated_length,True,False,4,4,max_tokens,12000,11999,6046,156,166.68,0.21624000000000002,0,0,0,30,0,0,0,0,,,0.0
+nlq_wikipedia,no_evidence,2,Citizen Kane,,0,401,truncated_length,True,False,4,4,max_tokens,12000,12000,6038,156,155.873,0.216192,0,0,0,26,0,0,0,0,,,0.0
+nlq_wikipedia,year_list_only,1,The Godfather,1972,50,834,truncated_length,True,False,4,4,max_tokens,12000,12000,8450,156,148.135,0.230664,0,0,0,30,0,0,0,0,,,0.0
+nlq_wikipedia,year_list_only,2,Citizen Kane,1941,45,808,truncated_length,True,False,4,4,max_tokens,12000,12000,8146,156,142.958,0.22884,0,0,0,26,0,0,0,0,,,0.0
+nlq_wikipedia,titles_authors,1,The Godfather,1972,50,1039,truncated_length,True,False,4,4,max_tokens,12000,12000,9610,156,148.282,0.237624,0,0,0,30,0,0,0,0,,,0.0
+nlq_wikipedia,titles_authors,2,Citizen Kane,1941,45,986,truncated_length,True,False,4,4,max_tokens,12000,12000,9106,156,146.642,0.23459999999999998,0,0,0,26,0,0,0,0,,,0.0
+nlq_wikipedia,titles_authors_prize,1,The Godfather,1972,50,1339,truncated_length,True,False,4,4,max_tokens,12000,11999,11402,156,156.236,0.24837599999999999,0,0,0,30,0,0,0,0,,,0.0
+nlq_wikipedia,titles_authors_prize,2,Citizen Kane,1941,45,1253,truncated_length,True,False,4,4,max_tokens,12000,12000,10666,156,148.332,0.24396,0,0,0,26,0,0,0,0,,,0.0
+nlq_wikipedia,full_with_birthplace,1,The Godfather,1972,42,1124,truncated_length,True,False,4,4,max_tokens,12000,12000,9954,156,154.988,0.239688,0,0,0,30,0,0,0,0,,,0.0
+nlq_wikipedia,full_with_birthplace,2,Citizen Kane,1941,51,1244,truncated_length,True,False,4,4,max_tokens,12000,12000,10654,156,157.358,0.24388800000000002,0,0,0,26,0,0,0,0,,,0.0
+nlq_wikipedia,full_with_population,1,The Godfather,1972,42,1306,truncated_length,True,False,4,4,max_tokens,12000,11999,10618,156,142.1,0.24367200000000003,0,0,0,30,0,0,0,0,,,0.0
+nlq_wikipedia,full_with_population,2,Citizen Kane,1941,51,1474,truncated_length,True,False,4,4,max_tokens,12000,11999,11550,156,150.594,0.24926399999999999,0,0,0,26,0,0,0,0,,,0.0
+nlq_wikipedia,full_with_distractors,1,The Godfather,1972,42,2112,truncated_length,False,True,2,1,end_turn,5674,5254,7967,1188,72.228,0.132894,30,30,30,30,22,30,20,20,True,1.0,1.0
+nlq_wikipedia,full_with_distractors,2,Citizen Kane,1941,51,2423,truncated_length,True,False,4,4,max_tokens,12000,12000,18030,156,161.857,0.288144,0,0,0,26,0,0,0,0,,,0.0
+nlq_cot_general,no_evidence,1,The Godfather,,0,508,truncated_length,True,False,4,4,max_tokens,12000,11999,6526,156,169.505,0.21912,0,0,0,30,0,0,0,0,,,0.0
+nlq_cot_general,no_evidence,2,Citizen Kane,,0,508,truncated_length,True,False,4,4,max_tokens,12000,11999,6506,156,167.04,0.219,0,0,0,26,0,0,0,0,,,0.0
+nlq_cot_general,year_list_only,1,The Godfather,1972,50,941,truncated_length,True,False,4,4,max_tokens,12000,11998,8942,156,143.975,0.233616,0,0,0,30,0,0,0,0,,,0.0
+nlq_cot_general,year_list_only,2,Citizen Kane,1941,45,915,truncated_length,True,False,4,4,max_tokens,12000,11999,8630,156,155.326,0.231744,0,0,0,26,0,0,0,0,,,0.0
