@@ -310,3 +310,36 @@
 2026-11-05 07:16:41,314 - INFO -   [claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE_q2] streaming 63s: text=0 chars  thinking=0 chars
 2026-11-05 07:17:11,740 - INFO -   [claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE_q2] streaming 93s: text=0 chars  thinking=0 chars
 2026-11-05 07:17:42,406 - INFO -   [claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE_q2] streaming 124s: text=0 chars  thinking=0 chars
+2026-11-05 07:18:13,603 - INFO -   [claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE_q2] streaming 155s: text=0 chars  thinking=0 chars
+2026-11-05 07:18:15,743 - WARNING -   [claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE_q2] hit the 3000-token output cap after 157s (text=156 chars, thinking=0 chars). Not retried. Raw: rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE/raw_calls/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE_q2_try1_events.jsonl
+2026-11-05 07:18:15,743 - INFO -   OK 157.36s  status=truncated_length  year=  directors=0  rag_rows=51  text_chars=156  thinking_chars=0  usage={'input_tokens': 12, 'cache_creation_input_tokens': 10642, 'cache_read_input_tokens': 0, 'output_tokens': 12000, 'output_tokens_details': {'thinking_tokens': 12000}, 'server_tool_use': {'web_search_requests': 0, 'web_fetch_requests': 0}, 'service_tier': 'standard', 'cache_creation': {'ephemeral_1h_input_tokens': 10642, 'ephemeral_5m_input_tokens': 0}, 'inference_geo': 'global', 'iterations': [{'input_tokens': 3, 'output_tokens': 3000, 'cache_read_input_tokens': 0, 'cache_creation_input_tokens': 2722, 'cache_creation': {'ephemeral_5m_input_tokens': 0, 'ephemeral_1h_input_tokens': 2722}, 'type': 'message'}], 'speed': 'standard', 'fallback_credit': None}  cost_usd=0.24388800000000002
+2026-11-05 07:18:15,743 - WARNING -   TRUNCATED at the output cap (raw files: ['rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE/raw_calls/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE_q2_try1_prompt.txt', 'rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE/raw_calls/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE_q2_try1_events.jsonl', 'rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE/raw_calls/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE_q2_try1_text.txt', 'rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE/raw_calls/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE_q2_try1_stderr.txt'])
+2026-11-05 07:18:15,744 - INFO - Saved 2 results → rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE.json
+2026-11-05 07:18:15,745 - INFO - Saved 2 results → rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE.json
+2026-11-05 07:18:15,745 - INFO - ================================================================================
+2026-11-05 07:18:15,745 - INFO - SUMMARY  model=claude-sonnet-4-6  mode=nlq_wikipedia  strategy=flat_conjunctive  rag=full_with_birthplace  new=2  previously_done=0  total=2  errors=0
+2026-11-05 07:18:15,745 - INFO -   output -> rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE.json
+2026-11-05 07:18:15,745 - INFO - ================================================================================
+2026-11-05 07:18:16,784 - WARNING - GroundTruthStore: S.No=395 has inconsistent ReleaseYear values {'1997': 43, '1998': 40} — using majority year 1997.
+2026-11-05 07:18:16,784 - WARNING - GroundTruthStore: S.No=511 has inconsistent ReleaseYear values {'1927': 21, '1926': 23} — using majority year 1926.
+2026-11-05 07:18:16,784 - WARNING - GroundTruthStore: S.No=650 has inconsistent ReleaseYear values {'1997': 22, '2000': 15} — using majority year 1997.
+2026-11-05 07:18:16,784 - WARNING - GroundTruthStore: S.No=652 has inconsistent ReleaseYear values {'1992': 20, '2000': 27} — using majority year 2000.
+2026-11-05 07:18:16,784 - INFO - GroundTruthStore loaded 22567 rows from 'df_gt_films.csv' spanning 732 S.No entries (592 with a resolvable year).
+2026-11-05 07:18:16,837 - WARNING - matplotlib unavailable (No module named 'matplotlib') - plots skipped
+2026-11-05 07:18:16,860 - INFO - Analysis written to rag_claude_code_film_strategies/analysis (0 plots, report + CSVs)
+2026-11-05 07:18:17,278 - INFO - === run started: films_analyzer_inf.py --model claude-sonnet-4-6 --mode nlq_wikipedia --strategy flat_conjunctive --rag_tier full_with_population --max_queries 2 --max_new_tokens 3000 --timeout 600 --no-resume (script version 2026-11-05.1-film-claude-code) ===
+2026-11-05 07:18:18,469 - WARNING - GroundTruthStore: S.No=395 has inconsistent ReleaseYear values {'1997': 43, '1998': 40} — using majority year 1997.
+2026-11-05 07:18:18,469 - WARNING - GroundTruthStore: S.No=511 has inconsistent ReleaseYear values {'1927': 21, '1926': 23} — using majority year 1926.
+2026-11-05 07:18:18,470 - WARNING - GroundTruthStore: S.No=650 has inconsistent ReleaseYear values {'1997': 22, '2000': 15} — using majority year 1997.
+2026-11-05 07:18:18,470 - WARNING - GroundTruthStore: S.No=652 has inconsistent ReleaseYear values {'1992': 20, '2000': 27} — using majority year 2000.
+2026-11-05 07:18:18,470 - INFO - GroundTruthStore loaded 22567 rows from 'df_gt_films.csv' spanning 732 S.No entries (592 with a resolvable year).
+2026-11-05 07:18:18,471 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=3000  max_thinking_tokens=None  system_mode=neutral
+2026-11-05 07:18:18,471 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-05 07:18:23,177 - INFO - Validation OK - response: 'OK'
+2026-11-05 07:18:23,177 - INFO - No existing results file found. Starting fresh.
+2026-11-05 07:18:23,177 - INFO - Loading input data from: source_books_films.csv
+2026-11-05 07:18:23,181 - INFO - Loaded 732 rows.
+2026-11-05 07:18:23,182 - INFO - Processing 2/732 queries (0 already done)  mode=nlq_wikipedia  strategy=flat_conjunctive  rag_tier=full_with_population  model=claude-sonnet-4-6  backend=claude_code
+2026-11-05 07:18:23,182 - INFO - [1/732] Query_ID=1  'The Godfather'  source='The Godfather'  rag_tier=full_with_population
+2026-11-05 07:18:53,593 - INFO -   [claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG5_POPULATION_q1] streaming 30s: text=0 chars  thinking=0 chars
+2026-11-05 07:19:24,404 - INFO -   [claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG5_POPULATION_q1] streaming 61s: text=0 chars  thinking=0 chars
