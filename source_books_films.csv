@@ -1,0 +1,733 @@
+,S.No,Film Title,SPARQL URI Identifier,Wikidata QID
+0,1,The Godfather,http://dbpedia.org/resource/The_Godfather,Q47703
+1,2,Citizen Kane,http://dbpedia.org/resource/Citizen_Kane,Q24815
+2,3,The Silence of the Lambs (film),http://dbpedia.org/resource/The_Silence_of_the_Lambs_(film),Q133654
+3,4,Titanic (1997 film),http://dbpedia.org/resource/Titanic_(1997_film),Q44578
+4,5,Casablanca (film),http://dbpedia.org/resource/Casablanca_(film),Q132689
+5,6,Psycho (1960 film),http://dbpedia.org/resource/Psycho_(1960_film),Q163038
+6,7,Schindler's List,http://dbpedia.org/resource/Schindler's_List,Q483941
+7,8,The Godfather Part II,http://dbpedia.org/resource/The_Godfather_Part_II,Q184768
+8,9,Singin' in the Rain,http://dbpedia.org/resource/Singin'_in_the_Rain,Q309153
+9,10,Sunset Boulevard (film),http://dbpedia.org/resource/Sunset_Boulevard_(film),Q193570
+10,11,Lawrence of Arabia (film),http://dbpedia.org/resource/Lawrence_of_Arabia_(film),Q228186
+11,12,It's a Wonderful Life,http://dbpedia.org/resource/It's_a_Wonderful_Life,Q204191
+12,13,Star Wars (film),http://dbpedia.org/resource/Star_Wars_(film),Q17738
+13,14,Some Like It Hot,http://dbpedia.org/resource/Some_Like_It_Hot,Q190086
+14,15,2001: A Space Odyssey (film),http://dbpedia.org/resource/2001:_A_Space_Odyssey_(film),Q103474
+15,16,All About Eve,http://dbpedia.org/resource/All_About_Eve,Q200299
+16,17,The Graduate,http://dbpedia.org/resource/The_Graduate,Q217627
+17,18,The Bridge on the River Kwai,http://dbpedia.org/resource/The_Bridge_on_the_River_Kwai,Q188718
+18,19,On the Waterfront,http://dbpedia.org/resource/On_the_Waterfront,Q211372
+19,20,The African Queen (film),http://dbpedia.org/resource/The_African_Queen_(film),Q384397
+20,21,The Grapes of Wrath (film),http://dbpedia.org/resource/The_Grapes_of_Wrath_(film),Q676039
+21,22,The Maltese Falcon (1941 film),http://dbpedia.org/resource/The_Maltese_Falcon_(1941_film),Q221462
+22,23,Raging Bull,http://dbpedia.org/resource/Raging_Bull,Q220780
+23,24,E.T. the Extra-Terrestrial,http://dbpedia.org/resource/E.T._the_Extra-Terrestrial,Q11621
+24,25,Dr. Strangelove,http://dbpedia.org/resource/Dr._Strangelove,Q105702
+25,26,Bonnie and Clyde (film),http://dbpedia.org/resource/Bonnie_and_Clyde_(film),Q181776
+26,27,Apocalypse Now,http://dbpedia.org/resource/Apocalypse_Now,Q182692
+27,28,Mr. Smith Goes to Washington,http://dbpedia.org/resource/Mr._Smith_Goes_to_Washington,Q866120
+28,29,The Treasure of the Sierra Madre (film),http://dbpedia.org/resource/The_Treasure_of_the_Sierra_Madre_(film),Q251559
+29,30,Annie Hall,http://dbpedia.org/resource/Annie_Hall,Q233464
+30,31,High Noon,http://dbpedia.org/resource/High_Noon,Q245208
+31,32,To Kill a Mockingbird (film),http://dbpedia.org/resource/To_Kill_a_Mockingbird_(film),Q177922
+32,33,It Happened One Night,http://dbpedia.org/resource/It_Happened_One_Night,Q208632
+33,34,Midnight Cowboy,http://dbpedia.org/resource/Midnight_Cowboy,Q61696
+34,35,The Best Years of Our Lives,http://dbpedia.org/resource/The_Best_Years_of_Our_Lives,Q645094
+35,36,Double Indemnity (film),http://dbpedia.org/resource/Double_Indemnity_(film),Q3714564
+36,37,Doctor Zhivago (film),http://dbpedia.org/resource/Doctor_Zhivago_(film),Q323827
+37,38,North by Northwest,http://dbpedia.org/resource/North_by_Northwest,Q223139
+38,39,West Side Story (1961 film),http://dbpedia.org/resource/West_Side_Story_(1961_film),Q273704
+39,40,Rear Window,http://dbpedia.org/resource/Rear_Window,Q34414
+40,41,King Kong (1933 film),http://dbpedia.org/resource/King_Kong_(1933_film),Q309048
+41,42,A Streetcar Named Desire (1951 film),http://dbpedia.org/resource/A_Streetcar_Named_Desire_(1951_film),Q212129
+42,43,A Clockwork Orange (film),http://dbpedia.org/resource/A_Clockwork_Orange_(film),Q181086
+43,44,Taxi Driver,http://dbpedia.org/resource/Taxi_Driver,Q47221
+44,45,Jaws (film),http://dbpedia.org/resource/Jaws_(film),Q189505
+45,46,Snow White and the Seven Dwarfs (1937 film),http://dbpedia.org/resource/Snow_White_and_the_Seven_Dwarfs_(1937_film),Q134430
+46,47,Butch Cassidy and the Sundance Kid,http://dbpedia.org/resource/Butch_Cassidy_and_the_Sundance_Kid,Q232000
+47,48,The Philadelphia Story (film),http://dbpedia.org/resource/The_Philadelphia_Story_(film),Q498822
+48,49,From Here to Eternity,http://dbpedia.org/resource/From_Here_to_Eternity,Q207588
+49,50,Amadeus (film),http://dbpedia.org/resource/Amadeus_(film),Q190956
+50,51,All Quiet on the Western Front (1930 film),http://dbpedia.org/resource/All_Quiet_on_the_Western_Front_(1930_film),Q272599
+51,52,The Sound of Music (film),http://dbpedia.org/resource/The_Sound_of_Music_(film),Q60072
+52,53,MASH (film),http://dbpedia.org/resource/MASH_(film),Q494085
+53,54,The Third Man,http://dbpedia.org/resource/The_Third_Man,Q271830
+54,55,The Wizard of Oz (1939 film),http://dbpedia.org/resource/The_Wizard_of_Oz_(1939_film),Q193695
+55,56,Rebel Without a Cause,http://dbpedia.org/resource/Rebel_Without_a_Cause,Q426346
+56,57,Vertigo (film),http://dbpedia.org/resource/Vertigo_(film),Q202548
+57,58,The Wild Bunch,http://dbpedia.org/resource/The_Wild_Bunch,Q994481
+58,59,The Apartment,http://dbpedia.org/resource/The_Apartment,Q270510
+59,60,Spartacus (film),http://dbpedia.org/resource/Spartacus_(film),Q108297
+60,61,Raiders of the Lost Ark,http://dbpedia.org/resource/Raiders_of_the_Lost_Ark,Q174284
+61,62,The Exorcist (film),http://dbpedia.org/resource/The_Exorcist_(film),Q274167
+62,63,The Deer Hunter,http://dbpedia.org/resource/The_Deer_Hunter,Q201674
+63,64,The French Connection (film),http://dbpedia.org/resource/The_French_Connection_(film),Q220735
+64,65,Ben-Hur (1959 film),http://dbpedia.org/resource/Ben-Hur_(1959_film),Q180098
+65,66,Rocky,http://dbpedia.org/resource/Rocky,Q188652
+66,67,American Graffiti,http://dbpedia.org/resource/American_Graffiti,Q375855
+67,68,Patton (film),http://dbpedia.org/resource/Patton_(film),Q217220
+68,69,Goodfellas,http://dbpedia.org/resource/Goodfellas,Q42047
+69,70,Pulp Fiction,http://dbpedia.org/resource/Pulp_Fiction,Q104123
+70,71,The Shawshank Redemption,http://dbpedia.org/resource/The_Shawshank_Redemption,Q172241
+71,72,The Dark Knight (film),http://dbpedia.org/resource/The_Dark_Knight_(film),Q163872
+72,73,Forrest Gump,http://dbpedia.org/resource/Forrest_Gump,Q134773
+73,74,Inception,http://dbpedia.org/resource/Inception,Q25188
+74,75,Fight Club,http://dbpedia.org/resource/Fight_Club,Q190050
+75,76,The Matrix,http://dbpedia.org/resource/The_Matrix,Q83495
+76,77,Seven Samurai,http://dbpedia.org/resource/Seven_Samurai,Q189540
+77,78,City of God (2002 film),http://dbpedia.org/resource/City_of_God_(2002_film),Q220741
+78,79,Parasite (2019 film),http://dbpedia.org/resource/Parasite_(2019_film),Q61448040
+79,80,Life Is Beautiful,http://dbpedia.org/resource/Life_Is_Beautiful,Q19355
+80,81,Spirited Away,http://dbpedia.org/resource/Spirited_Away,Q155653
+81,82,Saving Private Ryan,http://dbpedia.org/resource/Saving_Private_Ryan,Q165817
+82,83,The Green Mile (film),http://dbpedia.org/resource/The_Green_Mile_(film),Q208263
+83,84,Interstellar (film),http://dbpedia.org/resource/Interstellar_(film),Q13417189
+84,85,The Prestige (film),http://dbpedia.org/resource/The_Prestige_(film),Q46551
+85,86,The Lion King,http://dbpedia.org/resource/The_Lion_King,Q36479
+86,87,The Pianist (film),http://dbpedia.org/resource/The_Pianist_(film),Q399364
+87,88,Gladiator (2000 film),http://dbpedia.org/resource/Gladiator_(2000_film),Q128518
+88,89,The Departed,http://dbpedia.org/resource/The_Departed,Q172975
+89,90,Whiplash (film),http://dbpedia.org/resource/Whiplash_(film),Q166193
+90,91,The Intouchables,http://dbpedia.org/resource/The_Intouchables,Q595
+91,92,The Usual Suspects,http://dbpedia.org/resource/The_Usual_Suspects,Q132351
+92,93,Léon: The Professional,http://dbpedia.org/resource/Léon:_The_Professional,Q484675
+93,94,The Great Dictator,http://dbpedia.org/resource/The_Great_Dictator,Q109116
+94,95,Cinema Paradiso,http://dbpedia.org/resource/Cinema_Paradiso,Q464032
+95,96,Grave of the Fireflies,http://dbpedia.org/resource/Grave_of_the_Fireflies,Q274520
+96,97,The Lives of Others,http://dbpedia.org/resource/The_Lives_of_Others,Q153882
+97,98,Paths of Glory,http://dbpedia.org/resource/Paths_of_Glory,Q747936
+98,99,Django Unchained,http://dbpedia.org/resource/Django_Unchained,Q571032
+99,100,The Shining (film),http://dbpedia.org/resource/The_Shining_(film),Q186341
+100,101,WALL-E,http://dbpedia.org/resource/WALL-E,Q104905
+101,102,Princess Mononoke,http://dbpedia.org/resource/Princess_Mononoke,Q186572
+102,103,Oldboy (2003 film),http://dbpedia.org/resource/Oldboy_(2003_film),Q475693
+103,104,Once Upon a Time in America,http://dbpedia.org/resource/Once_Upon_a_Time_in_America,Q206388
+104,105,Aliens (film),http://dbpedia.org/resource/Aliens_(film),Q104814
+105,106,Witness for the Prosecution (1957 film),http://dbpedia.org/resource/Witness_for_the_Prosecution_(1957_film),Q196977
+106,107,Das Boot,http://dbpedia.org/resource/Das_Boot,Q62730
+107,108,Toy Story,http://dbpedia.org/resource/Toy_Story,Q171048
+108,109,Coco (2017 film),http://dbpedia.org/resource/Coco_(2017_film),Q5815826
+109,110,Amélie,http://dbpedia.org/resource/Amélie,Q484048
+110,111,The Grand Budapest Hotel,http://dbpedia.org/resource/The_Grand_Budapest_Hotel,Q3521099
+111,112,Eternal Sunshine of the Spotless Mind,http://dbpedia.org/resource/Eternal_Sunshine_of_the_Spotless_Mind,Q208269
+112,113,Pan's Labyrinth,http://dbpedia.org/resource/Pan's_Labyrinth,Q216006
+113,114,The Sixth Sense,http://dbpedia.org/resource/The_Sixth_Sense,Q183063
+114,115,No Country for Old Men (film),http://dbpedia.org/resource/No_Country_for_Old_Men_(film),Q183081
+115,116,There Will Be Blood,http://dbpedia.org/resource/There_Will_Be_Blood,Q244315
+116,117,The Big Lebowski,http://dbpedia.org/resource/The_Big_Lebowski,Q337078
+117,118,The Truman Show,http://dbpedia.org/resource/The_Truman_Show,Q214801
+118,119,Fargo (film),http://dbpedia.org/resource/Fargo_(film),Q226585
+119,120,Blade Runner,http://dbpedia.org/resource/Blade_Runner,Q184843
+120,121,Trainspotting (film),http://dbpedia.org/resource/Trainspotting_(film),Q109135
+121,122,Jurassic Park (film),http://dbpedia.org/resource/Jurassic_Park_(film),Q167726
+122,123,Die Hard,http://dbpedia.org/resource/Die_Hard,Q105598
+123,124,Full Metal Jacket,http://dbpedia.org/resource/Full_Metal_Jacket,Q243439
+124,125,Stand by Me (film),http://dbpedia.org/resource/Stand_by_Me_(film),Q494722
+125,126,Scarface (1983 film),http://dbpedia.org/resource/Scarface_(1983_film),Q47075
+126,127,The Thing (1982 film),http://dbpedia.org/resource/The_Thing_(1982_film),Q210756
+127,128,Ran (film),http://dbpedia.org/resource/Ran_(film),Q565231
+128,129,The Elephant Man (film),http://dbpedia.org/resource/The_Elephant_Man_(film),Q418076
+129,130,Monty Python and the Holy Grail,http://dbpedia.org/resource/Monty_Python_and_the_Holy_Grail,Q25043
+130,131,The Sting,http://dbpedia.org/resource/The_Sting,Q62665
+131,132,Solaris (1972 film),http://dbpedia.org/resource/Solaris_(1972_film),Q125772
+132,133,Gran Torino,http://dbpedia.org/resource/Gran_Torino,Q126699
+133,134,V for Vendetta (film),http://dbpedia.org/resource/V_for_Vendetta_(film),Q5890
+134,135,The Big Short (film),http://dbpedia.org/resource/The_Big_Short_(film),Q19850715
+135,136,The Hateful Eight,http://dbpedia.org/resource/The_Hateful_Eight,Q18225084
+136,137,Mad Max: Fury Road,http://dbpedia.org/resource/Mad_Max:_Fury_Road,Q1757288
+137,138,Spotlight (film),http://dbpedia.org/resource/Spotlight_(film),Q18154496
+138,139,Room (2015 film),http://dbpedia.org/resource/Room_(2015_film),Q18703032
+139,140,The Revenant (2015 film),http://dbpedia.org/resource/The_Revenant_(2015_film),Q18002795
+140,141,The Martian (film),http://dbpedia.org/resource/The_Martian_(film),Q18547944
+141,142,Inside Out (2015 film),http://dbpedia.org/resource/Inside_Out_(2015_film),Q6144664
+142,143,Arrival (film),http://dbpedia.org/resource/Arrival_(film),Q20382729
+143,144,La La Land (film),http://dbpedia.org/resource/La_La_Land_(film),Q20856802
+144,145,Dunkirk (2017 film),http://dbpedia.org/resource/Dunkirk_(2017_film),Q21935651
+145,146,The Shape of Water,http://dbpedia.org/resource/The_Shape_of_Water,Q26698156
+146,147,Lady Bird (film),http://dbpedia.org/resource/Lady_Bird_(film),Q27480769
+147,148,Get Out,http://dbpedia.org/resource/Get_Out,Q25136235
+148,149,Blade Runner 2049,http://dbpedia.org/resource/Blade_Runner_2049,Q21500755
+149,150,The Irishman (film),http://dbpedia.org/resource/The_Irishman_(film),Q29057443
+150,151,Marriage Story,http://dbpedia.org/resource/Marriage_Story,Q48671199
+151,152,Little Women (2019 film),http://dbpedia.org/resource/Little_Women_(2019_film),Q56881140
+152,153,1917 (2019 film),http://dbpedia.org/resource/1917_(2019_film),Q62721520
+153,154,Joker (2019 film),http://dbpedia.org/resource/Joker_(2019_film),Q42759035
+154,155,The Father (2020 film),http://dbpedia.org/resource/The_Father_(2020_film),Q65066669
+155,156,Nomadland (film),http://dbpedia.org/resource/Nomadland_(film),Q61740820
+156,157,Minari (film),http://dbpedia.org/resource/Minari_(film),Q65679599
+157,158,Drive My Car (film),http://dbpedia.org/resource/Drive_My_Car_(film),Q107107865
+158,159,Dune (2021 film),http://dbpedia.org/resource/Dune_(2021_film),Q60834962
+159,160,The Banshees of Inisherin,http://dbpedia.org/resource/The_Banshees_of_Inisherin,Q108314506
+160,161,Everything Everywhere All at Once,http://dbpedia.org/resource/Everything_Everywhere_All_at_Once,Q83808444
+161,162,Oppenheimer (film),http://dbpedia.org/resource/Oppenheimer_(film),Q108839994
+162,163,The Zone of Interest (film),http://dbpedia.org/resource/The_Zone_of_Interest_(film),Q115993222
+163,164,Anatomy of a Fall,http://dbpedia.org/resource/Anatomy_of_a_Fall,Q117037697
+164,165,Killers of the Flower Moon (film),http://dbpedia.org/resource/Killers_of_the_Flower_Moon_(film),Q66316924
+165,166,Breathless (1960 film),http://dbpedia.org/resource/Breathless_(1960_film),Q86427
+166,167,My Life to Live,http://dbpedia.org/resource/My_Life_to_Live,Q1148491
+167,168,Contempt (film),http://dbpedia.org/resource/Contempt_(film),Q598109
+168,169,Band of Outsiders (film),http://dbpedia.org/resource/Band_of_Outsiders_(film),
+169,170,Alphaville (film),http://dbpedia.org/resource/Alphaville_(film),Q542688
+170,171,Pierrot le Fou,http://dbpedia.org/resource/Pierrot_le_Fou,Q938851
+171,172,Week-end (1967 film),http://dbpedia.org/resource/Week-end_(1967_film),
+172,173,Every Man for Himself (1980 film),http://dbpedia.org/resource/Every_Man_for_Himself_(1980_film),Q972787
+173,174,Hail Mary (film),http://dbpedia.org/resource/Hail_Mary_(film),Q689938
+174,175,Detective (1985 film),http://dbpedia.org/resource/Detective_(1985_film),Q979231
+175,176,King Lear (1987 film),http://dbpedia.org/resource/King_Lear_(1987_film),Q2707428
+176,177,The Image Book,http://dbpedia.org/resource/The_Image_Book,Q27591008
+177,178,Goodbye to Language,http://dbpedia.org/resource/Goodbye_to_Language,Q4682732
+178,179,The Piano (film),http://dbpedia.org/resource/The_Piano_(film),Q117315
+179,180,Bright Star (film),http://dbpedia.org/resource/Bright_Star_(film),Q1190988
+180,181,The Power of the Dog (film),http://dbpedia.org/resource/The_Power_of_the_Dog_(film),Q85323337
+181,182,Angel at My Table,http://dbpedia.org/resource/Angel_at_My_Table,
+182,183,Sweetie (film),http://dbpedia.org/resource/Sweetie_(film),Q1206525
+183,184,Holy Smoke!,http://dbpedia.org/resource/Holy_Smoke!,Q143835
+184,185,In the Cut (film),http://dbpedia.org/resource/In_the_Cut_(film),Q59572
+185,186,Portrait of a Lady (film),http://dbpedia.org/resource/Portrait_of_a_Lady_(film),
+186,187,The Umbrellas of Cherbourg,http://dbpedia.org/resource/The_Umbrellas_of_Cherbourg,Q163868
+187,188,The Young Girls of Rochefort,http://dbpedia.org/resource/The_Young_Girls_of_Rochefort,Q1214975
+188,189,Donkey Skin (film),http://dbpedia.org/resource/Donkey_Skin_(film),Q1367513
+189,190,The Day of the Jackal (film),http://dbpedia.org/resource/The_Day_of_the_Jackal_(film),Q901140
+190,191,Julia (1977 film),http://dbpedia.org/resource/Julia_(1977_film),Q1166180
+191,192,Isadora (film),http://dbpedia.org/resource/Isadora_(film),Q967225
+192,193,The Devils (film),http://dbpedia.org/resource/The_Devils_(film),Q655996
+193,194,The Boy Friend (film),http://dbpedia.org/resource/The_Boy_Friend_(film),Q298727
+194,195,Savage Messiah (film),http://dbpedia.org/resource/Savage_Messiah_(film),Q15502596
+195,196,The Lair of the White Worm (film),http://dbpedia.org/resource/The_Lair_of_the_White_Worm_(film),Q1192545
+196,197,Whore (1991 film),http://dbpedia.org/resource/Whore_(1991_film),Q567936
+197,198,Valentino (1977 film),http://dbpedia.org/resource/Valentino_(1977_film),Q1132963
+198,199,Gothic (film),http://dbpedia.org/resource/Gothic_(film),Q644297
+199,200,Salome's Last Dance,http://dbpedia.org/resource/Salome's_Last_Dance,Q3423099
+200,201,The Music Lovers,http://dbpedia.org/resource/The_Music_Lovers,Q1731265
+201,202,Mahler (film),http://dbpedia.org/resource/Mahler_(film),Q1813473
+202,203,Top Gun,http://dbpedia.org/resource/Top_Gun,Q110138
+203,204,True Romance,http://dbpedia.org/resource/True_Romance,Q1127709
+204,205,Crimson Tide (film),http://dbpedia.org/resource/Crimson_Tide_(film),Q1140085
+205,206,Enemy of the State (film),http://dbpedia.org/resource/Enemy_of_the_State_(film),Q177930
+206,207,Unstoppable (2010 film),http://dbpedia.org/resource/Unstoppable_(2010_film),Q644276
+207,208,Man on Fire (2004 film),http://dbpedia.org/resource/Man_on_Fire_(2004_film),Q258009
+208,209,Déjà Vu (2006 film),http://dbpedia.org/resource/Déjà_Vu_(2006_film),Q252409
+209,210,Spy Game,http://dbpedia.org/resource/Spy_Game,Q1049139
+210,211,The Taking of Pelham 123 (2009 film),http://dbpedia.org/resource/The_Taking_of_Pelham_123_(2009_film),Q869719
+211,212,The Fan (1996 film),http://dbpedia.org/resource/The_Fan_(1996_film),Q390299
+212,213,Beverly Hills Cop II,http://dbpedia.org/resource/Beverly_Hills_Cop_II,Q525860
+213,214,Days of Thunder,http://dbpedia.org/resource/Days_of_Thunder,Q603696
+214,215,The Last Boy Scout,http://dbpedia.org/resource/The_Last_Boy_Scout,Q785719
+215,216,Top Gun: Maverick,http://dbpedia.org/resource/Top_Gun:_Maverick,Q31202708
+216,217,The Duellists,http://dbpedia.org/resource/The_Duellists,Q1212051
+217,218,Alien (film),http://dbpedia.org/resource/Alien_(film),Q103569
+218,219,Legend (1985 film),http://dbpedia.org/resource/Legend_(1985_film),Q509913
+219,220,Someone to Watch Over Me (film),http://dbpedia.org/resource/Someone_to_Watch_Over_Me_(film),Q1195568
+220,221,Black Rain (1989 film),http://dbpedia.org/resource/Black_Rain_(1989_film),Q448373
+221,222,Thelma & Louise,http://dbpedia.org/resource/Thelma_&_Louise,Q658041
+222,223,1492: Conquest of Paradise,http://dbpedia.org/resource/1492:_Conquest_of_Paradise,Q190765
+223,224,White Squall (film),http://dbpedia.org/resource/White_Squall_(film),Q1756394
+224,225,G.I. Jane,http://dbpedia.org/resource/G.I._Jane,Q526690
+225,226,Hannibal (2001 film),http://dbpedia.org/resource/Hannibal_(2001_film),Q722682
+226,227,Black Hawk Down (film),http://dbpedia.org/resource/Black_Hawk_Down_(film),Q221384
+227,228,Matchstick Men,http://dbpedia.org/resource/Matchstick_Men,Q4536
+228,229,Kingdom of Heaven (film),http://dbpedia.org/resource/Kingdom_of_Heaven_(film),Q207698
+229,230,A Good Year,http://dbpedia.org/resource/A_Good_Year,Q912877
+230,231,American Gangster (film),http://dbpedia.org/resource/American_Gangster_(film),Q270351
+231,232,Body of Lies (film),http://dbpedia.org/resource/Body_of_Lies_(film),Q578312
+232,233,Robin Hood (2010 film),http://dbpedia.org/resource/Robin_Hood_(2010_film),Q223559
+233,234,Prometheus (2012 film),http://dbpedia.org/resource/Prometheus_(2012_film),Q192686
+234,235,The Counselor,http://dbpedia.org/resource/The_Counselor,Q3061599
+235,236,Exodus: Gods and Kings,http://dbpedia.org/resource/Exodus:_Gods_and_Kings,Q14942871
+236,237,All the Money in the World (film),http://dbpedia.org/resource/All_the_Money_in_the_World_(film),
+237,238,The Last Duel (film),http://dbpedia.org/resource/The_Last_Duel_(film),Q29053447
+238,239,House of Gucci,http://dbpedia.org/resource/House_of_Gucci,Q105549749
+239,240,Napoleon (2023 film),http://dbpedia.org/resource/Napoleon_(2023_film),Q105806948
+240,241,Gladiator II,http://dbpedia.org/resource/Gladiator_II,Q115789958
+241,242,Ex Machina (film),http://dbpedia.org/resource/Ex_Machina_(film),Q16635326
+242,243,Annihilation (film),http://dbpedia.org/resource/Annihilation_(film),Q25136228
+243,244,Men (2022 film),http://dbpedia.org/resource/Men_(2022_film),Q106514711
+244,245,Civil War (film),http://dbpedia.org/resource/Civil_War_(film),Q111538862
+245,246,28 Days Later,http://dbpedia.org/resource/28_Days_Later,Q221075
+246,247,Sunshine (2007 film),http://dbpedia.org/resource/Sunshine_(2007_film),Q478212
+247,248,Steve Jobs (film),http://dbpedia.org/resource/Steve_Jobs_(film),Q18754959
+248,249,T2 Trainspotting,http://dbpedia.org/resource/T2_Trainspotting,Q23758755
+249,250,127 Hours,http://dbpedia.org/resource/127_Hours,Q174371
+250,251,Slumdog Millionaire,http://dbpedia.org/resource/Slumdog_Millionaire,Q125076
+251,252,The Beach (film),http://dbpedia.org/resource/The_Beach_(film),Q470692
+252,253,A Life Less Ordinary,http://dbpedia.org/resource/A_Life_Less_Ordinary,Q496907
+253,254,Millions (2004 film),http://dbpedia.org/resource/Millions_(2004_film),Q1854561
+254,255,Trance (2013 film),http://dbpedia.org/resource/Trance_(2013_film),Q502374
+255,256,Yesterday (2019 film),http://dbpedia.org/resource/Yesterday_(2019_film),Q55076454
+256,257,High Life (film),http://dbpedia.org/resource/High_Life_(film),Q414656
+257,258,White Material,http://dbpedia.org/resource/White_Material,Q3007676
+258,259,Bastards (2013 film),http://dbpedia.org/resource/Bastards_(2013_film),Q3235299
+259,260,Let the Sunshine In (film),http://dbpedia.org/resource/Let_the_Sunshine_In_(film),Q28495869
+260,261,Both Sides of the Blade,http://dbpedia.org/resource/Both_Sides_of_the_Blade,Q105085668
+261,262,Trouble Every Day (film),http://dbpedia.org/resource/Trouble_Every_Day_(film),Q63991
+262,263,Chocolat (1988 film),http://dbpedia.org/resource/Chocolat_(1988_film),Q591780
+263,264,"No Fear, No Die","http://dbpedia.org/resource/No_Fear,_No_Die",Q3459012
+264,265,I Can't Sleep,http://dbpedia.org/resource/I_Can't_Sleep,Q16785186
+265,266,Nenette and Boni,http://dbpedia.org/resource/Nenette_and_Boni,Q3347054
+266,267,Beau Travail,http://dbpedia.org/resource/Beau_Travail,Q1193562
+267,268,Friday Night (film),http://dbpedia.org/resource/Friday_Night_(film),Q5503507
+268,269,35 Shots of Rum,http://dbpedia.org/resource/35_Shots_of_Rum,Q2816310
+269,270,Stars at Noon (2022 film),http://dbpedia.org/resource/Stars_at_Noon_(2022_film),Q110982493
+270,271,The Neon Demon,http://dbpedia.org/resource/The_Neon_Demon,Q19750881
+271,272,Drive (2011 film),http://dbpedia.org/resource/Drive_(2011_film),Q732960
+272,273,Only God Forgives,http://dbpedia.org/resource/Only_God_Forgives,Q2679094
+273,274,Bronson (film),http://dbpedia.org/resource/Bronson_(film),Q927949
+274,275,Valhalla Rising (film),http://dbpedia.org/resource/Valhalla_Rising_(film),Q1446749
+275,276,Pusher (film),http://dbpedia.org/resource/Pusher_(film),Q534866
+276,277,Pusher II,http://dbpedia.org/resource/Pusher_II,Q1126097
+277,278,Pusher III,http://dbpedia.org/resource/Pusher_III,Q766096
+278,279,Fear X,http://dbpedia.org/resource/Fear_X,Q5439352
+279,280,Bleeder (film),http://dbpedia.org/resource/Bleeder_(film),Q598865
+280,281,Too Old to Die Young,http://dbpedia.org/resource/Too_Old_to_Die_Young,Q30766143
+281,282,Copenhagen Cowboy,http://dbpedia.org/resource/Copenhagen_Cowboy,Q113699735
+282,283,Barbarian (2022 film),http://dbpedia.org/resource/Barbarian_(2022_film),Q38526439
+283,284,Smile (2022 film),http://dbpedia.org/resource/Smile_(2022_film),Q112623225
+284,285,Talk to Me (2022 film),http://dbpedia.org/resource/Talk_to_Me_(2022_film),Q116193178
+285,286,X (2022 film),http://dbpedia.org/resource/X_(2022_film),Q105605250
+286,287,Pearl (2022 film),http://dbpedia.org/resource/Pearl_(2022_film),Q111669794
+287,288,MaXXXine,http://dbpedia.org/resource/MaXXXine,Q116032682
+288,289,The Witch (2015 film),http://dbpedia.org/resource/The_Witch_(2015_film),Q19057481
+289,290,The Lighthouse (2019 film),http://dbpedia.org/resource/The_Lighthouse_(2019_film),Q55402791
+290,291,The Northman,http://dbpedia.org/resource/The_Northman,Q87126244
+291,292,Hereditary (film),http://dbpedia.org/resource/Hereditary_(film),Q47524071
+292,293,Midsommar (film),http://dbpedia.org/resource/Midsommar_(film),Q55907451
+293,294,Beau Is Afraid,http://dbpedia.org/resource/Beau_Is_Afraid,Q106817801
+294,295,Saint Maud,http://dbpedia.org/resource/Saint_Maud,Q68681279
+295,296,Love Lies Bleeding (2024 film),http://dbpedia.org/resource/Love_Lies_Bleeding_(2024_film),Q113488690
+296,297,Under the Skin (2013 film),http://dbpedia.org/resource/Under_the_Skin_(2013_film),Q4366287
+297,298,Birth (film),http://dbpedia.org/resource/Birth_(film),Q345740
+298,299,Sexy Beast,http://dbpedia.org/resource/Sexy_Beast,Q552036
+299,300,Portrait of a Lady on Fire,http://dbpedia.org/resource/Portrait_of_a_Lady_on_Fire,Q63246568
+300,301,Titane,http://dbpedia.org/resource/Titane,Q105393862
+301,302,Raw (film),http://dbpedia.org/resource/Raw_(film),Q21427355
+302,303,Climax (2018 film),http://dbpedia.org/resource/Climax_(2018_film),Q52000412
+303,304,Irreversible (film),http://dbpedia.org/resource/Irreversible_(film),Q754745
+304,305,Enter the Void,http://dbpedia.org/resource/Enter_the_Void,Q1327671
+305,306,Love (2015 film),http://dbpedia.org/resource/Love_(2015_film),Q19829024
+306,307,Vortex (2021 film),http://dbpedia.org/resource/Vortex_(2021_film),Q107510866
+307,308,Lux Aeterna (film),http://dbpedia.org/resource/Lux_Aeterna_(film),
+308,309,Holy Motors,http://dbpedia.org/resource/Holy_Motors,Q304739
+309,310,Annette (film),http://dbpedia.org/resource/Annette_(film),Q29168508
+310,311,Boy Meets Girl (1984 film),http://dbpedia.org/resource/Boy_Meets_Girl_(1984_film),Q2922980
+311,312,The Night is Young (film),http://dbpedia.org/resource/The_Night_is_Young_(film),
+312,313,The Lovers on the Bridge,http://dbpedia.org/resource/The_Lovers_on_the_Bridge,Q1214555
+313,314,Pola X,http://dbpedia.org/resource/Pola_X,Q3088260
+314,315,The Virgin Suicides (film),http://dbpedia.org/resource/The_Virgin_Suicides_(film),Q1423971
+315,316,Lost in Translation (film),http://dbpedia.org/resource/Lost_in_Translation_(film),Q107270
+316,317,Marie Antoinette (2006 film),http://dbpedia.org/resource/Marie_Antoinette_(2006_film),Q829695
+317,318,Somewhere (film),http://dbpedia.org/resource/Somewhere_(film),Q1338368
+318,319,The Beguiled (2017 film),http://dbpedia.org/resource/The_Beguiled_(2017_film),Q27684970
+319,320,On the Rocks (film),http://dbpedia.org/resource/On_the_Rocks_(film),Q64787973
+320,321,Priscilla (film),http://dbpedia.org/resource/Priscilla_(film),Q115115152
+321,322,Lick the Star,http://dbpedia.org/resource/Lick_the_Star,Q2745542
+322,323,Reservoir Dogs,http://dbpedia.org/resource/Reservoir_Dogs,Q72962
+323,324,Jackie Brown,http://dbpedia.org/resource/Jackie_Brown,Q431252
+324,325,Kill Bill: Volume 1,http://dbpedia.org/resource/Kill_Bill:_Volume_1,Q165325
+325,326,Kill Bill: Volume 2,http://dbpedia.org/resource/Kill_Bill:_Volume_2,Q928019
+326,327,Death Proof,http://dbpedia.org/resource/Death_Proof,Q1137310
+327,328,Inglourious Basterds,http://dbpedia.org/resource/Inglourious_Basterds,Q153723
+328,329,Once Upon a Time in Hollywood,http://dbpedia.org/resource/Once_Upon_a_Time_in_Hollywood,Q47300912
+329,330,Following,http://dbpedia.org/resource/Following,Q685817
+330,331,Memento (film),http://dbpedia.org/resource/Memento_(film),Q190525
+331,332,Insomnia (2002 film),http://dbpedia.org/resource/Insomnia_(2002_film),Q429969
+332,333,Batman Begins,http://dbpedia.org/resource/Batman_Begins,Q166262
+333,334,The Dark Knight Rises,http://dbpedia.org/resource/The_Dark_Knight_Rises,Q189330
+334,335,Tenet (film),http://dbpedia.org/resource/Tenet_(film),Q63985561
+335,336,Mean Streets,http://dbpedia.org/resource/Mean_Streets,Q841335
+336,337,Alice Doesn't Live Here Anymore,http://dbpedia.org/resource/Alice_Doesn't_Live_Here_Anymore,Q916431
+337,338,"New York, New York (film)","http://dbpedia.org/resource/New_York,_New_York_(film)",Q399675
+338,339,The King of Comedy (film),http://dbpedia.org/resource/The_King_of_Comedy_(film),Q1122281
+339,340,After Hours (film),http://dbpedia.org/resource/After_Hours_(film),Q846209
+340,341,The Color of Money,http://dbpedia.org/resource/The_Color_of_Money,Q470916
+341,342,The Last Temptation of Christ (film),http://dbpedia.org/resource/The_Last_Temptation_of_Christ_(film),Q646031
+342,343,Cape Fear (1991 film),http://dbpedia.org/resource/Cape_Fear_(1991_film),Q501995
+343,344,The Age of Innocence (1993 film),http://dbpedia.org/resource/The_Age_of_Innocence_(1993_film),Q1125442
+344,345,Casino (1995 film),http://dbpedia.org/resource/Casino_(1995_film),Q220910
+345,346,Kundun,http://dbpedia.org/resource/Kundun,Q944291
+346,347,Bringing Out the Dead,http://dbpedia.org/resource/Bringing_Out_the_Dead,Q599013
+347,348,Gangs of New York,http://dbpedia.org/resource/Gangs_of_New_York,Q154581
+348,349,The Aviator (2004 film),http://dbpedia.org/resource/The_Aviator_(2004_film),Q201924
+349,350,Shutter Island (film),http://dbpedia.org/resource/Shutter_Island_(film),Q210364
+350,351,Hugo (film),http://dbpedia.org/resource/Hugo_(film),Q206576
+351,352,The Wolf of Wall Street (2013 film),http://dbpedia.org/resource/The_Wolf_of_Wall_Street_(2013_film),Q1392744
+352,353,Silence (2016 film),http://dbpedia.org/resource/Silence_(2016_film),Q18811634
+353,354,A Separation,http://dbpedia.org/resource/A_Separation,Q640561
+354,355,About Elly,http://dbpedia.org/resource/About_Elly,Q1311890
+355,356,The Salesman (film),http://dbpedia.org/resource/The_Salesman_(film),Q4379895
+356,357,A Hero (2021 film),http://dbpedia.org/resource/A_Hero_(2021_film),
+357,358,Fireworks (1997 film),http://dbpedia.org/resource/Fireworks_(1997_film),Q3754630
+358,359,The White Balloon,http://dbpedia.org/resource/The_White_Balloon,Q2355570
+359,360,Crimson Gold,http://dbpedia.org/resource/Crimson_Gold,Q2714583
+360,361,Offside (2006 film),http://dbpedia.org/resource/Offside_(2006_film),Q1955878
+361,362,Taxi (2015 film),http://dbpedia.org/resource/Taxi_(2015_film),Q18844625
+362,363,Three Faces (film),http://dbpedia.org/resource/Three_Faces_(film),
+363,364,Close-Up (1990 film),http://dbpedia.org/resource/Close-Up_(1990_film),Q498277
+364,365,Taste of Cherry,http://dbpedia.org/resource/Taste_of_Cherry,Q794178
+365,366,The Wind Will Carry Us,http://dbpedia.org/resource/The_Wind_Will_Carry_Us,Q1198097
+366,367,The Report (1977 film),http://dbpedia.org/resource/The_Report_(1977_film),Q3107469
+367,368,Where Is the Friend's Home?,http://dbpedia.org/resource/Where_Is_the_Friend's_Home?,Q2308266
+368,369,Under the Olive Trees,http://dbpedia.org/resource/Under_the_Olive_Trees,
+369,370,Through the Olive Trees,http://dbpedia.org/resource/Through_the_Olive_Trees,Q2485167
+370,371,Certified Copy (film),http://dbpedia.org/resource/Certified_Copy_(film),Q1214594
+371,372,Like Someone in Love (film),http://dbpedia.org/resource/Like_Someone_in_Love_(film),Q1059733
+372,373,The Traveler (1974 film),http://dbpedia.org/resource/The_Traveler_(1974_film),Q3099015
+373,374,Ten (2002 film),http://dbpedia.org/resource/Ten_(2002_film),Q920374
+374,375,Shirin (film),http://dbpedia.org/resource/Shirin_(film),Q4408105
+375,376,24 Frames (film),http://dbpedia.org/resource/24_Frames_(film),Q29413353
+376,377,Once Upon a Time in Anatolia,http://dbpedia.org/resource/Once_Upon_a_Time_in_Anatolia,Q1707497
+377,378,Winter Sleep (film),http://dbpedia.org/resource/Winter_Sleep_(film),Q15921329
+378,379,The Wild Pear Tree,http://dbpedia.org/resource/The_Wild_Pear_Tree,Q31193168
+379,380,About Dry Grasses,http://dbpedia.org/resource/About_Dry_Grasses,Q109387468
+380,381,Three Monkeys (film),http://dbpedia.org/resource/Three_Monkeys_(film),Q2352649
+381,382,Climates (film),http://dbpedia.org/resource/Climates_(film),Q2758737
+382,383,Uzak,http://dbpedia.org/resource/Uzak,Q1361018
+383,384,Kasaba (film),http://dbpedia.org/resource/Kasaba_(film),Q1289891
+384,385,Clouds of May,http://dbpedia.org/resource/Clouds_of_May,Q2086445
+385,386,Egg (film),http://dbpedia.org/resource/Egg_(film),Q243003
+386,387,Milk (2008 film),http://dbpedia.org/resource/Milk_(2008_film),Q1041929
+387,388,Honey (2010 film),http://dbpedia.org/resource/Honey_(2010_film),Q804582
+388,389,A Touch of Sin,http://dbpedia.org/resource/A_Touch_of_Sin,Q13218237
+389,390,Mountains May Depart,http://dbpedia.org/resource/Mountains_May_Depart,Q19573090
+390,391,Ash Is Purest White,http://dbpedia.org/resource/Ash_Is_Purest_White,Q51797794
+391,392,The World (film),http://dbpedia.org/resource/The_World_(film),Q2085736
+392,393,Still Life (2006 film),http://dbpedia.org/resource/Still_Life_(2006_film),Q1371155
+393,394,Platform (2000 film),http://dbpedia.org/resource/Platform_(2000_film),Q197412
+394,395,Xiao Wu,http://dbpedia.org/resource/Xiao_Wu,Q3570966
+395,396,Unknown Pleasures (film),http://dbpedia.org/resource/Unknown_Pleasures_(film),Q3391076
+396,397,24 City,http://dbpedia.org/resource/24_City,Q2815231
+397,398,I Wish I Knew,http://dbpedia.org/resource/I_Wish_I_Knew,Q11149510
+398,399,A Summer at Grandpa's,http://dbpedia.org/resource/A_Summer_at_Grandpa's,Q704396
+399,400,The Time to Live and the Time to Die,http://dbpedia.org/resource/The_Time_to_Live_and_the_Time_to_Die,Q697070
+400,401,Dust in the Wind (film),http://dbpedia.org/resource/Dust_in_the_Wind_(film),Q700474
+401,402,The Puppetmaster (film),http://dbpedia.org/resource/The_Puppetmaster_(film),Q711170
+402,403,Flowers of Shanghai,http://dbpedia.org/resource/Flowers_of_Shanghai,Q383729
+403,404,Millennium Mambo,http://dbpedia.org/resource/Millennium_Mambo,Q509567
+404,405,Three Times,http://dbpedia.org/resource/Three_Times,Q708945
+405,406,Café Lumière,http://dbpedia.org/resource/Café_Lumière,Q708210
+406,407,The Flight of the Red Balloon,http://dbpedia.org/resource/The_Flight_of_the_Red_Balloon,Q711916
+407,408,"Goodbye South, Goodbye","http://dbpedia.org/resource/Goodbye_South,_Goodbye",Q3010510
+408,409,The Hole (1998 film),http://dbpedia.org/resource/The_Hole_(1998_film),Q1748266
+409,410,What Time Is It There?,http://dbpedia.org/resource/What_Time_Is_It_There?,Q1634327
+410,411,The Wayward Cloud,http://dbpedia.org/resource/The_Wayward_Cloud,Q702002
+411,412,Stray Dogs (2013 film),http://dbpedia.org/resource/Stray_Dogs_(2013_film),Q12144835
+412,413,"Goodbye, Dragon Inn","http://dbpedia.org/resource/Goodbye,_Dragon_Inn",Q3110692
+413,414,Rebels of the Neon God,http://dbpedia.org/resource/Rebels_of_the_Neon_God,Q3235108
+414,415,The Flavor of Green Tea over Rice,http://dbpedia.org/resource/The_Flavor_of_Green_Tea_over_Rice,Q955101
+415,416,Early Spring (1956 film),http://dbpedia.org/resource/Early_Spring_(1956_film),Q916870
+416,417,Equinox Flower,http://dbpedia.org/resource/Equinox_Flower,Q2248342
+417,418,Good Morning (film),http://dbpedia.org/resource/Good_Morning_(film),Q50931
+418,419,The End of Summer,http://dbpedia.org/resource/The_End_of_Summer,Q2476199
+419,420,Late Autumn (1960 film),http://dbpedia.org/resource/Late_Autumn_(1960_film),Q2739665
+420,421,"I Was Born, But...","http://dbpedia.org/resource/I_Was_Born,_But...",Q2461978
+421,422,The Only Son (1936 film),http://dbpedia.org/resource/The_Only_Son_(1936_film),Q376117
+422,423,Dragnet Girl,http://dbpedia.org/resource/Dragnet_Girl,Q3822127
+423,424,The Story of the Last Chrysanthemum,http://dbpedia.org/resource/The_Story_of_the_Last_Chrysanthemum,Q2339899
+424,425,The Crucified Lovers,http://dbpedia.org/resource/The_Crucified_Lovers,Q1214343
+425,426,Miss Oyu,http://dbpedia.org/resource/Miss_Oyu,Q287864
+426,427,The Taira Clan Saga,http://dbpedia.org/resource/The_Taira_Clan_Saga,Q7497173
+427,428,A Geisha,http://dbpedia.org/resource/A_Geisha,Q862905
+428,429,Night and Fog (1959 film),http://dbpedia.org/resource/Night_and_Fog_(1959_film),
+429,430,Hiroshima mon amour,http://dbpedia.org/resource/Hiroshima_mon_amour,Q283036
+430,431,Last Year at Marienbad,http://dbpedia.org/resource/Last_Year_at_Marienbad,Q225355
+431,432,Muriel (film),http://dbpedia.org/resource/Muriel_(film),Q2625062
+432,433,The War is Over (film),http://dbpedia.org/resource/The_War_is_Over_(film),
+433,434,Stavisky (film),http://dbpedia.org/resource/Stavisky_(film),
+434,435,Providence (1977 film),http://dbpedia.org/resource/Providence_(1977_film),Q2038175
+435,436,My American Uncle,http://dbpedia.org/resource/My_American_Uncle,Q2153352
+436,437,Life is a Bed of Roses,http://dbpedia.org/resource/Life_is_a_Bed_of_Roses,Q1169542
+437,438,Love Unto Death,http://dbpedia.org/resource/Love_Unto_Death,Q1138846
+438,439,Mélo (film),http://dbpedia.org/resource/Mélo_(film),Q508498
+439,440,No Smoking,http://dbpedia.org/resource/Smoking/No_Smoking,Q674929
+440,441,Wild Grass,http://dbpedia.org/resource/Wild_Grass,Q732130
+441,442,You Ain't Seen Nothin' Yet! (film),http://dbpedia.org/resource/You_Ain't_Seen_Nothin'_Yet!_(film),Q3372679
+442,443,Life of Riley (2014 film),http://dbpedia.org/resource/Life_of_Riley_(2014_film),Q15491127
+443,444,Shoot the Piano Player,http://dbpedia.org/resource/Shoot_the_Piano_Player,Q476439
+444,445,Jules and Jim,http://dbpedia.org/resource/Jules_and_Jim,Q512350
+445,446,Soft Skin (film),http://dbpedia.org/resource/Soft_Skin_(film),
+446,447,Fahrenheit 451 (1966 film),http://dbpedia.org/resource/Fahrenheit_451_(1966_film),Q261546
+447,448,The Bride Wore Black,http://dbpedia.org/resource/The_Bride_Wore_Black,Q1211737
+448,449,Mississippi Mermaid,http://dbpedia.org/resource/Mississippi_Mermaid,Q1168045
+449,450,The Wild Child (film),http://dbpedia.org/resource/The_Wild_Child_(film),
+450,451,Bed and Board (film),http://dbpedia.org/resource/Bed_and_Board_(film),Q627975
+451,452,Day for Night (film),http://dbpedia.org/resource/Day_for_Night_(film),Q909816
+452,453,The Last Metro,http://dbpedia.org/resource/The_Last_Metro,Q1049604
+453,454,The Woman Next Door,http://dbpedia.org/resource/The_Woman_Next_Door,Q63093314
+454,455,Confidentially Yours,http://dbpedia.org/resource/Confidentially_Yours,Q759324
+455,456,Love on the Run (1979 film),http://dbpedia.org/resource/Love_on_the_Run_(1979_film),Q277281
+456,457,Small Change (film),http://dbpedia.org/resource/Small_Change_(film),Q1765162
+457,458,Two English Girls,http://dbpedia.org/resource/Two_English_Girls,Q232091
+458,459,The Story of Adele H.,http://dbpedia.org/resource/The_Story_of_Adele_H.,Q920218
+459,460,The Green Room (film),http://dbpedia.org/resource/The_Green_Room_(film),Q1171341
+460,461,The Man Who Loved Women (1977 film),http://dbpedia.org/resource/The_Man_Who_Loved_Women_(1977_film),Q1195396
+461,462,Pocket Money (film),http://dbpedia.org/resource/Pocket_Money_(film),
+462,463,The Big City (1963 film),http://dbpedia.org/resource/The_Big_City_(1963_film),Q177438
+463,464,Charulata,http://dbpedia.org/resource/Charulata,Q639597
+464,465,The Music Room (film),http://dbpedia.org/resource/The_Music_Room_(film),Q640208
+465,466,The World of Apu,http://dbpedia.org/resource/The_World_of_Apu,Q622376
+466,467,Aparajito,http://dbpedia.org/resource/Aparajito,Q622382
+467,468,Nayak (film),http://dbpedia.org/resource/Nayak_(film),Q1972490
+468,469,Aranyer Din Ratri,http://dbpedia.org/resource/Aranyer_Din_Ratri,Q626101
+469,470,Pratidwandi,http://dbpedia.org/resource/Pratidwandi,Q640662
+470,471,Seemabaddha,http://dbpedia.org/resource/Seemabaddha,Q639639
+471,472,Jana Aranya,http://dbpedia.org/resource/Jana_Aranya,Q717174
+472,473,The Chess Players (film),http://dbpedia.org/resource/The_Chess_Players_(film),Q76582
+473,474,The Lonely Wife,http://dbpedia.org/resource/The_Lonely_Wife,Q639597
+474,475,The Hero (1966 film),http://dbpedia.org/resource/The_Hero_(1966_film),Q639604
+475,476,The Holy Man,http://dbpedia.org/resource/The_Holy_Man,Q3521289
+476,477,The Expedition (film),http://dbpedia.org/resource/The_Expedition_(film),
+477,478,The Adventures of Goopy and Bagha,http://dbpedia.org/resource/The_Adventures_of_Goopy_and_Bagha,Q639416
+478,479,The Golden Fortress (film),http://dbpedia.org/resource/The_Golden_Fortress_(film),
+479,480,The Elephant God,http://dbpedia.org/resource/The_Elephant_God,
+480,481,The Kingdom of Diamonds,http://dbpedia.org/resource/The_Kingdom_of_Diamonds,
+481,482,The Stranger (1991 film),http://dbpedia.org/resource/The_Stranger_(1991_film),Q390467
+482,483,The Home and the World (film),http://dbpedia.org/resource/The_Home_and_the_World_(film),Q717188
+483,484,An Enemy of the People (1989 film),http://dbpedia.org/resource/An_Enemy_of_the_People_(1989_film),
+484,485,Branches of the Tree,http://dbpedia.org/resource/Branches_of_the_Tree,
+485,486,The Agitator (film),http://dbpedia.org/resource/The_Agitator_(film),
+486,487,The Cow (1969 film),http://dbpedia.org/resource/The_Cow_(1969_film),Q1214152
+487,488,The Postman (1971 film),http://dbpedia.org/resource/The_Postman_(1971_film),
+488,489,The Cycle (film),http://dbpedia.org/resource/The_Cycle_(film),Q7728540
+489,490,Hamoun (film),http://dbpedia.org/resource/Hamoun_(film),Q3126570
+490,491,Leila (1996 film),http://dbpedia.org/resource/Leila_(1996_film),Q2507766
+491,492,The Pear Tree (film),http://dbpedia.org/resource/The_Pear_Tree_(film),
+492,493,Metropolis (1927 film),http://dbpedia.org/resource/Metropolis_(1927_film),Q151599
+493,494,Bicycle Thieves,http://dbpedia.org/resource/Bicycle_Thieves,Q172837
+494,495,L'Avventura,http://dbpedia.org/resource/L'Avventura,Q514531
+495,496,Cleo from 5 to 7,http://dbpedia.org/resource/Cleo_from_5_to_7,Q1199628
+496,497,The Battle of Algiers,http://dbpedia.org/resource/The_Battle_of_Algiers,Q784812
+497,498,Tokyo Story,http://dbpedia.org/resource/Tokyo_Story,Q26060
+498,499,Do the Right Thing,http://dbpedia.org/resource/Do_the_Right_Thing,Q1141252
+499,500,Blue Velvet (film),http://dbpedia.org/resource/Blue_Velvet_(film),Q660950
+500,501,Mulholland Drive (film),http://dbpedia.org/resource/Mulholland_Drive_(film),Q272608
+501,502,Eraserhead,http://dbpedia.org/resource/Eraserhead,Q11618
+502,503,Dawn of the Dead (1978 film),http://dbpedia.org/resource/Dawn_of_the_Dead_(1978_film),Q219155
+503,504,Nosferatu,http://dbpedia.org/resource/Nosferatu,Q151895
+504,505,The Cabinet of Dr. Caligari,http://dbpedia.org/resource/The_Cabinet_of_Dr._Caligari,Q153886
+505,506,M (1931 film),http://dbpedia.org/resource/M_(1931_film),Q127021
+506,507,Vampyr,http://dbpedia.org/resource/Vampyr,Q304923
+507,508,The Passion of Joan of Arc,http://dbpedia.org/resource/The_Passion_of_Joan_of_Arc,Q51520
+508,509,Sunrise: A Song of Two Humans,http://dbpedia.org/resource/Sunrise:_A_Song_of_Two_Humans,Q431093
+509,510,Man with a Movie Camera,http://dbpedia.org/resource/Man_with_a_Movie_Camera,Q829250
+510,511,The General (1926 film),http://dbpedia.org/resource/The_General_(1926_film),Q850159
+511,512,Sherlock Jr.,http://dbpedia.org/resource/Sherlock_Jr.,Q1569918
+512,513,The Gold Rush,http://dbpedia.org/resource/The_Gold_Rush,Q214723
+513,514,City Lights,http://dbpedia.org/resource/City_Lights,Q238211
+514,515,Modern Times (film),http://dbpedia.org/resource/Modern_Times_(film),Q45602
+515,516,Manhattan (1979 film),http://dbpedia.org/resource/Manhattan_(1979_film),Q731310
+516,517,Network (1976 film),http://dbpedia.org/resource/Network_(1976_film),Q572165
+517,518,Kagemusha,http://dbpedia.org/resource/Kagemusha,Q854990
+518,519,Throne of Blood,http://dbpedia.org/resource/Throne_of_Blood,Q257818
+519,520,Yojimbo,http://dbpedia.org/resource/Yojimbo,Q20475
+520,521,Sanjuro,http://dbpedia.org/resource/Sanjuro,Q575014
+521,522,Ikiru,http://dbpedia.org/resource/Ikiru,Q152105
+522,523,High and Low (1963 film),http://dbpedia.org/resource/High_and_Low_(1963_film),Q244878
+523,524,Sansho the Bailiff,http://dbpedia.org/resource/Sansho_the_Bailiff,Q2633405
+524,525,The Life of Oharu,http://dbpedia.org/resource/The_Life_of_Oharu,Q2537602
+525,526,Ugetsu,http://dbpedia.org/resource/Ugetsu,Q1076605
+526,527,Late Spring,http://dbpedia.org/resource/Late_Spring,Q743203
+527,528,Early Summer,http://dbpedia.org/resource/Early_Summer,Q1761192
+528,529,Floating Weeds,http://dbpedia.org/resource/Floating_Weeds,Q425719
+529,530,An Autumn Afternoon,http://dbpedia.org/resource/An_Autumn_Afternoon,Q1189572
+530,531,Woman in the Dunes,http://dbpedia.org/resource/Woman_in_the_Dunes,Q1207936
+531,532,The Face of Another (film),http://dbpedia.org/resource/The_Face_of_Another_(film),Q4517765
+532,533,Pitfall (1962 film),http://dbpedia.org/resource/Pitfall_(1962_film),Q652380
+533,534,Harakiri (1962 film),http://dbpedia.org/resource/Harakiri_(1962_film),Q1584406
+534,535,Branded to Kill,http://dbpedia.org/resource/Branded_to_Kill,Q729671
+535,536,Tokyo Drifter,http://dbpedia.org/resource/Tokyo_Drifter,Q128320
+536,537,Funeral Parade of Roses,http://dbpedia.org/resource/Funeral_Parade_of_Roses,Q5509114
+537,538,"Throw Away Your Books, Rally in the Streets","http://dbpedia.org/resource/Throw_Away_Your_Books,_Rally_in_the_Streets",Q11515160
+538,539,Daisies (film),http://dbpedia.org/resource/Daisies_(film),Q910705
+539,540,The Cremator,http://dbpedia.org/resource/The_Cremator,Q3178853
+540,541,Closely Watched Trains,http://dbpedia.org/resource/Closely_Watched_Trains,Q738526
+541,542,The Firemen's Ball,http://dbpedia.org/resource/The_Firemen's_Ball,Q1193389
+542,543,Loves of a Blonde,http://dbpedia.org/resource/Loves_of_a_Blonde,Q1214524
+543,544,The Shop on Main Street,http://dbpedia.org/resource/The_Shop_on_Main_Street,Q595196
+544,545,Marketa Lazarova,http://dbpedia.org/resource/Marketa_Lazarova,Q614960
+545,546,The Saragossa Manuscript (film),http://dbpedia.org/resource/The_Saragossa_Manuscript_(film),Q2342429
+546,547,Ashes and Diamonds (film),http://dbpedia.org/resource/Ashes_and_Diamonds_(film),Q722281
+547,548,Kanal (film),http://dbpedia.org/resource/Kanal_(film),Q294780
+548,549,Man of Marble,http://dbpedia.org/resource/Man_of_Marble,Q1195506
+549,550,The Decalogue,http://dbpedia.org/resource/The_Decalogue,Q34623
+550,551,The Celebration,http://dbpedia.org/resource/The_Celebration,Q841958
+551,552,The Idiots,http://dbpedia.org/resource/The_Idiots,Q137638618
+552,553,Breaking the Waves,http://dbpedia.org/resource/Breaking_the_Waves,Q538412
+553,554,Dancer in the Dark,http://dbpedia.org/resource/Dancer_in_the_Dark,Q110365
+554,555,Dogville,http://dbpedia.org/resource/Dogville,Q327681
+555,556,Antichrist (film),http://dbpedia.org/resource/Antichrist_(film),Q574998
+556,557,Melancholia (2011 film),http://dbpedia.org/resource/Melancholia_(2011_film),Q165699
+557,558,The Hunt (2012 film),http://dbpedia.org/resource/The_Hunt_(2012_film),Q32303
+558,559,Force Majeure (film),http://dbpedia.org/resource/Force_Majeure_(film),Q10706553
+559,560,The Square (2017 film),http://dbpedia.org/resource/The_Square_(2017_film),Q27237522
+560,561,Triangle of Sadness,http://dbpedia.org/resource/Triangle_of_Sadness,Q97304180
+561,562,Funny Games (1997 film),http://dbpedia.org/resource/Funny_Games_(1997_film),Q696928
+562,563,The Piano Teacher (film),http://dbpedia.org/resource/The_Piano_Teacher_(film),Q159690
+563,564,Code Unknown,http://dbpedia.org/resource/Code_Unknown,Q553879
+564,565,The Lobster,http://dbpedia.org/resource/The_Lobster,Q16996794
+565,566,The Killing of a Sacred Deer,http://dbpedia.org/resource/The_Killing_of_a_Sacred_Deer,Q27492140
+566,567,Dogtooth (film),http://dbpedia.org/resource/Dogtooth_(film),Q1075918
+567,568,Attenberg,http://dbpedia.org/resource/Attenberg,Q127267
+568,569,A Matter of Life and Death (film),http://dbpedia.org/resource/A_Matter_of_Life_and_Death_(film),Q1210842
+569,570,Black Narcissus,http://dbpedia.org/resource/Black_Narcissus,Q252529
+570,571,Peeping Tom (film),http://dbpedia.org/resource/Peeping_Tom_(film),Q411633
+571,572,The Wicker Man,http://dbpedia.org/resource/The_Wicker_Man,Q1140649
+572,573,Performance (film),http://dbpedia.org/resource/Performance_(film),Q733968
+573,574,The Long Good Friday,http://dbpedia.org/resource/The_Long_Good_Friday,Q1055796
+574,575,Mona Lisa (film),http://dbpedia.org/resource/Mona_Lisa_(film),Q574057
+575,576,The Crying Game,http://dbpedia.org/resource/The_Crying_Game,Q182727
+576,577,Shallow Grave,http://dbpedia.org/resource/Shallow_Grave,Q2447276
+577,578,Secrets & Lies (film),http://dbpedia.org/resource/Secrets_&_Lies_(film),Q391172
+578,579,Naked (1993 film),http://dbpedia.org/resource/Naked_(1993_film),Q1963079
+579,580,Topsy-Turvy,http://dbpedia.org/resource/Topsy-Turvy,Q769347
+580,581,Vera Drake,http://dbpedia.org/resource/Vera_Drake,Q916645
+581,582,A Room with a View (film),http://dbpedia.org/resource/A_Room_with_a_View_(film),Q2819880
+582,583,Howards End (film),http://dbpedia.org/resource/Howards_End_(film),Q913389
+583,584,The Remains of the Day (film),http://dbpedia.org/resource/The_Remains_of_the_Day_(film),Q1625242
+584,585,Gosford Park,http://dbpedia.org/resource/Gosford_Park,Q165392
+585,586,The Favorite (film),http://dbpedia.org/resource/The_Favorite_(film),Q64854309
+586,587,The Grandmaster (film),http://dbpedia.org/resource/The_Grandmaster_(film),Q1155695
+587,588,Ashes of Time,http://dbpedia.org/resource/Ashes_of_Time,Q725167
+588,589,Days of Being Wild,http://dbpedia.org/resource/Days_of_Being_Wild,Q1306553
+589,590,Yi Yi,http://dbpedia.org/resource/Yi_Yi,Q704513
+590,591,A Brighter Summer Day,http://dbpedia.org/resource/A_Brighter_Summer_Day,Q710745
+591,592,Taipei Story,http://dbpedia.org/resource/Taipei_Story,Q3514053
+592,593,The Terrorizers,http://dbpedia.org/resource/The_Terrorizers,Q17088347
+593,594,Vive L'Amour,http://dbpedia.org/resource/Vive_L'Amour,Q711684
+594,595,The River (1997 film),http://dbpedia.org/resource/The_River_(1997_film),Q2059540
+595,596,Tokyo Sonata,http://dbpedia.org/resource/Tokyo_Sonata,Q1368350
+596,597,Beyond Outrage,http://dbpedia.org/resource/Beyond_Outrage,Q1059416
+597,598,The Foul King,http://dbpedia.org/resource/The_Foul_King,Q3473448
+598,599,A Bittersweet Life,http://dbpedia.org/resource/A_Bittersweet_Life,Q485462
+599,600,"The Good, the Bad, the Weird","http://dbpedia.org/resource/The_Good,_the_Bad,_the_Weird",Q488947
+600,601,I Saw the Devil,http://dbpedia.org/resource/I_Saw_the_Devil,Q485725
+601,602,Poetry (film),http://dbpedia.org/resource/Poetry_(film),Q486803
+602,603,3-Iron,http://dbpedia.org/resource/3-Iron,Q489818
+603,604,The Woman Who Ran,http://dbpedia.org/resource/The_Woman_Who_Ran,Q84702886
+604,605,Past Lives (film),http://dbpedia.org/resource/Past_Lives_(film),Q116025865
+605,606,The Farewell (2019 film),http://dbpedia.org/resource/The_Farewell_(2019_film),Q60611804
+606,607,Tigers Are Not Afraid,http://dbpedia.org/resource/Tigers_Are_Not_Afraid,Q65591632
+607,608,Birds of Passage (film),http://dbpedia.org/resource/Birds_of_Passage_(film),Q51998716
+608,609,Embrace of the Serpent,http://dbpedia.org/resource/Embrace_of_the_Serpent,Q19824642
+609,610,Zama (film),http://dbpedia.org/resource/Zama_(film),Q22931120
+610,611,Wild Tales (film),http://dbpedia.org/resource/Wild_Tales_(film),Q16672466
+611,612,The Secret in Their Eyes,http://dbpedia.org/resource/The_Secret_in_Their_Eyes,Q748851
+612,613,A Fantastic Woman,http://dbpedia.org/resource/A_Fantastic_Woman,Q28127580
+613,614,The Club (2015 film),http://dbpedia.org/resource/The_Club_(2015_film),Q18959440
+614,615,Neruda (film),http://dbpedia.org/resource/Neruda_(film),Q23924670
+615,616,No (2012 film),http://dbpedia.org/resource/No_(2012_film),Q2620241
+616,617,Tony Manero (film),http://dbpedia.org/resource/Tony_Manero_(film),Q1608079
+617,618,Belle de Jour (film),http://dbpedia.org/resource/Belle_de_Jour_(film),Q470375
+618,619,That Obscure Object of Desire,http://dbpedia.org/resource/That_Obscure_Object_of_Desire,Q1138798
+619,620,Tristana (film),http://dbpedia.org/resource/Tristana_(film),Q1321880
+620,621,Blow Out,http://dbpedia.org/resource/Blow_Out,Q885488
+621,622,Body Double,http://dbpedia.org/resource/Body_Double,Q1197501
+622,623,Dressed to Kill (1980 film),http://dbpedia.org/resource/Dressed_to_Kill_(1980_film),Q980308
+623,624,Carrie (1976 film),http://dbpedia.org/resource/Carrie_(1976_film),Q162672
+624,625,Carlito's Way,http://dbpedia.org/resource/Carlito's_Way,Q939176
+625,626,Heat (1995 film),http://dbpedia.org/resource/Heat_(1995_film),Q42198
+626,627,The Insider (film),http://dbpedia.org/resource/The_Insider_(film),Q463832
+627,628,Collateral (film),http://dbpedia.org/resource/Collateral_(film),Q110203
+628,629,Miami Vice (film),http://dbpedia.org/resource/Miami_Vice_(film),Q840495
+629,630,Thief (film),http://dbpedia.org/resource/Thief_(film),Q1193098
+630,631,Manhunter (film),http://dbpedia.org/resource/Manhunter_(film),Q886719
+631,632,Stop Making Sense,http://dbpedia.org/resource/Stop_Making_Sense,Q2351784
+632,633,Rachel Getting Married,http://dbpedia.org/resource/Rachel_Getting_Married,Q1117613
+633,634,Something Wild (1986 film),http://dbpedia.org/resource/Something_Wild_(1986_film),Q644485
+634,635,Married to the Mob,http://dbpedia.org/resource/Married_to_the_Mob,Q48984
+635,636,A History of Violence (film),http://dbpedia.org/resource/A_History_of_Violence_(film),Q300439
+636,637,Eastern Promises,http://dbpedia.org/resource/Eastern_Promises,Q752017
+637,638,Dead Ringers (film),http://dbpedia.org/resource/Dead_Ringers_(film),Q635569
+638,639,Videodrome,http://dbpedia.org/resource/Videodrome,Q747551
+639,640,Scanners,http://dbpedia.org/resource/Scanners,Q551823
+640,641,The Brood,http://dbpedia.org/resource/The_Brood,Q389911
+641,642,eXistenZ,http://dbpedia.org/resource/eXistenZ,Q1050838
+642,643,Cosmopolis (film),http://dbpedia.org/resource/Cosmopolis_(film),Q737055
+643,644,Maps to the Stars,http://dbpedia.org/resource/Maps_to_the_Stars,Q14369911
+644,645,Crimes of the Future (2022 film),http://dbpedia.org/resource/Crimes_of_the_Future_(2022_film),Q107883998
+645,646,Shivers (film),http://dbpedia.org/resource/Shivers_(film),Q7499394
+646,647,Rabid (1977 film),http://dbpedia.org/resource/Rabid_(1977_film),Q2061958
+647,648,Naked Lunch (film),http://dbpedia.org/resource/Naked_Lunch_(film),Q1755864
+648,649,Wild at Heart (film),http://dbpedia.org/resource/Wild_at_Heart_(film),Q751382
+649,650,Lost Highway (film),http://dbpedia.org/resource/Lost_Highway_(film),Q289204
+650,651,Inland Empire (film),http://dbpedia.org/resource/Inland_Empire_(film),Q862058
+651,652,Twin Peaks: Fire Walk with Me,http://dbpedia.org/resource/Twin_Peaks:_Fire_Walk_with_Me,Q1140578
+652,653,The Straight Story,http://dbpedia.org/resource/The_Straight_Story,Q1139454
+653,654,The Fabelmans,http://dbpedia.org/resource/The_Fabelmans,Q107710009
+654,655,The Post (film),http://dbpedia.org/resource/The_Post_(film),Q30203425
+655,656,Bridge of Spies (film),http://dbpedia.org/resource/Bridge_of_Spies_(film),Q18067135
+656,657,War Horse (film),http://dbpedia.org/resource/War_Horse_(film),Q218589
+657,658,Munich (film),http://dbpedia.org/resource/Munich_(film),Q14457335
+658,659,The Terminal,http://dbpedia.org/resource/The_Terminal,Q318766
+659,660,Catch Me If You Can (film),http://dbpedia.org/resource/Catch_Me_If_You_Can_(film),Q439280
+660,661,Amistad (film),http://dbpedia.org/resource/Amistad_(film),Q472361
+661,662,The Lost World: Jurassic Park,http://dbpedia.org/resource/The_Lost_World:_Jurassic_Park,Q200873
+662,663,Always (1989 film),http://dbpedia.org/resource/Always_(1989_film),Q449743
+663,664,Empire of the Sun (film),http://dbpedia.org/resource/Empire_of_the_Sun_(film),Q271281
+664,665,The Color Purple (film),http://dbpedia.org/resource/The_Color_Purple_(film),Q450631
+665,666,Indiana Jones and the Temple of Doom,http://dbpedia.org/resource/Indiana_Jones_and_the_Temple_of_Doom,Q179215
+666,667,1941 (film),http://dbpedia.org/resource/1941_(film),Q207482
+667,668,Close Encounters of the Third Kind,http://dbpedia.org/resource/Close_Encounters_of_the_Third_Kind,Q320588
+668,669,The Sugarland Express,http://dbpedia.org/resource/The_Sugarland_Express,Q432526
+669,670,THX 1138,http://dbpedia.org/resource/THX_1138,Q783365
+670,671,The Conversation,http://dbpedia.org/resource/The_Conversation,Q1009788
+671,672,The Cotton Club (film),http://dbpedia.org/resource/The_Cotton_Club_(film),Q639387
+672,673,Gardens of Stone,http://dbpedia.org/resource/Gardens_of_Stone,Q1199648
+673,674,Tucker: The Man and His Dream,http://dbpedia.org/resource/Tucker:_The_Man_and_His_Dream,Q1421355
+674,675,The Rain People,http://dbpedia.org/resource/The_Rain_People,Q2547631
+675,676,Dementia 13,http://dbpedia.org/resource/Dementia_13,Q1185312
+676,677,You're a Big Boy Now,http://dbpedia.org/resource/You're_a_Big_Boy_Now,Q858584
+677,678,Finian's Rainbow (film),http://dbpedia.org/resource/Finian's_Rainbow_(film),Q3072606
+678,679,The Outsiders (film),http://dbpedia.org/resource/The_Outsiders_(film),Q1055332
+679,680,Rumble Fish,http://dbpedia.org/resource/Rumble_Fish,Q845102
+680,681,The Great Gatsby (1974 film),http://dbpedia.org/resource/The_Great_Gatsby_(1974_film),Q1198799
+681,682,Twixt (film),http://dbpedia.org/resource/Twixt_(film),Q2408534
+682,683,Tetro,http://dbpedia.org/resource/Tetro,Q2309964
+683,684,Youth Without Youth (film),http://dbpedia.org/resource/Youth_Without_Youth_(film),Q553194
+684,685,Megalopolis (film),http://dbpedia.org/resource/Megalopolis_(film),Q115175910
+685,686,A Hard Day's Night (film),http://dbpedia.org/resource/A_Hard_Day's_Night_(film),Q913311
+686,687,Help! (film),http://dbpedia.org/resource/Help!_(film),Q1131815
+687,688,Yellow Submarine (film),http://dbpedia.org/resource/Yellow_Submarine_(film),Q1131791
+688,689,Let It Be (1970 film),http://dbpedia.org/resource/Let_It_Be_(1970_film),Q1352613
+689,690,Life of Brian,http://dbpedia.org/resource/Life_of_Brian,Q24953
+690,691,The Meaning of Life (film),http://dbpedia.org/resource/The_Meaning_of_Life_(film),Q404050
+691,692,Jabberwocky (film),http://dbpedia.org/resource/Jabberwocky_(film),Q362439
+692,693,Time Bandits,http://dbpedia.org/resource/Time_Bandits,Q1426318
+693,694,Brazil (1985 film),http://dbpedia.org/resource/Brazil_(1985_film),Q25057
+694,695,The Adventures of Baron Munchausen,http://dbpedia.org/resource/The_Adventures_of_Baron_Munchausen,Q1210832
+695,696,The Fisher King,http://dbpedia.org/resource/The_Fisher_King,Q466297
+696,697,12 Monkeys,http://dbpedia.org/resource/12_Monkeys,Q175038
+697,698,Fear and Loathing in Las Vegas (film),http://dbpedia.org/resource/Fear_and_Loathing_in_Las_Vegas_(film),Q23395
+698,699,Tideland (film),http://dbpedia.org/resource/Tideland_(film),Q151884
+699,700,The Imaginarium of Doctor Parnassus,http://dbpedia.org/resource/The_Imaginarium_of_Doctor_Parnassus,Q578344
+700,701,The Zero Theorem,http://dbpedia.org/resource/The_Zero_Theorem,Q863811
+701,702,The Man Who Killed Don Quixote,http://dbpedia.org/resource/The_Man_Who_Killed_Don_Quixote,Q2095178
+702,703,Badlands (film),http://dbpedia.org/resource/Badlands_(film),Q799202
+703,704,Days of Heaven,http://dbpedia.org/resource/Days_of_Heaven,Q670378
+704,705,The New World (film),http://dbpedia.org/resource/The_New_World_(film),Q231939
+705,706,The Tree of Life (film),http://dbpedia.org/resource/The_Tree_of_Life_(film),Q244257
+706,707,To the Wonder,http://dbpedia.org/resource/To_the_Wonder,Q1140906
+707,708,Knight of Cups (film),http://dbpedia.org/resource/Knight_of_Cups_(film),Q3198000
+708,709,Song to Song,http://dbpedia.org/resource/Song_to_Song,Q12130601
+709,710,A Hidden Life (film),http://dbpedia.org/resource/A_Hidden_Life_(film),Q63149100
+710,711,Voyage of Time,http://dbpedia.org/resource/Voyage_of_Time,Q23707679
+711,712,A Night at the Opera (film),http://dbpedia.org/resource/A_Night_at_the_Opera_(film),Q943992
+712,713,Duck Soup (1933 film),http://dbpedia.org/resource/Duck_Soup_(1933_film),Q1125566
+713,714,Dirty Harry,http://dbpedia.org/resource/Dirty_Harry,Q110206
+714,715,At Long Last Love,http://dbpedia.org/resource/At_Long_Last_Love,Q4812367
+715,716,Nickelodeon (film),http://dbpedia.org/resource/Nickelodeon_(film),Q1431693
+716,717,Stagecoach (1939 film),http://dbpedia.org/resource/Stagecoach_(1939_film),Q50714
+717,719,Paper Moon (film),http://dbpedia.org/resource/Paper_Moon_(film),Q603162
+718,721,The Great Escape (film),http://dbpedia.org/resource/The_Great_Escape_(film),Q110354
+719,722,Little Big Man (film),http://dbpedia.org/resource/Little_Big_Man_(film),Q1132535
+720,723,"What's Up, Doc? (1972 film)","http://dbpedia.org/resource/What's_Up,_Doc?_(1972_film)",Q1356241
+721,724,Texasville,http://dbpedia.org/resource/Texasville,Q1757908
+722,725,The Hustler (film),http://dbpedia.org/resource/The_Hustler_(film),Q1130084
+723,729,Harara Hachiman,http://dbpedia.org/resource/Harara_Hachiman,
+724,730,Cool Hand Luke,http://dbpedia.org/resource/Cool_Hand_Luke,Q684150
+725,731,Mask (1985 film),http://dbpedia.org/resource/Mask_(1985_film),Q929647
+726,735,Saint Jack (film),http://dbpedia.org/resource/Saint_Jack_(film),Q42308506
+727,737,Easy Rider,http://dbpedia.org/resource/Easy_Rider,Q503638
+728,742,The Searchers (film),http://dbpedia.org/resource/The_Searchers_(film),Q276769
+729,749,Targets (film),http://dbpedia.org/resource/Targets_(film),Q852162
+730,760,Five Easy Pieces,http://dbpedia.org/resource/Five_Easy_Pieces,Q1116991
+731,767,The Last Picture Show,http://dbpedia.org/resource/The_Last_Picture_Show,Q1218959
