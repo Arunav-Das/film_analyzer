@@ -19,9 +19,9 @@
     "source_file": "source_books_films.csv",
     "reference_file": "directors_films_by_year.csv",
     "ground_truth_file": "df_gt_films.csv",
-    "timestamp": "2026-11-05T07:30:11.687741",
-    "total_queries": 1,
-    "successful_records": 1,
+    "timestamp": "2026-11-05T07:32:58.730985",
+    "total_queries": 2,
+    "successful_records": 2,
     "error_records": 0,
     "max_output_tokens_requested": 3000,
     "max_thinking_tokens_env": null,
@@ -147,6 +147,109 @@
       ],
       "generation_time_seconds": 169.505,
       "processing_timestamp": "2026-11-05T07:30:11.687437",
+      "prompt_builder": "v5_strategy_preamble",
+      "attention_mean": 0.0,
+      "attention_min": 0.0,
+      "attention_max": 0.0,
+      "attention_std": 0.0,
+      "attention_entropy": 0.0,
+      "hidden_state_norm_mean": 0.0,
+      "hidden_state_norm_min": 0.0,
+      "hidden_state_norm_max": 0.0,
+      "hidden_state_norm_std": 0.0,
+      "token_prob_mean": 0.0,
+      "token_prob_min": 0.0,
+      "token_prob_max": 0.0,
+      "token_prob_p10": 0.0,
+      "token_prob_p90": 0.0,
+      "confidence_score": 0.0,
+      "perplexity_estimate": 0.0
+    },
+    {
+      "Query_ID": 2,
+      "Film_Title": "Citizen Kane",
+      "Source_URI": "http://dbpedia.org/resource/Citizen_Kane",
+      "SPARQL_URI": "http://dbpedia.org/resource/Citizen_Kane",
+      "Wikidata_QID": "Q24815",
+      "Source_ReleaseYear": "",
+      "mode": "nlq_cot_general",
+      "strategy": "flat_conjunctive",
+      "rag_tier": "no_evidence",
+      "rag_evidence_injected": false,
+      "system_mode_requested": "neutral",
+      "model_alias": "claude-sonnet-4-6",
+      "model_id": "claude-sonnet-4-6",
+      "model_family": "claude",
+      "system_mode": "native",
+      "prompt_sent": "You are a film history research assistant with comprehensive knowledge of Academy Award and Palme d'Or records, director filmographies, and international biographical reference data.  You reason carefully and only state facts you can verify.\n\n[Query ID: 2]  [Mode: nlq_cot_general]  [Strategy: flat_conjunctive]\n\nTask (Strategy 1 — flat conjunctive)\n--------------------------------------\nTarget film: \"Citizen Kane\"\n\nFind every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as \"Citizen Kane\".  For each matching director state their birthplace and the population of that birthplace.\n\nNote: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.\nDo not invent or estimate any fact.\n\nReasoning steps (work through before writing ANSWER:)\nSTEP 1: State the release year of the target film.\nSTEP 2: List directors who have EVER won Academy Award for Best Director or Palme d'Or.\nSTEP 3: Keep only those who directed >=1 film in that same year (not necessarily an award-winning film).\nSTEP 4: For each retained director, state birthplace and population.\nSTEP 5: Write ANSWER: using the output format above.\n\nOutput format\n-------------\nStart your answer with the line:\n  ANSWER:\nOn the very next line write:\n  Release year: [YYYY]\nThen list one line per matching director in this exact format:\n  [Director Name] | [Birthplace] | [Population]\nWhere:\n  Director Name  = the director's full name in English\n  Birthplace     = the city or place of birth in English (write \"unknown\" if not found)\n  Population     = the population of that place as a number (write \"unknown\" if not found)\nIf no directors match the criteria, write:\n  No matching directors found.\nDo not include any other text after the ANSWER: section.\nDo not invent or estimate facts. Omit any director you cannot verify.\n\nSTEP 1:",
+      "rag_rows_injected": 0,
+      "est_prompt_tokens": 508,
+      "Generated_Response": "API Error: Claude's response exceeded the 3000 output token maximum. To configure this behavior, set the CLAUDE_CODE_MAX_OUTPUT_TOKENS environment variable.",
+      "Parse_Text_Altered": false,
+      "Degenerate_Flag": false,
+      "Degenerate_Reason": "",
+      "Parsed_Rows": [
+        {
+          "ReleaseYear": "",
+          "Director": "NO RESULT",
+          "Birthplace": "",
+          "PopCount": "",
+          "JointConfidence": ""
+        }
+      ],
+      "ReleaseYear_Parsed": "",
+      "Director_Parsed": "NO RESULT",
+      "Birthplace_Parsed": "",
+      "PopCount_Parsed": "",
+      "JointConfidence_Parsed": "",
+      "generation_status": "truncated_length",
+      "finish_reason": "output_token_cap",
+      "max_tokens_sent": 3000,
+      "usage": {
+        "input_tokens": 12,
+        "cache_creation_input_tokens": 6494,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 12000,
+        "output_tokens_details": {
+          "thinking_tokens": 11999
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 6494,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 3,
+            "output_tokens": 3000,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 1685,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 1685
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd_reported": 0.219,
+      "thinking_chars": 0,
+      "text_chars": 156,
+      "raw_files": [
+        "claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_q2_try1_prompt.txt",
+        "claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_q2_try1_events.jsonl",
+        "claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_q2_try1_text.txt",
+        "claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_q2_try1_stderr.txt"
+      ],
+      "generation_time_seconds": 167.04,
+      "processing_timestamp": "2026-11-05T07:32:58.729697",
       "prompt_builder": "v5_strategy_preamble",
       "attention_mean": 0.0,
       "attention_min": 0.0,
