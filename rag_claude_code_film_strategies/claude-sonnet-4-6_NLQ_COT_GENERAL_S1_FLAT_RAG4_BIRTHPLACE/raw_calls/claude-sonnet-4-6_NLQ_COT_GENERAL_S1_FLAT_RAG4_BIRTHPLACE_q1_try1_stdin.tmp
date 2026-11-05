@@ -1,0 +1,87 @@
+You are a film history research assistant with comprehensive knowledge of Academy Award and Palme d'Or records, director filmographies, and international biographical reference data.  You reason carefully and only state facts you can verify.
+
+[Query ID: 1]  [Mode: nlq_cot_general]  [Strategy: flat_conjunctive]
+
+Task (Strategy 1 — flat conjunctive)
+--------------------------------------
+Target film: "The Godfather"
+
+RETRIEVED EVIDENCE (S.No=1, release year = 1972)
+------------------------------------------------------------
+Candidate directors with award provenance and birthplace (population withheld):
+  - [Oscar] Bernardo Bertolucci | birthplace=Parma
+  - [Oscar] Billy Wilder | birthplace=unknown
+  - [Palme D'or] Billy Wilder | birthplace=unknown
+  - [Oscar] Bob Fosse | birthplace=Illinois
+  - [Oscar] Bob Fosse | birthplace=Chicago (musical)
+  - [Palme D'or] Bob Fosse | birthplace=Illinois
+  - [Palme D'or] Bob Fosse | birthplace=Chicago (musical)
+  - [Oscar] Carol Reed | birthplace=Putney
+  - [Palme D'or] Carol Reed | birthplace=Putney
+  - [Palme D'or] Claude Lelouch | birthplace=Paris
+  - [Oscar] Delbert Mann | birthplace=Lawrence, Kansas
+  - [Palme D'or] Delbert Mann | birthplace=Lawrence, Kansas
+  - [Palme D'or] Edward Dmytryk | birthplace=Grand Forks, British Columbia
+  - [Oscar] Elia Kazan | birthplace=unknown
+  - [Palme D'or] Federico Fellini | birthplace=Rimini
+  - [Oscar] Francis Ford Coppola | birthplace=Detroit
+  - [Palme D'or] Francis Ford Coppola | birthplace=Detroit
+  - [Oscar] George Cukor | birthplace=unknown
+  - [Oscar] George Roy Hill | birthplace=Minneapolis
+  - [Palme D'or] Jacques Demy | birthplace=Pontchâteau
+  - [Oscar] John G. Avildsen | birthplace=Oak Park, Illinois
+  - [Oscar] John Huston | birthplace=Nevada, Missouri
+  - [Oscar] Joseph L. Mankiewicz | birthplace=Wilkes-Barre, Pennsylvania
+  - [Palme D'or] Joseph Losey | birthplace=La Crosse, Wisconsin
+  - [Palme D'or] Luis Buñuel | birthplace=Spain
+  - [Palme D'or] Luis Buñuel | birthplace=Calanda, Spain
+  - [Oscar] Martin Scorsese | birthplace=unknown
+  - [Palme D'or] Martin Scorsese | birthplace=unknown
+  - [Palme D'or] Michelangelo Antonioni | birthplace=Ferrara
+  - [Palme D'or] Michelangelo Antonioni | birthplace=Kingdom of Italy
+  - [Palme D'or] Pietro Germi | birthplace=Genoa
+  - [Oscar] Richard Attenborough | birthplace=Cambridge
+  - [Palme D'or] Robert Altman | birthplace=Kansas City, Missouri
+  - [Oscar] Robert Benton | birthplace=Dallas
+  - [Oscar] Roman Polanski | birthplace=unknown
+  - [Palme D'or] Roman Polanski | birthplace=unknown
+  - [Oscar] Steven Spielberg | birthplace=Cincinnati
+  - [Oscar] Sydney Pollack | birthplace=Lafayette, Indiana
+  - [Palme D'or] Vittorio De Sica | birthplace=Sora, Lazio
+  - [Oscar] Woody Allen | birthplace=New York City
+  - [Palme D'or] Yılmaz Güney | birthplace=Turkey
+  - [Palme D'or] Yılmaz Güney | birthplace=Yenice, Yüreğir
+  NOTE: population is not provided at this tier; resolve it yourself if needed.
+------------------------------------------------------------
+Use the evidence above only where it is directly relevant to THIS film's S.No and year. Do not use distractor or mismatched-year rows as qualifying. Where evidence is silent or marked unknown/NO RESULT, rely on your own verified knowledge rather than inventing a fact.
+
+Find every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as "The Godfather".  For each matching director state their birthplace and the population of that birthplace.
+
+Note: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.
+Do not invent or estimate any fact.
+
+Reasoning steps (work through before writing ANSWER:)
+STEP 1: State the release year of the target film.
+STEP 2: List directors who have EVER won Academy Award for Best Director or Palme d'Or.
+STEP 3: Keep only those who directed >=1 film in that same year (not necessarily an award-winning film).
+STEP 4: For each retained director, state birthplace and population.
+STEP 5: Write ANSWER: using the output format above.
+
+Output format
+-------------
+Start your answer with the line:
+  ANSWER:
+On the very next line write:
+  Release year: [YYYY]
+Then list one line per matching director in this exact format:
+  [Director Name] | [Birthplace] | [Population]
+Where:
+  Director Name  = the director's full name in English
+  Birthplace     = the city or place of birth in English (write "unknown" if not found)
+  Population     = the population of that place as a number (write "unknown" if not found)
+If no directors match the criteria, write:
+  No matching directors found.
+Do not include any other text after the ANSWER: section.
+Do not invent or estimate facts. Omit any director you cannot verify.
+
+STEP 1:
