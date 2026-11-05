@@ -1,0 +1,93 @@
+[SYSTEM]
+You are a helpful assistant. Answer the user's message directly in plain text.
+
+[USER]
+You are a film history research assistant with comprehensive knowledge of Academy Award and Palme d'Or records, director filmographies, and international biographical reference data.  You reason carefully and only state facts you can verify.
+
+[Query ID: 2]  [Mode: nlq_general]  [Strategy: flat_conjunctive]
+
+Task (Strategy 1 — flat conjunctive)
+--------------------------------------
+Target film: "Citizen Kane"
+
+RETRIEVED EVIDENCE (S.No=2, release year = 1941)
+------------------------------------------------------------
+Candidate directors with award provenance and birthplace (population withheld):
+  - [Palme D'or] Alf Sjöberg | birthplace=Stockholm
+  - [Palme D'or] Alf Sjöberg | birthplace=Sweden
+  - [Palme D'or] Ben Sharpsteen | birthplace=Tacoma, Washington
+  - [Oscar] Carol Reed | birthplace=Putney
+  - [Palme D'or] Carol Reed | birthplace=Putney
+  - [Oscar] David Lean | birthplace=Surrey
+  - [Palme D'or] David Lean | birthplace=Surrey
+  - [Oscar] David Lean | birthplace=Croydon
+  - [Palme D'or] David Lean | birthplace=Croydon
+  - [Palme D'or] Edward Dmytryk | birthplace=Grand Forks, British Columbia
+  - [Oscar] Frank Borzage | birthplace=Salt Lake City
+  - [Oscar] Frank Capra | birthplace=Sicily
+  - [Oscar] Frank Capra | birthplace=Kingdom of Italy
+  - [Oscar] Frank Capra | birthplace=Bisacquino
+  - [Oscar] Frank Lloyd | birthplace=Lanarkshire
+  - [Oscar] Frank Lloyd | birthplace=Cambuslang
+  - [Palme D'or] František Čáp | birthplace=Austria-Hungary
+  - [Palme D'or] František Čáp | birthplace=Bohemia
+  - [Palme D'or] František Čáp | birthplace=Čachovice
+  - [Oscar] Fred Zinnemann | birthplace=Rzeszów
+  - [Oscar] Fred Zinnemann | birthplace=Austria-Hungary
+  - [Oscar] George Cukor | birthplace=unknown
+  - [Oscar] George Stevens | birthplace=Oakland, California
+  - [Palme D'or] Jean Delannoy | birthplace=French Third Republic
+  - [Palme D'or] Jean Delannoy | birthplace=Île-de-France
+  - [Palme D'or] Jean Delannoy | birthplace=Noisy-le-Sec
+  - [Oscar] John Ford | birthplace=Cape Elizabeth, Maine
+  - [Oscar] John Huston | birthplace=Nevada, Missouri
+  - [Palme D'or] Lau Lauritzen Jr. | birthplace=Vejle
+  - [Oscar] Lewis Milestone | birthplace=Chișinău
+  - [Oscar] Lewis Milestone | birthplace=Russian Empire
+  - [Oscar] Lewis Milestone | birthplace=Bessarabia Governorate
+  - [Oscar] Michael Curtiz | birthplace=Budapest
+  - [Oscar] Michael Curtiz | birthplace=Austria-Hungary
+  - [Palme D'or] Mikhail Kalatozov | birthplace=Tbilisi
+  - [Palme D'or] Mikhail Kalatozov | birthplace=Russian Empire
+  - [Oscar] Norman Taurog | birthplace=Chicago
+  - [Oscar] Norman Taurog | birthplace=Illinois
+  - [Palme D'or] Orson Welles | birthplace=Kenosha, Wisconsin
+  - [Palme D'or] Roberto Rossellini | birthplace=Rome
+  - [Palme D'or] Roberto Rossellini | birthplace=Kingdom of Italy
+  - [Oscar] Victor Fleming | birthplace=La Cañada Flintridge, California
+  - [Palme D'or] Vincente Minnelli | birthplace=Chicago
+  - [Oscar] Vincente Minnelli | birthplace=Chicago
+  - [Palme D'or] Vittorio De Sica | birthplace=Sora, Lazio
+  - [Oscar] William Wyler | birthplace=German Empire
+  - [Palme D'or] William Wyler | birthplace=German Empire
+  - [Palme D'or] William Wyler | birthplace=Mulhouse
+  - [Oscar] William Wyler | birthplace=Mulhouse
+  - [Oscar] William Wyler | birthplace=Alsace–Lorraine
+  - [Palme D'or] William Wyler | birthplace=Alsace–Lorraine
+  NOTE: population is not provided at this tier; resolve it yourself if needed.
+------------------------------------------------------------
+Use the evidence above only where it is directly relevant to THIS film's S.No and year. Do not use distractor or mismatched-year rows as qualifying. Where evidence is silent or marked unknown/NO RESULT, rely on your own verified knowledge rather than inventing a fact.
+
+Find every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as "Citizen Kane".  For each matching director state their birthplace and the population of that birthplace.
+
+Note: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.
+Do not invent or estimate any fact.
+
+Output format
+-------------
+Start your answer with the line:
+  ANSWER:
+On the very next line write:
+  Release year: [YYYY]
+Then list one line per matching director in this exact format:
+  [Director Name] | [Birthplace] | [Population]
+Where:
+  Director Name  = the director's full name in English
+  Birthplace     = the city or place of birth in English (write "unknown" if not found)
+  Population     = the population of that place as a number (write "unknown" if not found)
+If no directors match the criteria, write:
+  No matching directors found.
+Do not include any other text after the ANSWER: section.
+Do not invent or estimate facts. Omit any director you cannot verify.
+
+ANSWER:
