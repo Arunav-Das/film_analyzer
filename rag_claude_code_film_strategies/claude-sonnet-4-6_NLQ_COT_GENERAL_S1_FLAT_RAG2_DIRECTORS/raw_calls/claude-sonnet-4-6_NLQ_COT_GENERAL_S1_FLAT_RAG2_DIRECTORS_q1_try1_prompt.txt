@@ -1,0 +1,98 @@
+[SYSTEM]
+You are a helpful assistant. Answer the user's message directly in plain text.
+
+[USER]
+You are a film history research assistant with comprehensive knowledge of Academy Award and Palme d'Or records, director filmographies, and international biographical reference data.  You reason carefully and only state facts you can verify.
+
+[Query ID: 1]  [Mode: nlq_cot_general]  [Strategy: flat_conjunctive]
+
+Task (Strategy 1 — flat conjunctive)
+--------------------------------------
+Target film: "The Godfather"
+
+RETRIEVED EVIDENCE (S.No=1, release year = 1972)
+------------------------------------------------------------
+Films and directors released in this year:
+  - Alfredo, Alfredo | Pietro Germi
+  - And Hope to Die | René Clément
+  - Avanti! | Billy Wilder
+  - Avanti! | Billy Wilder
+  - Ağıt | Yılmaz Güney
+  - Bad Company (1972 film) | Robert Benton
+  - Bluebeard (1972 film) | Edward Dmytryk
+  - Boxcar Bertha | Martin Scorsese
+  - Boxcar Bertha | Martin Scorsese
+  - Cabaret (1972 film) | Bob Fosse
+  - Cabaret (1972 film) | Bob Fosse
+  - Chung Kuo, Cina | Michelangelo Antonioni
+  - Days of '36 | Theo Angelopoulos
+  - Everything You Always Wanted to Know About Sex* (*But Were Afraid to Ask) (film) | Woody Allen
+  - Fat City (film) | John Huston
+  - Follow Me! (film) | Carol Reed
+  - Follow Me! (film) | Carol Reed
+  - Images (film) | Robert Altman
+  - Jeremiah Johnson (film) | Sydney Pollack
+  - L'aventure, c'est l'aventure | Claude Lelouch
+  - Last Tango in Paris | Bernardo Bertolucci
+  - Liza with a Z | Bob Fosse
+  - Liza with a Z | Bob Fosse
+  - Lo chiameremo Andrea | Vittorio De Sica
+  - No Place to Run (film) | Delbert Mann
+  - No Place to Run (film) | Delbert Mann
+  - Roma (1972 film) | Federico Fellini
+  - She Waits | Delbert Mann
+  - She Waits | Delbert Mann
+  - Slaughterhouse-Five (film) | George Roy Hill
+  - Sleuth (1972 film) | Joseph L. Mankiewicz
+  - Something Evil | Steven Spielberg
+  - St. Michael Had a Rooster | Paolo and Vittorio Taviani
+  - State of Siege | Costa-Gavras
+  - The Assassination of Trotsky | Joseph Losey
+  - The Discreet Charm of the Bourgeoisie | Luis Buñuel
+  - The Goalkeeper's Fear of the Penalty | Wim Wenders
+  - The Life and Times of Judge Roy Bean | John Huston
+  - The Mattei Affair | Francesco Rosi
+  - The Morals of Ruth Halbfass | Volker Schlöndorff
+  - The Pied Piper (1972 film) | Jacques Demy
+  - The Stoolie | John G. Avildsen
+  - The Visitors (1972 film) | Elia Kazan
+  - The Wedding (1972 film) | Andrzej Wajda
+  - Travels with My Aunt (film) | George Cukor
+  - Weekend of a Champion | Roman Polanski
+  - Weekend of a Champion | Roman Polanski
+  - What? (film) | Roman Polanski
+  - What? (film) | Roman Polanski
+  - Young Winston | Richard Attenborough
+------------------------------------------------------------
+Use the evidence above only where it is directly relevant to THIS film's S.No and year. Do not use distractor or mismatched-year rows as qualifying. Where evidence is silent or marked unknown/NO RESULT, rely on your own verified knowledge rather than inventing a fact.
+
+Find every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as "The Godfather".  For each matching director state their birthplace and the population of that birthplace.
+
+Note: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.
+Do not invent or estimate any fact.
+
+Reasoning steps (work through before writing ANSWER:)
+STEP 1: State the release year of the target film.
+STEP 2: List directors who have EVER won Academy Award for Best Director or Palme d'Or.
+STEP 3: Keep only those who directed >=1 film in that same year (not necessarily an award-winning film).
+STEP 4: For each retained director, state birthplace and population.
+STEP 5: Write ANSWER: using the output format above.
+
+Output format
+-------------
+Start your answer with the line:
+  ANSWER:
+On the very next line write:
+  Release year: [YYYY]
+Then list one line per matching director in this exact format:
+  [Director Name] | [Birthplace] | [Population]
+Where:
+  Director Name  = the director's full name in English
+  Birthplace     = the city or place of birth in English (write "unknown" if not found)
+  Population     = the population of that place as a number (write "unknown" if not found)
+If no directors match the criteria, write:
+  No matching directors found.
+Do not include any other text after the ANSWER: section.
+Do not invent or estimate facts. Omit any director you cannot verify.
+
+STEP 1:

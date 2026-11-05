@@ -449,3 +449,28 @@
 2026-11-05 07:38:04,510 - INFO - SUMMARY  model=claude-sonnet-4-6  mode=nlq_cot_general  strategy=flat_conjunctive  rag=year_list_only  new=2  previously_done=0  total=2  errors=0
 2026-11-05 07:38:04,510 - INFO -   output -> rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG1_TITLES/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG1_TITLES.json
 2026-11-05 07:38:04,510 - INFO - ================================================================================
+2026-11-05 07:38:05,529 - WARNING - GroundTruthStore: S.No=395 has inconsistent ReleaseYear values {'1997': 43, '1998': 40} — using majority year 1997.
+2026-11-05 07:38:05,529 - WARNING - GroundTruthStore: S.No=511 has inconsistent ReleaseYear values {'1927': 21, '1926': 23} — using majority year 1926.
+2026-11-05 07:38:05,529 - WARNING - GroundTruthStore: S.No=650 has inconsistent ReleaseYear values {'1997': 22, '2000': 15} — using majority year 1997.
+2026-11-05 07:38:05,529 - WARNING - GroundTruthStore: S.No=652 has inconsistent ReleaseYear values {'1992': 20, '2000': 27} — using majority year 2000.
+2026-11-05 07:38:05,529 - INFO - GroundTruthStore loaded 22567 rows from 'df_gt_films.csv' spanning 732 S.No entries (592 with a resolvable year).
+2026-11-05 07:38:05,582 - WARNING - matplotlib unavailable (No module named 'matplotlib') - plots skipped
+2026-11-05 07:38:05,600 - INFO - Analysis written to rag_claude_code_film_strategies/analysis (0 plots, report + CSVs)
+2026-11-05 07:38:06,055 - INFO - === run started: films_analyzer_inf.py --model claude-sonnet-4-6 --mode nlq_cot_general --strategy flat_conjunctive --rag_tier titles_authors --max_queries 2 --max_new_tokens 3000 --timeout 600 --no-resume (script version 2026-11-05.1-film-claude-code) ===
+2026-11-05 07:38:07,294 - WARNING - GroundTruthStore: S.No=395 has inconsistent ReleaseYear values {'1997': 43, '1998': 40} — using majority year 1997.
+2026-11-05 07:38:07,294 - WARNING - GroundTruthStore: S.No=511 has inconsistent ReleaseYear values {'1927': 21, '1926': 23} — using majority year 1926.
+2026-11-05 07:38:07,295 - WARNING - GroundTruthStore: S.No=650 has inconsistent ReleaseYear values {'1997': 22, '2000': 15} — using majority year 1997.
+2026-11-05 07:38:07,295 - WARNING - GroundTruthStore: S.No=652 has inconsistent ReleaseYear values {'1992': 20, '2000': 27} — using majority year 2000.
+2026-11-05 07:38:07,295 - INFO - GroundTruthStore loaded 22567 rows from 'df_gt_films.csv' spanning 732 S.No entries (592 with a resolvable year).
+2026-11-05 07:38:07,420 - INFO - ReferenceStore loaded 3877 rows from 'directors_films_by_year.csv' spanning 116 years.
+2026-11-05 07:38:07,420 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=3000  max_thinking_tokens=None  system_mode=neutral
+2026-11-05 07:38:07,420 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-05 07:38:11,257 - INFO - Validation OK - response: 'OK'
+2026-11-05 07:38:11,257 - INFO - No existing results file found. Starting fresh.
+2026-11-05 07:38:11,257 - INFO - Loading input data from: source_books_films.csv
+2026-11-05 07:38:11,263 - INFO - Loaded 732 rows.
+2026-11-05 07:38:11,264 - INFO - Processing 2/732 queries (0 already done)  mode=nlq_cot_general  strategy=flat_conjunctive  rag_tier=titles_authors  model=claude-sonnet-4-6  backend=claude_code
+2026-11-05 07:38:11,264 - INFO - [1/732] Query_ID=1  'The Godfather'  source='The Godfather'  rag_tier=titles_authors
+2026-11-05 07:38:42,370 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG2_DIRECTORS_q1] streaming 31s: text=0 chars  thinking=0 chars
+2026-11-05 07:39:12,759 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG2_DIRECTORS_q1] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 07:39:43,580 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG2_DIRECTORS_q1] streaming 92s: text=0 chars  thinking=0 chars
