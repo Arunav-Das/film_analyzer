@@ -1,0 +1,82 @@
+You are an encyclopaedic film research assistant. You reason exclusively from information consistent with Wikipedia articles, infoboxes, and filmography tables. You do not include any fact not clearly supported by encyclopaedic sources.
+
+[Query ID: 2]  [Mode: nlq_wikipedia]  [Strategy: flat_conjunctive]
+
+Task (Strategy 1 — flat conjunctive)
+--------------------------------------
+Target film: "Citizen Kane"
+
+RETRIEVED EVIDENCE (S.No=2, release year = 1941)
+------------------------------------------------------------
+Films, directors, and award provenance for this year:
+  - A Letter from Home (film) | Carol Reed | award_source=Oscar
+  - A Letter from Home (film) | Carol Reed | award_source=Palme d'Or
+  - A Woman's Face | George Cukor | award_source=Oscar
+  - Babes on Broadway | Vincente Minnelli | award_source=Oscar
+  - Babes on Broadway | Vincente Minnelli | award_source=Palme d'Or
+  - Confessions of Boston Blackie | Edward Dmytryk | award_source=Palme d'Or
+  - Design for Scandal | Norman Taurog | award_source=Oscar
+  - Dive Bomber (film) | Michael Curtiz | award_source=Oscar
+  - Dr. Jekyll and Mr. Hyde (1941 film) | Victor Fleming | award_source=Oscar
+  - Dumbo | Ben Sharpsteen | award_source=Palme d'Or
+  - Far skal giftes | Lau Lauritzen Jr. | award_source=Palme d'Or
+  - Forbidden Passage | Fred Zinnemann | award_source=Oscar
+  - Frøken Kirkemus | Lau Lauritzen Jr. | award_source=Palme d'Or
+  - Home from Babylon | Alf Sjöberg | award_source=Palme d'Or
+  - How Green Was My Valley (film) | John Ford | award_source=Oscar
+  - Jan Cimbura | František Čáp | award_source=Palme d'Or
+  - Kipps (1941 film) | Carol Reed | award_source=Oscar
+  - Kipps (1941 film) | Carol Reed | award_source=Palme d'Or
+  - Major Barbara (film) | David Lean | award_source=Oscar
+  - Major Barbara (film) | David Lean | award_source=Palme d'Or
+  - Meet John Doe | Frank Capra | award_source=Oscar
+  - Men of Boys Town | Norman Taurog | award_source=Oscar
+  - My Life with Caroline | Lewis Milestone | award_source=Oscar
+  - Nocturnal Butterfly | František Čáp | award_source=Palme d'Or
+  - Penny Serenade | George Stevens | award_source=Oscar
+  - Secrets of the Lone Wolf | Edward Dmytryk | award_source=Palme d'Or
+  - Smilin' Through (1941 film) | Frank Borzage | award_source=Oscar
+  - Sweetheart of the Campus | Edward Dmytryk | award_source=Palme d'Or
+  - Teresa Venerdì | Vittorio De Sica | award_source=Palme d'Or
+  - The Black Diamond (1941 film) | Jean Delannoy | award_source=Palme d'Or
+  - The Blonde from Singapore | Edward Dmytryk | award_source=Palme d'Or
+  - The Devil Commands | Edward Dmytryk | award_source=Palme d'Or
+  - The Lady from Cheyenne | Frank Lloyd | award_source=Oscar
+  - The Little Foxes (film) | William Wyler | award_source=Oscar
+  - The Little Foxes (film) | William Wyler | award_source=Palme d'Or
+  - The Maltese Falcon (1941 film) | John Huston | award_source=Oscar
+  - The Sea Wolf (1941 film) | Michael Curtiz | award_source=Oscar
+  - The White Ship (1941 film) | Roberto Rossellini | award_source=Palme d'Or
+  - This Woman Is Mine | Frank Lloyd | award_source=Oscar
+  - Tobacco Road (film) | John Ford | award_source=Oscar
+  - Tror du jeg er født i går! | Lau Lauritzen Jr. | award_source=Palme d'Or
+  - Two-Faced Woman | George Cukor | award_source=Oscar
+  - Under Age (1941 film) | Edward Dmytryk | award_source=Palme d'Or
+  - Valery Chkalov (film) | Mikhail Kalatozov | award_source=Palme d'Or
+  - Women in Defense | John Ford | award_source=Oscar
+------------------------------------------------------------
+Use the evidence above only where it is directly relevant to THIS film's S.No and year. Do not use distractor or mismatched-year rows as qualifying. Where evidence is silent or marked unknown/NO RESULT, rely on your own verified knowledge rather than inventing a fact.
+
+Find every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as "Citizen Kane".  For each matching director state their birthplace and the population of that birthplace.
+
+Note: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.
+Do not invent or estimate any fact.
+
+Output format
+-------------
+Start your answer with the line:
+  ANSWER:
+On the very next line write:
+  Release year: [YYYY]
+Then list one line per matching director in this exact format:
+  [Director Name] | [Birthplace] | [Population]
+Where:
+  Director Name  = the director's full name in English
+  Birthplace     = the city or place of birth in English (write "unknown" if not found)
+  Population     = the population of that place as a number (write "unknown" if not found)
+If no directors match the criteria, write:
+  No matching directors found.
+Do not include any other text after the ANSWER: section.
+Do not invent or estimate facts. Omit any director you cannot verify.
+
+ANSWER:
