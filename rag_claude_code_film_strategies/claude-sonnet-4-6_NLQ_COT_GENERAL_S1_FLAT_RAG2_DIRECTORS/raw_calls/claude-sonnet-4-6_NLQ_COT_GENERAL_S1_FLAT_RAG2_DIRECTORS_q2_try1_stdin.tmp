@@ -1,0 +1,89 @@
+You are a film history research assistant with comprehensive knowledge of Academy Award and Palme d'Or records, director filmographies, and international biographical reference data.  You reason carefully and only state facts you can verify.
+
+[Query ID: 2]  [Mode: nlq_cot_general]  [Strategy: flat_conjunctive]
+
+Task (Strategy 1 — flat conjunctive)
+--------------------------------------
+Target film: "Citizen Kane"
+
+RETRIEVED EVIDENCE (S.No=2, release year = 1941)
+------------------------------------------------------------
+Films and directors released in this year:
+  - A Letter from Home (film) | Carol Reed
+  - A Letter from Home (film) | Carol Reed
+  - A Woman's Face | George Cukor
+  - Babes on Broadway | Vincente Minnelli
+  - Babes on Broadway | Vincente Minnelli
+  - Confessions of Boston Blackie | Edward Dmytryk
+  - Design for Scandal | Norman Taurog
+  - Dive Bomber (film) | Michael Curtiz
+  - Dr. Jekyll and Mr. Hyde (1941 film) | Victor Fleming
+  - Dumbo | Ben Sharpsteen
+  - Far skal giftes | Lau Lauritzen Jr.
+  - Forbidden Passage | Fred Zinnemann
+  - Frøken Kirkemus | Lau Lauritzen Jr.
+  - Home from Babylon | Alf Sjöberg
+  - How Green Was My Valley (film) | John Ford
+  - Jan Cimbura | František Čáp
+  - Kipps (1941 film) | Carol Reed
+  - Kipps (1941 film) | Carol Reed
+  - Major Barbara (film) | David Lean
+  - Major Barbara (film) | David Lean
+  - Meet John Doe | Frank Capra
+  - Men of Boys Town | Norman Taurog
+  - My Life with Caroline | Lewis Milestone
+  - Nocturnal Butterfly | František Čáp
+  - Penny Serenade | George Stevens
+  - Secrets of the Lone Wolf | Edward Dmytryk
+  - Smilin' Through (1941 film) | Frank Borzage
+  - Sweetheart of the Campus | Edward Dmytryk
+  - Teresa Venerdì | Vittorio De Sica
+  - The Black Diamond (1941 film) | Jean Delannoy
+  - The Blonde from Singapore | Edward Dmytryk
+  - The Devil Commands | Edward Dmytryk
+  - The Lady from Cheyenne | Frank Lloyd
+  - The Little Foxes (film) | William Wyler
+  - The Little Foxes (film) | William Wyler
+  - The Maltese Falcon (1941 film) | John Huston
+  - The Sea Wolf (1941 film) | Michael Curtiz
+  - The White Ship (1941 film) | Roberto Rossellini
+  - This Woman Is Mine | Frank Lloyd
+  - Tobacco Road (film) | John Ford
+  - Tror du jeg er født i går! | Lau Lauritzen Jr.
+  - Two-Faced Woman | George Cukor
+  - Under Age (1941 film) | Edward Dmytryk
+  - Valery Chkalov (film) | Mikhail Kalatozov
+  - Women in Defense | John Ford
+------------------------------------------------------------
+Use the evidence above only where it is directly relevant to THIS film's S.No and year. Do not use distractor or mismatched-year rows as qualifying. Where evidence is silent or marked unknown/NO RESULT, rely on your own verified knowledge rather than inventing a fact.
+
+Find every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as "Citizen Kane".  For each matching director state their birthplace and the population of that birthplace.
+
+Note: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.
+Do not invent or estimate any fact.
+
+Reasoning steps (work through before writing ANSWER:)
+STEP 1: State the release year of the target film.
+STEP 2: List directors who have EVER won Academy Award for Best Director or Palme d'Or.
+STEP 3: Keep only those who directed >=1 film in that same year (not necessarily an award-winning film).
+STEP 4: For each retained director, state birthplace and population.
+STEP 5: Write ANSWER: using the output format above.
+
+Output format
+-------------
+Start your answer with the line:
+  ANSWER:
+On the very next line write:
+  Release year: [YYYY]
+Then list one line per matching director in this exact format:
+  [Director Name] | [Birthplace] | [Population]
+Where:
+  Director Name  = the director's full name in English
+  Birthplace     = the city or place of birth in English (write "unknown" if not found)
+  Population     = the population of that place as a number (write "unknown" if not found)
+If no directors match the criteria, write:
+  No matching directors found.
+Do not include any other text after the ANSWER: section.
+Do not invent or estimate facts. Omit any director you cannot verify.
+
+STEP 1:
