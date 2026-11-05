@@ -674,3 +674,19 @@
 2026-11-05 08:04:15,690 - WARNING - GroundTruthStore: S.No=652 has inconsistent ReleaseYear values {'1992': 20, '2000': 27} — using majority year 2000.
 2026-11-05 08:04:15,690 - INFO - GroundTruthStore loaded 22567 rows from 'df_gt_films.csv' spanning 732 S.No entries (592 with a resolvable year).
 2026-11-05 08:04:16,861 - INFO - Analysis written to rag_claude_code_film_strategies/analysis (8 plots, report + CSVs)
+2026-11-05 08:09:58,479 - INFO - === run started: films_analyzer_inf.py --model claude-sonnet-4-6 --mode nlq_cot_wikipedia --strategy flat_conjunctive --rag_tier year_list_only --max_queries 2 --max_new_tokens 3000 --timeout 600 --no-resume (script version 2026-11-05.1-film-claude-code) ===
+2026-11-05 08:09:59,560 - WARNING - GroundTruthStore: S.No=395 has inconsistent ReleaseYear values {'1997': 43, '1998': 40} — using majority year 1997.
+2026-11-05 08:09:59,560 - WARNING - GroundTruthStore: S.No=511 has inconsistent ReleaseYear values {'1927': 21, '1926': 23} — using majority year 1926.
+2026-11-05 08:09:59,561 - WARNING - GroundTruthStore: S.No=650 has inconsistent ReleaseYear values {'1997': 22, '2000': 15} — using majority year 1997.
+2026-11-05 08:09:59,561 - WARNING - GroundTruthStore: S.No=652 has inconsistent ReleaseYear values {'1992': 20, '2000': 27} — using majority year 2000.
+2026-11-05 08:09:59,561 - INFO - GroundTruthStore loaded 22567 rows from 'df_gt_films.csv' spanning 732 S.No entries (592 with a resolvable year).
+2026-11-05 08:09:59,691 - INFO - ReferenceStore loaded 3877 rows from 'directors_films_by_year.csv' spanning 116 years.
+2026-11-05 08:09:59,692 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=3000  max_thinking_tokens=None  system_mode=neutral
+2026-11-05 08:09:59,692 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-05 08:10:03,736 - INFO - Validation OK - response: 'OK'
+2026-11-05 08:10:03,736 - INFO - No existing results file found. Starting fresh.
+2026-11-05 08:10:03,736 - INFO - Loading input data from: source_books_films.csv
+2026-11-05 08:10:03,741 - INFO - Loaded 732 rows.
+2026-11-05 08:10:03,741 - INFO - Processing 2/732 queries (0 already done)  mode=nlq_cot_wikipedia  strategy=flat_conjunctive  rag_tier=year_list_only  model=claude-sonnet-4-6  backend=claude_code
+2026-11-05 08:10:03,742 - INFO - [1/732] Query_ID=1  'The Godfather'  source='The Godfather'  rag_tier=year_list_only
+2026-11-05 08:10:33,987 - INFO -   [claude-sonnet-4-6_NLQ_COT_WIKIPEDIA_S1_FLAT_RAG1_TITLES_q1] streaming 30s: text=0 chars  thinking=0 chars
