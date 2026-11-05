@@ -1,53 +1,53 @@
 ====================================================================================================
 FILM DIRECTOR ANALYSER (CLAUDE CODE) - ANALYSIS REPORT
-generated 2026-11-05T07:58:45  (script version 2026-11-05.1-film-claude-code)
+generated 2026-11-05T08:04:16  (script version 2026-11-05.1-film-claude-code)
 ====================================================================================================
 
 1. SCOPE
-  records=28  models=1  modes=3  strategies=1  rag_tiers=6  system modes=['neutral']
+  records=30  models=1  modes=3  strategies=1  rag_tiers=6  system modes=['neutral']
   Backend: `claude -p` in a Claude Code cloud session; temperature / top_p not controllable; tools disabled; raw events per call in <cell dir>/raw_calls.
-  Ground-truth scoring: ON (28 scored records; a film with no GT rows, or with a GT retrieval error, is not scored)
+  Ground-truth scoring: ON (30 scored records; a film with no GT rows, or with a GT retrieval error, is not scored)
 
 2. HEADLINE (all records pooled)
-  records                   28
+  records                   30
   error_rate                0.0000
   truncated_rate            1.0000
   empty_rate                0.0000
   degenerate_rate           0.0000
-  no_result_rate            0.9643
-  mean_directors            1.0714
+  no_result_rate            0.9667
+  mean_directors            1.0000
   year_accuracy             1.0000
   pop_numeric_rate          0.6667
-  gt_scored                 28
+  gt_scored                 30
   gt_precision              1.0000
-  gt_recall                 0.0383
-  gt_f1                     0.0737
+  gt_recall                 0.0357
+  gt_f1                     0.0690
   gt_birthplace_acc         0.7333
   gt_pop_within_5pct        1.0000
-  mean_latency_s            149.2600
-  mean_completion_tokens    11774.0714
-  mean_text_chars           192.8571
+  mean_latency_s            150.0866
+  mean_completion_tokens    11789.1333
+  mean_text_chars           190.4000
   mean_thinking_chars       0.0000
-  total_cost_usd            6.7916
+  total_cost_usd            7.3619
 
 3. BY MODEL
       model_alias  records  error_rate  truncated_rate  empty_rate  degenerate_rate  no_result_rate  mean_directors  year_accuracy  pop_numeric_rate  gt_scored  gt_precision  gt_recall  gt_f1  gt_birthplace_acc  gt_pop_within_5pct  mean_latency_s  mean_completion_tokens  mean_text_chars  mean_thinking_chars  total_cost_usd
-claude-sonnet-4-6       28       0.000           1.000       0.000            0.000           0.964           1.071          1.000             0.667         28         1.000      0.038  0.074              0.733               1.000         149.260               11774.071          192.857                0.000           6.792
+claude-sonnet-4-6       30       0.000           1.000       0.000            0.000           0.967           1.000          1.000             0.667         30         1.000      0.036  0.069              0.733               1.000         150.087               11789.133          190.400                0.000           7.362
 
 4. BY MODE
            mode  records  error_rate  truncated_rate  empty_rate  degenerate_rate  no_result_rate  mean_directors  year_accuracy  pop_numeric_rate  gt_scored  gt_precision  gt_recall  gt_f1  gt_birthplace_acc  gt_pop_within_5pct  mean_latency_s  mean_completion_tokens  mean_text_chars  mean_thinking_chars  total_cost_usd
-nlq_cot_general       10       0.000           1.000       0.000            0.000           1.000           0.000            NaN               NaN         10           NaN      0.000    NaN                NaN                 NaN         150.553               12000.000          156.000                0.000           2.429
+nlq_cot_general       12       0.000           1.000       0.000            0.000           1.000           0.000            NaN               NaN         12           NaN      0.000    NaN                NaN                 NaN         152.404               12000.000          156.000                0.000           2.999
     nlq_general        6       0.000           1.000       0.000            0.000           1.000           0.000            NaN               NaN          6           NaN      0.000    NaN                NaN                 NaN         157.340               12000.000          156.000                0.000           1.541
   nlq_wikipedia       12       0.000           1.000       0.000            0.000           0.917           2.500          1.000             0.667         12         1.000      0.089  0.164              0.733               1.000         144.143               11472.833          242.000                0.000           2.822
 
 5. BY STRATEGY
         strategy  records  error_rate  truncated_rate  empty_rate  degenerate_rate  no_result_rate  mean_directors  year_accuracy  pop_numeric_rate  gt_scored  gt_precision  gt_recall  gt_f1  gt_birthplace_acc  gt_pop_within_5pct  mean_latency_s  mean_completion_tokens  mean_text_chars  mean_thinking_chars  total_cost_usd code
-flat_conjunctive       28       0.000           1.000       0.000            0.000           0.964           1.071          1.000             0.667         28         1.000      0.038  0.074              0.733               1.000         149.260               11774.071          192.857                0.000           6.792   S1
+flat_conjunctive       30       0.000           1.000       0.000            0.000           0.967           1.000          1.000             0.667         30         1.000      0.036  0.069              0.733               1.000         150.087               11789.133          190.400                0.000           7.362   S1
 
 6. BY RAG TIER
              rag_tier  records  error_rate  truncated_rate  empty_rate  degenerate_rate  no_result_rate  mean_directors  year_accuracy  pop_numeric_rate  gt_scored  gt_precision  gt_recall  gt_f1  gt_birthplace_acc  gt_pop_within_5pct  mean_latency_s  mean_completion_tokens  mean_text_chars  mean_thinking_chars  total_cost_usd
  full_with_birthplace        6       0.000           1.000       0.000            0.000           1.000           0.000            NaN               NaN          6           NaN      0.000    NaN                NaN                 NaN         156.675               12000.000          156.000                0.000           1.456
-full_with_distractors        4       0.000           1.000       0.000            0.000           0.750           7.500          1.000             0.667          4         1.000      0.268  0.423              0.733               1.000         138.693               10418.500          414.000                0.000           0.986
+full_with_distractors        6       0.000           1.000       0.000            0.000           0.833           5.000          1.000             0.667          6         1.000      0.179  0.303              0.733               1.000         146.348               10945.667          328.000                0.000           1.556
  full_with_population        6       0.000           1.000       0.000            0.000           1.000           0.000            NaN               NaN          6           NaN      0.000    NaN                NaN                 NaN         150.076               12000.000          156.000                0.000           1.485
        titles_authors        4       0.000           1.000       0.000            0.000           1.000           0.000            NaN               NaN          4           NaN      0.000    NaN                NaN                 NaN         147.630               12000.000          156.000                0.000           0.950
  titles_authors_prize        4       0.000           1.000       0.000            0.000           1.000           0.000            NaN               NaN          4           NaN      0.000    NaN                NaN                 NaN         150.772               12000.000          156.000                0.000           0.990
@@ -55,16 +55,16 @@ full_with_distractors        4       0.000           1.000       0.000          
 
 7. GENERATION HEALTH
       model_alias system_mode           status  count
-claude-sonnet-4-6     neutral truncated_length     28
+claude-sonnet-4-6     neutral truncated_length     30
 
 8. GROUND-TRUTH DETAIL
-  Most missed directors: Carol Reed: 27; Edward Dmytryk: 27; George Cukor: 27; John Huston: 27; Vittorio De Sica: 27; Alf Sjöberg: 14; Ben Sharpsteen: 14; David Lean: 14; Frank Borzage: 14; Frank Capra: 14; Frank Lloyd: 14; František Čáp: 14; Fred Zinnemann: 14; George Stevens: 14; Jean Delannoy: 14
+  Most missed directors: Carol Reed: 29; Edward Dmytryk: 29; George Cukor: 29; John Huston: 29; Vittorio De Sica: 29; Alf Sjöberg: 15; Ben Sharpsteen: 15; David Lean: 15; Frank Borzage: 15; Frank Capra: 15; Frank Lloyd: 15; František Čáp: 15; Fred Zinnemann: 15; George Stevens: 15; Jean Delannoy: 15
   Most frequent false positives: none
 
 9. KEY INSIGHTS
   - 100.0% of calls hit the output-token cap (claude-sonnet-4-6 100%). Compare text_chars with thinking_chars to see what used the budget; raise --max_new_tokens or set --max_thinking_tokens.
   - Release-year accuracy against the GT year: 100.0% (over records where both years are known).
-  - Reported cost summed over all records (Claude Code 'total_cost_usd'): 6.79 USD.
+  - Reported cost summed over all records (Claude Code 'total_cost_usd'): 7.36 USD.
 
 10. LIMITATIONS
   - One call per (model, mode, strategy, RAG tier, film): small differences may be sampling noise (no replicates).

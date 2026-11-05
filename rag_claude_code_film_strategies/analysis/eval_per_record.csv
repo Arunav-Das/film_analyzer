@@ -9,6 +9,8 @@ claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,full_with_birthplace,neutral,
 claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,full_with_birthplace,neutral,2,truncated_length,False,True,False,False,156.423,12000.0,156,0,0.246864,,1941,,0,True,0,0,0,26,True,0,0,0,0
 claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,full_with_population,neutral,1,truncated_length,False,True,False,False,150.111,12000.0,156,0,0.24655200000000002,,1972,,0,True,0,0,0,30,True,0,0,0,0
 claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,full_with_population,neutral,2,truncated_length,False,True,False,False,156.217,12000.0,156,0,0.252144,,1941,,0,True,0,0,0,26,True,0,0,0,0
+claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,full_with_distractors,neutral,1,truncated_length,False,True,False,False,154.039,12000.0,156,0,0.27938399999999997,,1972,,0,True,0,0,0,30,True,0,0,0,0
+claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,full_with_distractors,neutral,2,truncated_length,False,True,False,False,169.277,12000.0,156,0,0.290904,,1941,,0,True,0,0,0,26,True,0,0,0,0
 claude-sonnet-4-6,nlq_general,flat_conjunctive,full_with_birthplace,neutral,1,truncated_length,False,True,False,False,158.51,12000.0,156,0,0.23959199999999997,,1972,,0,True,0,0,0,30,True,0,0,0,0
 claude-sonnet-4-6,nlq_general,flat_conjunctive,full_with_birthplace,neutral,2,truncated_length,False,True,False,False,163.406,12000.0,156,0,0.243984,,1941,,0,True,0,0,0,26,True,0,0,0,0
 claude-sonnet-4-6,nlq_general,flat_conjunctive,full_with_population,neutral,1,truncated_length,False,True,False,False,150.088,12000.0,156,0,0.24372,,1972,,0,True,0,0,0,30,True,0,0,0,0
