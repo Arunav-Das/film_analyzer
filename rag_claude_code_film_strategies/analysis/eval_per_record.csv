@@ -1,6 +1,8 @@
 ﻿model_alias,mode,strategy,rag_tier,system_mode,Query_ID,status,is_error,truncated,empty,degenerate,latency,completion_tokens,text_chars,thinking_chars,cost_usd,year_parsed,gt_year,year_ok,n_pred,no_result,pop_numeric_n,pop_total_n,tp,n_gt,scored,birth_ok,birth_n,pop_5_n,pop_cmp_n
 claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,year_list_only,neutral,1,truncated_length,False,True,False,False,143.975,12000.0,156,0,0.233616,,1972,,0,True,0,0,0,30,True,0,0,0,0
 claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,year_list_only,neutral,2,truncated_length,False,True,False,False,155.326,12000.0,156,0,0.231744,,1941,,0,True,0,0,0,26,True,0,0,0,0
+claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,titles_authors,neutral,1,truncated_length,False,True,False,False,141.195,12000.0,156,0,0.240408,,1972,,0,True,0,0,0,30,True,0,0,0,0
+claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,titles_authors,neutral,2,truncated_length,False,True,False,False,154.399,12000.0,156,0,0.23736000000000002,,1941,,0,True,0,0,0,26,True,0,0,0,0
 claude-sonnet-4-6,nlq_general,flat_conjunctive,full_with_birthplace,neutral,1,truncated_length,False,True,False,False,158.51,12000.0,156,0,0.23959199999999997,,1972,,0,True,0,0,0,30,True,0,0,0,0
 claude-sonnet-4-6,nlq_general,flat_conjunctive,full_with_birthplace,neutral,2,truncated_length,False,True,False,False,163.406,12000.0,156,0,0.243984,,1941,,0,True,0,0,0,26,True,0,0,0,0
 claude-sonnet-4-6,nlq_general,flat_conjunctive,full_with_population,neutral,1,truncated_length,False,True,False,False,150.088,12000.0,156,0,0.24372,,1972,,0,True,0,0,0,30,True,0,0,0,0
