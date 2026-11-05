@@ -1,5 +1,5 @@
 ﻿rag_tier,records,error_rate,truncated_rate,empty_rate,degenerate_rate,no_result_rate,mean_directors,year_accuracy,pop_numeric_rate,gt_scored,gt_precision,gt_recall,gt_f1,gt_birthplace_acc,gt_pop_within_5pct,mean_latency_s,mean_completion_tokens,mean_text_chars,mean_thinking_chars,total_cost_usd
-full_with_birthplace,6,0.0,1.0,0.0,0.0,1.0,0.0,,,6,,0.0,,,,156.67516666666666,12000.0,156.0,0.0,1.4564400000000002
+full_with_birthplace,8,0.0,1.0,0.0,0.0,1.0,0.0,,,8,,0.0,,,,154.16875,12000.0,156.0,0.0,1.945848
 full_with_distractors,6,0.0,1.0,0.0,0.0,0.8333333333333334,5.0,1.0,0.6666666666666666,6,1.0,0.17857142857142858,0.30303030303030304,0.7333333333333333,1.0,146.3478333333333,10945.666666666666,328.0,0.0,1.55583
 full_with_population,6,0.0,1.0,0.0,0.0,1.0,0.0,,,6,,0.0,,,,150.0763333333333,12000.0,156.0,0.0,1.4845439999999999
 titles_authors,6,0.0,1.0,0.0,0.0,1.0,0.0,,,6,,0.0,,,,146.96450000000002,12000.0,156.0,0.0,1.428024

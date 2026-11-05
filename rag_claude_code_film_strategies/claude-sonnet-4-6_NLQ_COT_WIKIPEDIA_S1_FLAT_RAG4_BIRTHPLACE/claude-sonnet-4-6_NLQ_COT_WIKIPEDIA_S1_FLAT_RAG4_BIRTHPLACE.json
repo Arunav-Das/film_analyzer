@@ -19,9 +19,9 @@
     "source_file": "source_books_films.csv",
     "reference_file": "directors_films_by_year.csv",
     "ground_truth_file": "df_gt_films.csv",
-    "timestamp": "2026-11-05T08:27:35.963945",
-    "total_queries": 1,
-    "successful_records": 1,
+    "timestamp": "2026-11-05T08:30:11.436933",
+    "total_queries": 2,
+    "successful_records": 2,
     "error_records": 0,
     "max_output_tokens_requested": 3000,
     "max_thinking_tokens_env": null,
@@ -147,6 +147,109 @@
       ],
       "generation_time_seconds": 137.83,
       "processing_timestamp": "2026-11-05T08:27:35.963633",
+      "prompt_builder": "v5_strategy_preamble",
+      "attention_mean": 0.0,
+      "attention_min": 0.0,
+      "attention_max": 0.0,
+      "attention_std": 0.0,
+      "attention_entropy": 0.0,
+      "hidden_state_norm_mean": 0.0,
+      "hidden_state_norm_min": 0.0,
+      "hidden_state_norm_max": 0.0,
+      "hidden_state_norm_std": 0.0,
+      "token_prob_mean": 0.0,
+      "token_prob_min": 0.0,
+      "token_prob_max": 0.0,
+      "token_prob_p10": 0.0,
+      "token_prob_p90": 0.0,
+      "confidence_score": 0.0,
+      "perplexity_estimate": 0.0
+    },
+    {
+      "Query_ID": 2,
+      "Film_Title": "Citizen Kane",
+      "Source_URI": "http://dbpedia.org/resource/Citizen_Kane",
+      "SPARQL_URI": "http://dbpedia.org/resource/Citizen_Kane",
+      "Wikidata_QID": "Q24815",
+      "Source_ReleaseYear": "1941",
+      "mode": "nlq_cot_wikipedia",
+      "strategy": "flat_conjunctive",
+      "rag_tier": "full_with_birthplace",
+      "rag_evidence_injected": true,
+      "system_mode_requested": "neutral",
+      "model_alias": "claude-sonnet-4-6",
+      "model_id": "claude-sonnet-4-6",
+      "model_family": "claude",
+      "system_mode": "native",
+      "prompt_sent": "You are an encyclopaedic film research assistant. You reason exclusively from information consistent with Wikipedia articles, infoboxes, and filmography tables. You do not include any fact not clearly supported by encyclopaedic sources.\n\n[Query ID: 2]  [Mode: nlq_cot_wikipedia]  [Strategy: flat_conjunctive]\n\nTask (Strategy 1 — flat conjunctive)\n--------------------------------------\nTarget film: \"Citizen Kane\"\n\nRETRIEVED EVIDENCE (S.No=2, release year = 1941)\n------------------------------------------------------------\nCandidate directors with award provenance and birthplace (population withheld):\n  - [Palme D'or] Alf Sjöberg | birthplace=Stockholm\n  - [Palme D'or] Alf Sjöberg | birthplace=Sweden\n  - [Palme D'or] Ben Sharpsteen | birthplace=Tacoma, Washington\n  - [Oscar] Carol Reed | birthplace=Putney\n  - [Palme D'or] Carol Reed | birthplace=Putney\n  - [Oscar] David Lean | birthplace=Surrey\n  - [Palme D'or] David Lean | birthplace=Surrey\n  - [Oscar] David Lean | birthplace=Croydon\n  - [Palme D'or] David Lean | birthplace=Croydon\n  - [Palme D'or] Edward Dmytryk | birthplace=Grand Forks, British Columbia\n  - [Oscar] Frank Borzage | birthplace=Salt Lake City\n  - [Oscar] Frank Capra | birthplace=Sicily\n  - [Oscar] Frank Capra | birthplace=Kingdom of Italy\n  - [Oscar] Frank Capra | birthplace=Bisacquino\n  - [Oscar] Frank Lloyd | birthplace=Lanarkshire\n  - [Oscar] Frank Lloyd | birthplace=Cambuslang\n  - [Palme D'or] František Čáp | birthplace=Austria-Hungary\n  - [Palme D'or] František Čáp | birthplace=Bohemia\n  - [Palme D'or] František Čáp | birthplace=Čachovice\n  - [Oscar] Fred Zinnemann | birthplace=Rzeszów\n  - [Oscar] Fred Zinnemann | birthplace=Austria-Hungary\n  - [Oscar] George Cukor | birthplace=unknown\n  - [Oscar] George Stevens | birthplace=Oakland, California\n  - [Palme D'or] Jean Delannoy | birthplace=French Third Republic\n  - [Palme D'or] Jean Delannoy | birthplace=Île-de-France\n  - [Palme D'or] Jean Delannoy | birthplace=Noisy-le-Sec\n  - [Oscar] John Ford | birthplace=Cape Elizabeth, Maine\n  - [Oscar] John Huston | birthplace=Nevada, Missouri\n  - [Palme D'or] Lau Lauritzen Jr. | birthplace=Vejle\n  - [Oscar] Lewis Milestone | birthplace=Chișinău\n  - [Oscar] Lewis Milestone | birthplace=Russian Empire\n  - [Oscar] Lewis Milestone | birthplace=Bessarabia Governorate\n  - [Oscar] Michael Curtiz | birthplace=Budapest\n  - [Oscar] Michael Curtiz | birthplace=Austria-Hungary\n  - [Palme D'or] Mikhail Kalatozov | birthplace=Tbilisi\n  - [Palme D'or] Mikhail Kalatozov | birthplace=Russian Empire\n  - [Oscar] Norman Taurog | birthplace=Chicago\n  - [Oscar] Norman Taurog | birthplace=Illinois\n  - [Palme D'or] Orson Welles | birthplace=Kenosha, Wisconsin\n  - [Palme D'or] Roberto Rossellini | birthplace=Rome\n  - [Palme D'or] Roberto Rossellini | birthplace=Kingdom of Italy\n  - [Oscar] Victor Fleming | birthplace=La Cañada Flintridge, California\n  - [Palme D'or] Vincente Minnelli | birthplace=Chicago\n  - [Oscar] Vincente Minnelli | birthplace=Chicago\n  - [Palme D'or] Vittorio De Sica | birthplace=Sora, Lazio\n  - [Oscar] William Wyler | birthplace=German Empire\n  - [Palme D'or] William Wyler | birthplace=German Empire\n  - [Palme D'or] William Wyler | birthplace=Mulhouse\n  - [Oscar] William Wyler | birthplace=Mulhouse\n  - [Oscar] William Wyler | birthplace=Alsace–Lorraine\n  - [Palme D'or] William Wyler | birthplace=Alsace–Lorraine\n  NOTE: population is not provided at this tier; resolve it yourself if needed.\n------------------------------------------------------------\nUse the evidence above only where it is directly relevant to THIS film's S.No and year. Do not use distractor or mismatched-year rows as qualifying. Where evidence is silent or marked unknown/NO RESULT, rely on your own verified knowledge rather than inventing a fact.\n\nFind every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as \"Citizen Kane\".  For each matching director state their birthplace and the population of that birthplace.\n\nNote: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.\nDo not invent or estimate any fact.\n\nReasoning steps (work through before writing ANSWER:)\nSTEP 1: State the release year of the target film.\nSTEP 2: List directors who have EVER won Academy Award for Best Director or Palme d'Or.\nSTEP 3: Keep only those who directed >=1 film in that same year (not necessarily an award-winning film).\nSTEP 4: For each retained director, state birthplace and population.\nSTEP 5: Write ANSWER: using the output format above.\n\nOutput format\n-------------\nStart your answer with the line:\n  ANSWER:\nOn the very next line write:\n  Release year: [YYYY]\nThen list one line per matching director in this exact format:\n  [Director Name] | [Birthplace] | [Population]\nWhere:\n  Director Name  = the director's full name in English\n  Birthplace     = the city or place of birth in English (write \"unknown\" if not found)\n  Population     = the population of that place as a number (write \"unknown\" if not found)\nIf no directors match the criteria, write:\n  No matching directors found.\nDo not include any other text after the ANSWER: section.\nDo not invent or estimate facts. Omit any director you cannot verify.\n\nSTEP 1:",
+      "rag_rows_injected": 51,
+      "est_prompt_tokens": 1350,
+      "Generated_Response": "API Error: Claude's response exceeded the 3000 output token maximum. To configure this behavior, set the CLAUDE_CODE_MAX_OUTPUT_TOKENS environment variable.",
+      "Parse_Text_Altered": false,
+      "Degenerate_Flag": false,
+      "Degenerate_Reason": "",
+      "Parsed_Rows": [
+        {
+          "ReleaseYear": "",
+          "Director": "NO RESULT",
+          "Birthplace": "",
+          "PopCount": "",
+          "JointConfidence": ""
+        }
+      ],
+      "ReleaseYear_Parsed": "",
+      "Director_Parsed": "NO RESULT",
+      "Birthplace_Parsed": "",
+      "PopCount_Parsed": "",
+      "JointConfidence_Parsed": "",
+      "generation_status": "truncated_length",
+      "finish_reason": "output_token_cap",
+      "max_tokens_sent": 3000,
+      "usage": {
+        "input_tokens": 12,
+        "cache_creation_input_tokens": 11138,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 12000,
+        "output_tokens_details": {
+          "thinking_tokens": 12000
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 11138,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 3,
+            "output_tokens": 3000,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 2846,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 2846
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd_reported": 0.246864,
+      "thinking_chars": 0,
+      "text_chars": 156,
+      "raw_files": [
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE/raw_calls/claude-sonnet-4-6_NLQ_COT_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE_q2_try1_prompt.txt",
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE/raw_calls/claude-sonnet-4-6_NLQ_COT_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE_q2_try1_events.jsonl",
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE/raw_calls/claude-sonnet-4-6_NLQ_COT_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE_q2_try1_text.txt",
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE/raw_calls/claude-sonnet-4-6_NLQ_COT_WIKIPEDIA_S1_FLAT_RAG4_BIRTHPLACE_q2_try1_stderr.txt"
+      ],
+      "generation_time_seconds": 155.469,
+      "processing_timestamp": "2026-11-05T08:30:11.435162",
       "prompt_builder": "v5_strategy_preamble",
       "attention_mean": 0.0,
       "attention_min": 0.0,
