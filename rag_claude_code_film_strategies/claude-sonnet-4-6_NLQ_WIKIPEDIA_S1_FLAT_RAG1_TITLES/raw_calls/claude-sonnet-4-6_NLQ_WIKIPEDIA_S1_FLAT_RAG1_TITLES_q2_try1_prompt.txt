@@ -1,68 +1,67 @@
+[SYSTEM]
+You are a helpful assistant. Answer the user's message directly in plain text.
+
+[USER]
 You are an encyclopaedic film research assistant. You reason exclusively from information consistent with Wikipedia articles, infoboxes, and filmography tables. You do not include any fact not clearly supported by encyclopaedic sources.
 
-[Query ID: 1]  [Mode: nlq_wikipedia]  [Strategy: flat_conjunctive]
+[Query ID: 2]  [Mode: nlq_wikipedia]  [Strategy: flat_conjunctive]
 
 Task (Strategy 1 — flat conjunctive)
 --------------------------------------
-Target film: "The Godfather"
+Target film: "Citizen Kane"
 
-RETRIEVED EVIDENCE (S.No=1, release year = 1972)
+RETRIEVED EVIDENCE (S.No=2, release year = 1941)
 ------------------------------------------------------------
 Films released in this year (source: reference index):
-  - Alfredo, Alfredo
-  - And Hope to Die
-  - Avanti!
-  - Avanti!
-  - Ağıt
-  - Bad Company (1972 film)
-  - Bluebeard (1972 film)
-  - Boxcar Bertha
-  - Boxcar Bertha
-  - Cabaret (1972 film)
-  - Cabaret (1972 film)
-  - Chung Kuo, Cina
-  - Days of '36
-  - Everything You Always Wanted to Know About Sex* (*But Were Afraid to Ask) (film)
-  - Fat City (film)
-  - Follow Me! (film)
-  - Follow Me! (film)
-  - Images (film)
-  - Jeremiah Johnson (film)
-  - L'aventure, c'est l'aventure
-  - Last Tango in Paris
-  - Liza with a Z
-  - Liza with a Z
-  - Lo chiameremo Andrea
-  - No Place to Run (film)
-  - No Place to Run (film)
-  - Roma (1972 film)
-  - She Waits
-  - She Waits
-  - Slaughterhouse-Five (film)
-  - Sleuth (1972 film)
-  - Something Evil
-  - St. Michael Had a Rooster
-  - State of Siege
-  - The Assassination of Trotsky
-  - The Discreet Charm of the Bourgeoisie
-  - The Goalkeeper's Fear of the Penalty
-  - The Life and Times of Judge Roy Bean
-  - The Mattei Affair
-  - The Morals of Ruth Halbfass
-  - The Pied Piper (1972 film)
-  - The Stoolie
-  - The Visitors (1972 film)
-  - The Wedding (1972 film)
-  - Travels with My Aunt (film)
-  - Weekend of a Champion
-  - Weekend of a Champion
-  - What? (film)
-  - What? (film)
-  - Young Winston
+  - A Letter from Home (film)
+  - A Letter from Home (film)
+  - A Woman's Face
+  - Babes on Broadway
+  - Babes on Broadway
+  - Confessions of Boston Blackie
+  - Design for Scandal
+  - Dive Bomber (film)
+  - Dr. Jekyll and Mr. Hyde (1941 film)
+  - Dumbo
+  - Far skal giftes
+  - Forbidden Passage
+  - Frøken Kirkemus
+  - Home from Babylon
+  - How Green Was My Valley (film)
+  - Jan Cimbura
+  - Kipps (1941 film)
+  - Kipps (1941 film)
+  - Major Barbara (film)
+  - Major Barbara (film)
+  - Meet John Doe
+  - Men of Boys Town
+  - My Life with Caroline
+  - Nocturnal Butterfly
+  - Penny Serenade
+  - Secrets of the Lone Wolf
+  - Smilin' Through (1941 film)
+  - Sweetheart of the Campus
+  - Teresa Venerdì
+  - The Black Diamond (1941 film)
+  - The Blonde from Singapore
+  - The Devil Commands
+  - The Lady from Cheyenne
+  - The Little Foxes (film)
+  - The Little Foxes (film)
+  - The Maltese Falcon (1941 film)
+  - The Sea Wolf (1941 film)
+  - The White Ship (1941 film)
+  - This Woman Is Mine
+  - Tobacco Road (film)
+  - Tror du jeg er født i går!
+  - Two-Faced Woman
+  - Under Age (1941 film)
+  - Valery Chkalov (film)
+  - Women in Defense
 ------------------------------------------------------------
 Use the evidence above only where it is directly relevant to THIS film's S.No and year. Do not use distractor or mismatched-year rows as qualifying. Where evidence is silent or marked unknown/NO RESULT, rely on your own verified knowledge rather than inventing a fact.
 
-Find every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as "The Godfather".  For each matching director state their birthplace and the population of that birthplace.
+Find every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as "Citizen Kane".  For each matching director state their birthplace and the population of that birthplace.
 
 Note: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.
 Do not invent or estimate any fact.
