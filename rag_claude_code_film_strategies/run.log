@@ -209,3 +209,5 @@
 2026-11-05 07:02:52,013 - INFO - Processing 2/732 queries (0 already done)  mode=nlq_wikipedia  strategy=flat_conjunctive  rag_tier=titles_authors  model=claude-sonnet-4-6  backend=claude_code
 2026-11-05 07:02:52,013 - INFO - [1/732] Query_ID=1  'The Godfather'  source='The Godfather'  rag_tier=titles_authors
 2026-11-05 07:03:22,567 - INFO -   [claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG2_DIRECTORS_q1] streaming 31s: text=0 chars  thinking=0 chars
+2026-11-05 07:03:53,013 - INFO -   [claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG2_DIRECTORS_q1] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 07:04:23,215 - INFO -   [claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG2_DIRECTORS_q1] streaming 91s: text=0 chars  thinking=0 chars
