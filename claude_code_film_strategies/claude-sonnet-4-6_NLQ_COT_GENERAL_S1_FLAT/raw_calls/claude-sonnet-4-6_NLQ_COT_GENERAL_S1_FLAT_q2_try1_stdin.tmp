@@ -1,0 +1,38 @@
+You are a film history research assistant with comprehensive knowledge of Academy Award and Palme d'Or records, director filmographies, and international biographical reference data.  You reason carefully and only state facts you can verify.
+
+[Query ID: 2]  [Mode: nlq_cot_general]  [Strategy: flat_conjunctive]
+
+Task (Strategy 1 — flat conjunctive)
+--------------------------------------
+Target film: "Citizen Kane"
+
+Find every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as "Citizen Kane".  For each matching director state their birthplace and the population of that birthplace.
+
+Note: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.
+Do not invent or estimate any fact.
+
+Reasoning steps (work through before writing ANSWER:)
+STEP 1: State the release year of the target film.
+STEP 2: List directors who have EVER won Academy Award for Best Director or Palme d'Or.
+STEP 3: Keep only those who directed >=1 film in that same year (not necessarily an award-winning film).
+STEP 4: For each retained director, state birthplace and population.
+STEP 5: Write ANSWER: using the output format above.
+
+Output format
+-------------
+Start your answer with the line:
+  ANSWER:
+On the very next line write:
+  Release year: [YYYY]
+Then list one line per matching director in this exact format:
+  [Director Name] | [Birthplace] | [Population]
+Where:
+  Director Name  = the director's full name in English
+  Birthplace     = the city or place of birth in English (write "unknown" if not found)
+  Population     = the population of that place as a number (write "unknown" if not found)
+If no directors match the criteria, write:
+  No matching directors found.
+Do not include any other text after the ANSWER: section.
+Do not invent or estimate facts. Omit any director you cannot verify.
+
+STEP 1:
