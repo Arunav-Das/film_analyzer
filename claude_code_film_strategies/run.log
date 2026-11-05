@@ -38,3 +38,13 @@
 2026-11-05 06:36:11,427 - INFO - GroundTruthStore loaded 22567 rows from 'df_gt_films.csv' spanning 732 S.No entries (592 with a resolvable year).
 2026-11-05 06:36:11,459 - WARNING - matplotlib unavailable (No module named 'matplotlib') - plots skipped
 2026-11-05 06:36:11,477 - INFO - Analysis written to claude_code_film_strategies/analysis (0 plots, report + CSVs)
+2026-11-05 06:52:20,522 - INFO - === run started: films_analyzer_inf.py --model claude-sonnet-4-6 --mode nlq_wikipedia --strategy flat_conjunctive --rag_tier no_evidence --max_queries 2 --max_new_tokens 3000 --timeout 600 --no-resume (script version 2026-11-05.1-film-claude-code) ===
+2026-11-05 06:52:20,523 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=3000  max_thinking_tokens=None  system_mode=neutral
+2026-11-05 06:52:20,523 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-05 06:52:23,934 - INFO - Validation OK - response: 'OK'
+2026-11-05 06:52:23,935 - INFO - No existing results file found. Starting fresh.
+2026-11-05 06:52:23,935 - INFO - Loading input data from: source_books_films.csv
+2026-11-05 06:52:23,946 - INFO - Loaded 732 rows.
+2026-11-05 06:52:23,947 - INFO - Processing 2/732 queries (0 already done)  mode=nlq_wikipedia  strategy=flat_conjunctive  rag_tier=no_evidence  model=claude-sonnet-4-6  backend=claude_code
+2026-11-05 06:52:23,948 - INFO - [1/732] Query_ID=1  'The Godfather'  source='The Godfather'  rag_tier=no_evidence
+2026-11-05 06:52:54,627 - INFO -   [claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_q1] streaming 31s: text=0 chars  thinking=0 chars
