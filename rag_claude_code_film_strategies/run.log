@@ -646,3 +646,4 @@
 2026-11-05 07:58:51,350 - INFO - [1/732] Query_ID=1  'The Godfather'  source='The Godfather'  rag_tier=full_with_distractors
 2026-11-05 07:59:21,784 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG6_DISTRACTORS_q1] streaming 30s: text=0 chars  thinking=0 chars
 2026-11-05 07:59:52,656 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG6_DISTRACTORS_q1] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 08:00:23,049 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG6_DISTRACTORS_q1] streaming 92s: text=0 chars  thinking=0 chars
