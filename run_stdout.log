@@ -1829,3 +1829,98 @@ FILM DIRECTOR ANALYSER - CLAUDE CODE   (script version 2026-11-05.1-film-claude-
 2026-11-05 07:57:09,476 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION_q2] streaming 62s: text=0 chars  thinking=0 chars
 2026-11-05 07:57:40,114 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION_q2] streaming 93s: text=0 chars  thinking=0 chars
 2026-11-05 07:58:10,763 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION_q2] streaming 124s: text=0 chars  thinking=0 chars
+2026-11-05 07:58:41,562 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION_q2] streaming 154s: text=0 chars  thinking=0 chars
+2026-11-05 07:58:43,422 - WARNING -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION_q2] hit the 3000-token output cap after 156s (text=156 chars, thinking=0 chars). Not retried. Raw: rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION_q2_try1_events.jsonl
+2026-11-05 07:58:43,422 - INFO -   OK 156.22s  status=truncated_length  year=  directors=0  rag_rows=51  text_chars=156  thinking_chars=0  usage={'input_tokens': 12, 'cache_creation_input_tokens': 12018, 'cache_read_input_tokens': 0, 'output_tokens': 12000, 'output_tokens_details': {'thinking_tokens': 11996}, 'server_tool_use': {'web_search_requests': 0, 'web_fetch_requests': 0}, 'service_tier': 'standard', 'cache_creation': {'ephemeral_1h_input_tokens': 12018, 'ephemeral_5m_input_tokens': 0}, 'inference_geo': 'global', 'iterations': [{'input_tokens': 3, 'output_tokens': 3000, 'cache_read_input_tokens': 0, 'cache_creation_input_tokens': 3066, 'cache_creation': {'ephemeral_5m_input_tokens': 0, 'ephemeral_1h_input_tokens': 3066}, 'type': 'message'}], 'speed': 'standard', 'fallback_credit': None}  cost_usd=0.252144
+2026-11-05 07:58:43,422 - WARNING -   TRUNCATED at the output cap (raw files: ['rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION_q2_try1_prompt.txt', 'rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION_q2_try1_events.jsonl', 'rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION_q2_try1_text.txt', 'rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION_q2_try1_stderr.txt'])
+2026-11-05 07:58:43,423 - INFO - Saved 2 results → rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION.json
+2026-11-05 07:58:43,424 - INFO - Saved 2 results → rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION.json
+2026-11-05 07:58:43,424 - INFO - ================================================================================
+2026-11-05 07:58:43,424 - INFO - SUMMARY  model=claude-sonnet-4-6  mode=nlq_cot_general  strategy=flat_conjunctive  rag=full_with_population  new=2  previously_done=0  total=2  errors=0
+2026-11-05 07:58:43,424 - INFO -   output -> rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION.json
+2026-11-05 07:58:43,424 - INFO - ================================================================================
+  done: total=2 success=2 errors=0 time=0:05:06.341338  -> rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG5_POPULATION.json
+
+========================================================================
+ALL RUNS COMPLETE
+  Total wall-clock time : 0:05:10.323897
+  Output root           : rag_claude_code_film_strategies
+========================================================================
+2026-11-05 07:58:44,380 - WARNING - GroundTruthStore: S.No=395 has inconsistent ReleaseYear values {'1997': 43, '1998': 40} — using majority year 1997.
+2026-11-05 07:58:44,381 - WARNING - GroundTruthStore: S.No=511 has inconsistent ReleaseYear values {'1927': 21, '1926': 23} — using majority year 1926.
+2026-11-05 07:58:44,381 - WARNING - GroundTruthStore: S.No=650 has inconsistent ReleaseYear values {'1997': 22, '2000': 15} — using majority year 1997.
+2026-11-05 07:58:44,381 - WARNING - GroundTruthStore: S.No=652 has inconsistent ReleaseYear values {'1992': 20, '2000': 27} — using majority year 2000.
+2026-11-05 07:58:44,381 - INFO - GroundTruthStore loaded 22567 rows from 'df_gt_films.csv' spanning 732 S.No entries (592 with a resolvable year).
+2026-11-05 07:58:45,755 - INFO - Analysis written to rag_claude_code_film_strategies/analysis (8 plots, report + CSVs)
+====================================================================================================
+FILM DIRECTOR ANALYSER (CLAUDE CODE) - ANALYSIS REPORT
+generated 2026-11-05T07:58:45  (script version 2026-11-05.1-film-claude-code)
+====================================================================================================
+
+1. SCOPE
+  records=28  models=1  modes=3  strategies=1  rag_tiers=6  system modes=['neutral']
+  Backend: `claude -p` in a Claude Code cloud session; temperature / top_p not controllable; tools disabled; raw events per call in <cell dir>/raw_calls.
+  Ground-truth scoring: ON (28 scored records; a film with no GT rows, or with a GT retrieval error, is not scored)
+
+2. HEADLINE (all records pooled)
+  records                   28
+  error_rate                0.0000
+  truncated_rate            1.0000
+  empty_rate                0.0000
+  degenerate_rate           0.0000
+  no_result_rate            0.9643
+  mean_directors            1.0714
+  year_accuracy             1.0000
+  pop_numeric_rate          0.6667
+  gt_scored                 28
+  gt_precision              1.0000
+  gt_recall                 0.0383
+  gt_f1                     0.0737
+  gt_birthplace_acc         0.7333
+  gt_pop_within_5pct        1.0000
+
+  Full report: rag_claude_code_film_strategies/analysis/analysis_report.txt
+########## END mode=nlq_cot_general rag_tier=full_with_population exit=0 end=2026-11-05T07:58:45+00:00 ##########
+########## RUN mode=nlq_cot_general rag_tier=full_with_distractors start=2026-11-05T07:58:45+00:00 ##########
+2026-11-05 07:58:46,540 - INFO - === run started: films_analyzer_inf.py --model claude-sonnet-4-6 --mode nlq_cot_general --strategy flat_conjunctive --rag_tier full_with_distractors --max_queries 2 --max_new_tokens 3000 --timeout 600 --no-resume (script version 2026-11-05.1-film-claude-code) ===
+========================================================================
+FILM DIRECTOR ANALYSER - CLAUDE CODE   (script version 2026-11-05.1-film-claude-code)
+========================================================================
+  Models (1) : claude-sonnet-4-6
+  Mode             : nlq_cot_general   (source column: Film Title)
+  Strategy(ies)    : flat_conjunctive
+  RAG tier         : full_with_distractors
+  Output root      : rag_claude_code_film_strategies   <-- RAG output (separate from non-RAG)
+  Source file      : source_books_films.csv  (no year column — resolved from ground truth when RAG is active)
+  Reference file   : directors_films_by_year.csv
+  Ground truth file: df_gt_films.csv
+  System mode      : neutral
+  Resume           : OFF (--no-resume)
+  Max new tokens   : 3000 per call; max thinking tokens: None; timeout 600s
+  Max queries      : 2
+  Award criterion  : Academy Award for Best Director OR the Palme d'Or
+========================================================================
+2026-11-05 07:58:47,481 - WARNING - GroundTruthStore: S.No=395 has inconsistent ReleaseYear values {'1997': 43, '1998': 40} — using majority year 1997.
+2026-11-05 07:58:47,481 - WARNING - GroundTruthStore: S.No=511 has inconsistent ReleaseYear values {'1927': 21, '1926': 23} — using majority year 1926.
+2026-11-05 07:58:47,481 - WARNING - GroundTruthStore: S.No=650 has inconsistent ReleaseYear values {'1997': 22, '2000': 15} — using majority year 1997.
+2026-11-05 07:58:47,481 - WARNING - GroundTruthStore: S.No=652 has inconsistent ReleaseYear values {'1992': 20, '2000': 27} — using majority year 2000.
+2026-11-05 07:58:47,481 - INFO - GroundTruthStore loaded 22567 rows from 'df_gt_films.csv' spanning 732 S.No entries (592 with a resolvable year).
+
+########################################################################
+  MODEL [1/1] claude-sonnet-4-6
+########################################################################
+2026-11-05 07:58:47,483 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=3000  max_thinking_tokens=None  system_mode=neutral
+2026-11-05 07:58:47,483 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-05 07:58:51,343 - INFO - Validation OK - response: 'OK'
+
+------------------------------------------------------------------------
+  claude-sonnet-4-6 | nlq_cot_general | flat_conjunctive (S1_FLAT) | RAG: full_with_distractors
+  Hint: Apply all conditions simultaneously in a single pass.
+------------------------------------------------------------------------
+2026-11-05 07:58:51,344 - INFO - No existing results file found. Starting fresh.
+2026-11-05 07:58:51,344 - INFO - Loading input data from: source_books_films.csv
+2026-11-05 07:58:51,349 - INFO - Loaded 732 rows.
+2026-11-05 07:58:51,350 - INFO - Processing 2/732 queries (0 already done)  mode=nlq_cot_general  strategy=flat_conjunctive  rag_tier=full_with_distractors  model=claude-sonnet-4-6  backend=claude_code
+2026-11-05 07:58:51,350 - INFO - [1/732] Query_ID=1  'The Godfather'  source='The Godfather'  rag_tier=full_with_distractors
+2026-11-05 07:59:21,784 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG6_DISTRACTORS_q1] streaming 30s: text=0 chars  thinking=0 chars
+2026-11-05 07:59:52,656 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG6_DISTRACTORS_q1] streaming 61s: text=0 chars  thinking=0 chars

@@ -1,5 +1,6 @@
 ﻿model_alias,mode,strategy,rag_tier,system_mode,records,error_rate,truncated_rate,empty_rate,degenerate_rate,no_result_rate,mean_directors,year_accuracy,pop_numeric_rate,gt_scored,gt_precision,gt_recall,gt_f1,gt_birthplace_acc,gt_pop_within_5pct,mean_latency_s,mean_completion_tokens,mean_text_chars,mean_thinking_chars,total_cost_usd
 claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,full_with_birthplace,neutral,2,0.0,1.0,0.0,0.0,1.0,0.0,,,2,,0.0,,,,152.8945,12000.0,156.0,0.0,0.489288
+claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,full_with_population,neutral,2,0.0,1.0,0.0,0.0,1.0,0.0,,,2,,0.0,,,,153.164,12000.0,156.0,0.0,0.49869600000000003
 claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,titles_authors,neutral,2,0.0,1.0,0.0,0.0,1.0,0.0,,,2,,0.0,,,,147.797,12000.0,156.0,0.0,0.477768
 claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,titles_authors_prize,neutral,2,0.0,1.0,0.0,0.0,1.0,0.0,,,2,,0.0,,,,149.26049999999998,12000.0,156.0,0.0,0.497904
 claude-sonnet-4-6,nlq_cot_general,flat_conjunctive,year_list_only,neutral,2,0.0,1.0,0.0,0.0,1.0,0.0,,,2,,0.0,,,,149.6505,12000.0,156.0,0.0,0.46536

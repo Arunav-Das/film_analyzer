@@ -1,0 +1,134 @@
+[SYSTEM]
+You are a helpful assistant. Answer the user's message directly in plain text.
+
+[USER]
+You are a film history research assistant with comprehensive knowledge of Academy Award and Palme d'Or records, director filmographies, and international biographical reference data.  You reason carefully and only state facts you can verify.
+
+[Query ID: 1]  [Mode: nlq_cot_general]  [Strategy: flat_conjunctive]
+
+Task (Strategy 1 — flat conjunctive)
+--------------------------------------
+Target film: "The Godfather"
+
+RETRIEVED EVIDENCE (S.No=1, release year = 1972)
+------------------------------------------------------------
+Complete evidence including population:
+  - [Oscar] Bernardo Bertolucci | birthplace=Parma | population=202111
+  - [Oscar] Billy Wilder | birthplace=unknown | population=unknown
+  - [Palme D'or] Billy Wilder | birthplace=unknown | population=unknown
+  - [Oscar] Bob Fosse | birthplace=Illinois | population=unknown
+  - [Oscar] Bob Fosse | birthplace=Chicago (musical) | population=unknown
+  - [Palme D'or] Bob Fosse | birthplace=Illinois | population=unknown
+  - [Palme D'or] Bob Fosse | birthplace=Chicago (musical) | population=unknown
+  - [Oscar] Carol Reed | birthplace=Putney | population=77140
+  - [Palme D'or] Carol Reed | birthplace=Putney | population=77140
+  - [Palme D'or] Claude Lelouch | birthplace=Paris | population=2048472
+  - [Oscar] Delbert Mann | birthplace=Lawrence, Kansas | population=94934
+  - [Palme D'or] Delbert Mann | birthplace=Lawrence, Kansas | population=94934
+  - [Palme D'or] Edward Dmytryk | birthplace=Grand Forks, British Columbia | population=4112
+  - [Oscar] Elia Kazan | birthplace=unknown | population=unknown
+  - [Palme D'or] Federico Fellini | birthplace=Rimini | population=150630
+  - [Oscar] Francis Ford Coppola | birthplace=Detroit | population=639111
+  - [Palme D'or] Francis Ford Coppola | birthplace=Detroit | population=639111
+  - [Oscar] George Cukor | birthplace=unknown | population=unknown
+  - [Oscar] George Roy Hill | birthplace=Minneapolis | population=429954
+  - [Palme D'or] Jacques Demy | birthplace=Pontchâteau | population=unknown
+  - [Oscar] John G. Avildsen | birthplace=Oak Park, Illinois | population=51282
+  - [Oscar] John Huston | birthplace=Nevada, Missouri | population=8212
+  - [Oscar] Joseph L. Mankiewicz | birthplace=Wilkes-Barre, Pennsylvania | population=44328
+  - [Palme D'or] Joseph Losey | birthplace=La Crosse, Wisconsin | population=52680
+  - [Palme D'or] Luis Buñuel | birthplace=Spain | population=49315949
+  - [Palme D'or] Luis Buñuel | birthplace=Calanda, Spain | population=unknown
+  - [Oscar] Martin Scorsese | birthplace=unknown | population=unknown
+  - [Palme D'or] Martin Scorsese | birthplace=unknown | population=unknown
+  - [Palme D'or] Michelangelo Antonioni | birthplace=Ferrara | population=132009
+  - [Palme D'or] Michelangelo Antonioni | birthplace=Kingdom of Italy | population=unknown
+  - [Palme D'or] Pietro Germi | birthplace=Genoa | population=564919
+  - [Oscar] Richard Attenborough | birthplace=Cambridge | population=unknown
+  - [Palme D'or] Robert Altman | birthplace=Kansas City, Missouri | population=508090
+  - [Oscar] Robert Benton | birthplace=Dallas | population=1304379
+  - [Oscar] Roman Polanski | birthplace=unknown | population=unknown
+  - [Palme D'or] Roman Polanski | birthplace=unknown | population=unknown
+  - [Oscar] Steven Spielberg | birthplace=Cincinnati | population=309317
+  - [Oscar] Sydney Pollack | birthplace=Lafayette, Indiana | population=70783
+  - [Palme D'or] Vittorio De Sica | birthplace=Sora, Lazio | population=24733
+  - [Oscar] Woody Allen | birthplace=New York City | population=8804190
+  - [Palme D'or] Yılmaz Güney | birthplace=Turkey | population=85664944
+  - [Palme D'or] Yılmaz Güney | birthplace=Yenice, Yüreğir | population=unknown
+
+Additional records from OTHER films/years (DISTRACTORS — belong to a DIFFERENT S.No/film; do NOT use unless independently verified relevant):
+  - [S.No=552, year=1998, Oscar] The Idiots | Bernardo Bertolucci
+  - [S.No=49, year=1953, Oscar] From Here to Eternity | William Wyler
+  - [S.No=52, year=1965, Palme D'or] The Sound of Music (film) | Luchino Visconti
+  - [S.No=621, year=1981, Oscar] Blow Out | George Cukor
+  - [S.No=553, year=1996, Palme D'or] Breaking the Waves | Mike Leigh
+  - [S.No=329, year=2019, Palme D'or] Once Upon a Time in Hollywood | Martin Scorsese
+  - [S.No=394, year=2000, Oscar] Platform (film) | Woody Allen
+  - [S.No=537, year=1969, Palme D'or] Funeral Parade of Roses | Volker Schlöndorff
+  - [S.No=300, year=2019, Oscar] Portrait of a Lady on Fire | Sam Mendes
+  - [S.No=674, year=1988, Oscar] Tucker: The Man and His Dream | Robert Zemeckis
+  - [S.No=641, year=1979, Palme D'or] The Brood | Andrzej Wajda
+  - [S.No=618, year=1967, Palme D'or] Belle de Jour (film) | Volker Schlöndorff
+  - [S.No=464, year=1964, Palme D'or] Charulata | Shōhei Imamura
+  - [S.No=152, year=2019, Palme D'or] Little Women (film) | Abdellatif Kechiche
+  - [S.No=521, year=1962, Oscar] Sanjuro | Vincente Minnelli
+  - [S.No=404, year=2001, Palme D'or] Millennium Mambo | Paolo and Vittorio Taviani
+  - [S.No=608, year=2018, Palme D'or] Birds of Passage (film) | Mike Leigh
+  - [S.No=198, year=1977, Palme D'or] Valentino (film) | Andrzej Wajda
+  - [S.No=51, year=1930, Oscar] All Quiet on the Western Front (film) | Lewis Milestone
+  - [S.No=271, year=2016, Palme D'or] The Neon Demon | Hirokazu Kore-eda
+  - [S.No=375, year=2008, Oscar] Shirin (film) | Danny Boyle
+  - [S.No=130, year=1975, Palme D'or] Monty Python and the Holy Grail | Lindsay Anderson
+  - [S.No=35, year=1946, Oscar] The Best Years of Our Lives | Michael Curtiz
+  - [S.No=116, year=2007, Palme D'or] There Will Be Blood | David Lynch
+  - [S.No=77, year=1954, Palme D'or] Seven Samurai | René Clément
+  - [S.No=337, year=1974, Palme D'or] Alice Doesn't Live Here Anymore | Robert Altman
+  - [S.No=325, year=2003, Palme D'or] Kill Bill: Volume 1 | Jafar Panahi
+  - [S.No=569, year=1946, Oscar] A Matter of Life and Death (film) | Lewis Milestone
+  - [S.No=562, year=1997, Palme D'or] Funny Games (film) | Abbas Kiarostami
+  - [S.No=337, year=1974, Oscar] Alice Doesn't Live Here Anymore | Tony Richardson
+  - [S.No=104, year=1984, Palme D'or] Once Upon a Time in America | Richard Lester
+  - [S.No=712, year=1935, Oscar] A Night at the Opera (film) | Lewis Milestone
+  - [S.No=48, year=1940, Oscar] The Philadelphia Story (film) | Lewis Milestone
+  - [S.No=471, year=1971, Oscar] Seemabaddha | Miloš Forman
+  - [S.No=596, year=2008, Oscar] Tokyo Sonata | Jonathan Demme
+  - [S.No=567, year=2009, Oscar] Dogtooth (film) | Damien Chazelle
+  - [S.No=412, year=2013, Oscar] Stray Dogs (film) | Danny Boyle
+  - [S.No=383, year=2002, Palme D'or] Uzak | Costa-Gavras
+  - [S.No=599, year=2005, Oscar] A Bittersweet Life | Christopher Nolan
+  - [S.No=490, year=1989, Oscar] Hamoun (film) | Steven Soderbergh
+  - [S.No=530, year=1962, Palme D'or] An Autumn Afternoon | Joseph Losey
+  - [S.No=332, year=2002, Palme D'or] Insomnia (film) | Dardenne brothers
+------------------------------------------------------------
+Use the evidence above only where it is directly relevant to THIS film's S.No and year. Do not use distractor or mismatched-year rows as qualifying. Where evidence is silent or marked unknown/NO RESULT, rely on your own verified knowledge rather than inventing a fact.
+
+Find every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as "The Godfather".  For each matching director state their birthplace and the population of that birthplace.
+
+Note: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.
+Do not invent or estimate any fact.
+
+Reasoning steps (work through before writing ANSWER:)
+STEP 1: State the release year of the target film.
+STEP 2: List directors who have EVER won Academy Award for Best Director or Palme d'Or.
+STEP 3: Keep only those who directed >=1 film in that same year (not necessarily an award-winning film).
+STEP 4: For each retained director, state birthplace and population.
+STEP 5: Write ANSWER: using the output format above.
+
+Output format
+-------------
+Start your answer with the line:
+  ANSWER:
+On the very next line write:
+  Release year: [YYYY]
+Then list one line per matching director in this exact format:
+  [Director Name] | [Birthplace] | [Population]
+Where:
+  Director Name  = the director's full name in English
+  Birthplace     = the city or place of birth in English (write "unknown" if not found)
+  Population     = the population of that place as a number (write "unknown" if not found)
+If no directors match the criteria, write:
+  No matching directors found.
+Do not include any other text after the ANSWER: section.
+Do not invent or estimate facts. Omit any director you cannot verify.
+
+STEP 1:
