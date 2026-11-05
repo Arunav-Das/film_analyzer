@@ -2,3 +2,4 @@
 claude-sonnet-4-6,nlq_general,flat_conjunctive,full_with_birthplace,neutral,2,0.0,1.0,0.0,0.0,1.0,0.0,,,2,,0.0,,,,160.958,12000.0,156.0,0.0,0.483576
 claude-sonnet-4-6,nlq_general,flat_conjunctive,full_with_distractors,neutral,2,0.0,1.0,0.0,0.0,1.0,0.0,,,2,,0.0,,,,160.34300000000002,12000.0,156.0,0.0,0.564504
 claude-sonnet-4-6,nlq_general,flat_conjunctive,full_with_population,neutral,2,0.0,1.0,0.0,0.0,1.0,0.0,,,2,,0.0,,,,150.71800000000002,12000.0,156.0,0.0,0.492912
+claude-sonnet-4-6,nlq_wikipedia,flat_conjunctive,year_list_only,neutral,2,0.0,1.0,0.0,0.0,1.0,0.0,,,2,,0.0,,,,145.54649999999998,12000.0,156.0,0.0,0.459504
