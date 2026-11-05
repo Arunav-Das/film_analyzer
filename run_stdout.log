@@ -1281,3 +1281,7 @@ FILM DIRECTOR ANALYSER - CLAUDE CODE   (script version 2026-11-05.1-film-claude-
 2026-11-05 07:27:22,178 - INFO - Processing 2/732 queries (0 already done)  mode=nlq_cot_general  strategy=flat_conjunctive  rag_tier=no_evidence  model=claude-sonnet-4-6  backend=claude_code
 2026-11-05 07:27:22,178 - INFO - [1/732] Query_ID=1  'The Godfather'  source='The Godfather'  rag_tier=no_evidence
 2026-11-05 07:27:52,513 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_q1] streaming 30s: text=0 chars  thinking=0 chars
+2026-11-05 07:28:22,571 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_q1] streaming 60s: text=0 chars  thinking=0 chars
+2026-11-05 07:28:53,425 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_q1] streaming 91s: text=0 chars  thinking=0 chars
+2026-11-05 07:29:23,708 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_q1] streaming 122s: text=0 chars  thinking=0 chars
+2026-11-05 07:29:54,227 - INFO -   [claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_q1] streaming 152s: text=0 chars  thinking=0 chars
