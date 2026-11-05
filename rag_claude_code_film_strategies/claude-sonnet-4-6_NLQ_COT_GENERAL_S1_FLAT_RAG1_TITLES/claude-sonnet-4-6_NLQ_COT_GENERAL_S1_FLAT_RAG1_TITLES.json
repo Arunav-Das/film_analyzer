@@ -19,9 +19,9 @@
     "source_file": "source_books_films.csv",
     "reference_file": "directors_films_by_year.csv",
     "ground_truth_file": "df_gt_films.csv",
-    "timestamp": "2026-11-05T07:35:29.180484",
-    "total_queries": 1,
-    "successful_records": 1,
+    "timestamp": "2026-11-05T07:38:04.509759",
+    "total_queries": 2,
+    "successful_records": 2,
     "error_records": 0,
     "max_output_tokens_requested": 3000,
     "max_thinking_tokens_env": null,
@@ -147,6 +147,109 @@
       ],
       "generation_time_seconds": 143.975,
       "processing_timestamp": "2026-11-05T07:35:29.179940",
+      "prompt_builder": "v5_strategy_preamble",
+      "attention_mean": 0.0,
+      "attention_min": 0.0,
+      "attention_max": 0.0,
+      "attention_std": 0.0,
+      "attention_entropy": 0.0,
+      "hidden_state_norm_mean": 0.0,
+      "hidden_state_norm_min": 0.0,
+      "hidden_state_norm_max": 0.0,
+      "hidden_state_norm_std": 0.0,
+      "token_prob_mean": 0.0,
+      "token_prob_min": 0.0,
+      "token_prob_max": 0.0,
+      "token_prob_p10": 0.0,
+      "token_prob_p90": 0.0,
+      "confidence_score": 0.0,
+      "perplexity_estimate": 0.0
+    },
+    {
+      "Query_ID": 2,
+      "Film_Title": "Citizen Kane",
+      "Source_URI": "http://dbpedia.org/resource/Citizen_Kane",
+      "SPARQL_URI": "http://dbpedia.org/resource/Citizen_Kane",
+      "Wikidata_QID": "Q24815",
+      "Source_ReleaseYear": "1941",
+      "mode": "nlq_cot_general",
+      "strategy": "flat_conjunctive",
+      "rag_tier": "year_list_only",
+      "rag_evidence_injected": true,
+      "system_mode_requested": "neutral",
+      "model_alias": "claude-sonnet-4-6",
+      "model_id": "claude-sonnet-4-6",
+      "model_family": "claude",
+      "system_mode": "native",
+      "prompt_sent": "You are a film history research assistant with comprehensive knowledge of Academy Award and Palme d'Or records, director filmographies, and international biographical reference data.  You reason carefully and only state facts you can verify.\n\n[Query ID: 2]  [Mode: nlq_cot_general]  [Strategy: flat_conjunctive]\n\nTask (Strategy 1 — flat conjunctive)\n--------------------------------------\nTarget film: \"Citizen Kane\"\n\nRETRIEVED EVIDENCE (S.No=2, release year = 1941)\n------------------------------------------------------------\nFilms released in this year (source: reference index):\n  - A Letter from Home (film)\n  - A Letter from Home (film)\n  - A Woman's Face\n  - Babes on Broadway\n  - Babes on Broadway\n  - Confessions of Boston Blackie\n  - Design for Scandal\n  - Dive Bomber (film)\n  - Dr. Jekyll and Mr. Hyde (1941 film)\n  - Dumbo\n  - Far skal giftes\n  - Forbidden Passage\n  - Frøken Kirkemus\n  - Home from Babylon\n  - How Green Was My Valley (film)\n  - Jan Cimbura\n  - Kipps (1941 film)\n  - Kipps (1941 film)\n  - Major Barbara (film)\n  - Major Barbara (film)\n  - Meet John Doe\n  - Men of Boys Town\n  - My Life with Caroline\n  - Nocturnal Butterfly\n  - Penny Serenade\n  - Secrets of the Lone Wolf\n  - Smilin' Through (1941 film)\n  - Sweetheart of the Campus\n  - Teresa Venerdì\n  - The Black Diamond (1941 film)\n  - The Blonde from Singapore\n  - The Devil Commands\n  - The Lady from Cheyenne\n  - The Little Foxes (film)\n  - The Little Foxes (film)\n  - The Maltese Falcon (1941 film)\n  - The Sea Wolf (1941 film)\n  - The White Ship (1941 film)\n  - This Woman Is Mine\n  - Tobacco Road (film)\n  - Tror du jeg er født i går!\n  - Two-Faced Woman\n  - Under Age (1941 film)\n  - Valery Chkalov (film)\n  - Women in Defense\n------------------------------------------------------------\nUse the evidence above only where it is directly relevant to THIS film's S.No and year. Do not use distractor or mismatched-year rows as qualifying. Where evidence is silent or marked unknown/NO RESULT, rely on your own verified knowledge rather than inventing a fact.\n\nFind every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as \"Citizen Kane\".  For each matching director state their birthplace and the population of that birthplace.\n\nNote: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.\nDo not invent or estimate any fact.\n\nReasoning steps (work through before writing ANSWER:)\nSTEP 1: State the release year of the target film.\nSTEP 2: List directors who have EVER won Academy Award for Best Director or Palme d'Or.\nSTEP 3: Keep only those who directed >=1 film in that same year (not necessarily an award-winning film).\nSTEP 4: For each retained director, state birthplace and population.\nSTEP 5: Write ANSWER: using the output format above.\n\nOutput format\n-------------\nStart your answer with the line:\n  ANSWER:\nOn the very next line write:\n  Release year: [YYYY]\nThen list one line per matching director in this exact format:\n  [Director Name] | [Birthplace] | [Population]\nWhere:\n  Director Name  = the director's full name in English\n  Birthplace     = the city or place of birth in English (write \"unknown\" if not found)\n  Population     = the population of that place as a number (write \"unknown\" if not found)\nIf no directors match the criteria, write:\n  No matching directors found.\nDo not include any other text after the ANSWER: section.\nDo not invent or estimate facts. Omit any director you cannot verify.\n\nSTEP 1:",
+      "rag_rows_injected": 45,
+      "est_prompt_tokens": 915,
+      "Generated_Response": "API Error: Claude's response exceeded the 3000 output token maximum. To configure this behavior, set the CLAUDE_CODE_MAX_OUTPUT_TOKENS environment variable.",
+      "Parse_Text_Altered": false,
+      "Degenerate_Flag": false,
+      "Degenerate_Reason": "",
+      "Parsed_Rows": [
+        {
+          "ReleaseYear": "",
+          "Director": "NO RESULT",
+          "Birthplace": "",
+          "PopCount": "",
+          "JointConfidence": ""
+        }
+      ],
+      "ReleaseYear_Parsed": "",
+      "Director_Parsed": "NO RESULT",
+      "Birthplace_Parsed": "",
+      "PopCount_Parsed": "",
+      "JointConfidence_Parsed": "",
+      "generation_status": "truncated_length",
+      "finish_reason": "output_token_cap",
+      "max_tokens_sent": 3000,
+      "usage": {
+        "input_tokens": 12,
+        "cache_creation_input_tokens": 8618,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 12000,
+        "output_tokens_details": {
+          "thinking_tokens": 11999
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 8618,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 3,
+            "output_tokens": 3000,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 2216,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 2216
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd_reported": 0.231744,
+      "thinking_chars": 0,
+      "text_chars": 156,
+      "raw_files": [
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG1_TITLES/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG1_TITLES_q2_try1_prompt.txt",
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG1_TITLES/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG1_TITLES_q2_try1_events.jsonl",
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG1_TITLES/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG1_TITLES_q2_try1_text.txt",
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG1_TITLES/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG1_TITLES_q2_try1_stderr.txt"
+      ],
+      "generation_time_seconds": 155.326,
+      "processing_timestamp": "2026-11-05T07:38:04.508551",
       "prompt_builder": "v5_strategy_preamble",
       "attention_mean": 0.0,
       "attention_min": 0.0,
