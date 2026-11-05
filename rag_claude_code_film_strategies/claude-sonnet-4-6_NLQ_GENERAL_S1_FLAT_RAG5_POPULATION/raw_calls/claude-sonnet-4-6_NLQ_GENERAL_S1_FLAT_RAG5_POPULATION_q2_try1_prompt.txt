@@ -1,0 +1,92 @@
+[SYSTEM]
+You are a helpful assistant. Answer the user's message directly in plain text.
+
+[USER]
+You are a film history research assistant with comprehensive knowledge of Academy Award and Palme d'Or records, director filmographies, and international biographical reference data.  You reason carefully and only state facts you can verify.
+
+[Query ID: 2]  [Mode: nlq_general]  [Strategy: flat_conjunctive]
+
+Task (Strategy 1 — flat conjunctive)
+--------------------------------------
+Target film: "Citizen Kane"
+
+RETRIEVED EVIDENCE (S.No=2, release year = 1941)
+------------------------------------------------------------
+Complete evidence including population:
+  - [Palme D'or] Alf Sjöberg | birthplace=Stockholm | population=984748
+  - [Palme D'or] Alf Sjöberg | birthplace=Sweden | population=10588230
+  - [Palme D'or] Ben Sharpsteen | birthplace=Tacoma, Washington | population=219346
+  - [Oscar] Carol Reed | birthplace=Putney | population=77140
+  - [Palme D'or] Carol Reed | birthplace=Putney | population=77140
+  - [Oscar] David Lean | birthplace=Surrey | population=unknown
+  - [Palme D'or] David Lean | birthplace=Surrey | population=unknown
+  - [Oscar] David Lean | birthplace=Croydon | population=192064
+  - [Palme D'or] David Lean | birthplace=Croydon | population=192064
+  - [Palme D'or] Edward Dmytryk | birthplace=Grand Forks, British Columbia | population=4112
+  - [Oscar] Frank Borzage | birthplace=Salt Lake City | population=199723
+  - [Oscar] Frank Capra | birthplace=Sicily | population=4779371
+  - [Oscar] Frank Capra | birthplace=Kingdom of Italy | population=unknown
+  - [Oscar] Frank Capra | birthplace=Bisacquino | population=4527
+  - [Oscar] Frank Lloyd | birthplace=Lanarkshire | population=unknown
+  - [Oscar] Frank Lloyd | birthplace=Cambuslang | population=unknown
+  - [Palme D'or] František Čáp | birthplace=Austria-Hungary | population=51390223
+  - [Palme D'or] František Čáp | birthplace=Bohemia | population=6880000
+  - [Palme D'or] František Čáp | birthplace=Čachovice | population=882
+  - [Oscar] Fred Zinnemann | birthplace=Rzeszów | population=198317
+  - [Oscar] Fred Zinnemann | birthplace=Austria-Hungary | population=51390223
+  - [Oscar] George Cukor | birthplace=unknown | population=unknown
+  - [Oscar] George Stevens | birthplace=Oakland, California | population=440646
+  - [Palme D'or] Jean Delannoy | birthplace=French Third Republic | population=unknown
+  - [Palme D'or] Jean Delannoy | birthplace=Île-de-France | population=12271794
+  - [Palme D'or] Jean Delannoy | birthplace=Noisy-le-Sec | population=unknown
+  - [Oscar] John Ford | birthplace=Cape Elizabeth, Maine | population=9535
+  - [Oscar] John Huston | birthplace=Nevada, Missouri | population=8212
+  - [Palme D'or] Lau Lauritzen Jr. | birthplace=Vejle | population=unknown
+  - [Oscar] Lewis Milestone | birthplace=Chișinău | population=719687
+  - [Oscar] Lewis Milestone | birthplace=Russian Empire | population=unknown
+  - [Oscar] Lewis Milestone | birthplace=Bessarabia Governorate | population=1935412
+  - [Oscar] Michael Curtiz | birthplace=Budapest | population=1685209
+  - [Oscar] Michael Curtiz | birthplace=Austria-Hungary | population=51390223
+  - [Palme D'or] Mikhail Kalatozov | birthplace=Tbilisi | population=1330217
+  - [Palme D'or] Mikhail Kalatozov | birthplace=Russian Empire | population=unknown
+  - [Oscar] Norman Taurog | birthplace=Chicago | population=2746388
+  - [Oscar] Norman Taurog | birthplace=Illinois | population=unknown
+  - [Palme D'or] Orson Welles | birthplace=Kenosha, Wisconsin | population=99986
+  - [Palme D'or] Roberto Rossellini | birthplace=Rome | population=2746984
+  - [Palme D'or] Roberto Rossellini | birthplace=Kingdom of Italy | population=unknown
+  - [Oscar] Victor Fleming | birthplace=La Cañada Flintridge, California | population=20573
+  - [Palme D'or] Vincente Minnelli | birthplace=Chicago | population=2746388
+  - [Oscar] Vincente Minnelli | birthplace=Chicago | population=2746388
+  - [Palme D'or] Vittorio De Sica | birthplace=Sora, Lazio | population=24733
+  - [Oscar] William Wyler | birthplace=German Empire | population=unknown
+  - [Palme D'or] William Wyler | birthplace=German Empire | population=unknown
+  - [Palme D'or] William Wyler | birthplace=Mulhouse | population=unknown
+  - [Oscar] William Wyler | birthplace=Mulhouse | population=unknown
+  - [Oscar] William Wyler | birthplace=Alsace–Lorraine | population=unknown
+  - [Palme D'or] William Wyler | birthplace=Alsace–Lorraine | population=unknown
+------------------------------------------------------------
+Use the evidence above only where it is directly relevant to THIS film's S.No and year. Do not use distractor or mismatched-year rows as qualifying. Where evidence is silent or marked unknown/NO RESULT, rely on your own verified knowledge rather than inventing a fact.
+
+Find every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as "Citizen Kane".  For each matching director state their birthplace and the population of that birthplace.
+
+Note: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.
+Do not invent or estimate any fact.
+
+Output format
+-------------
+Start your answer with the line:
+  ANSWER:
+On the very next line write:
+  Release year: [YYYY]
+Then list one line per matching director in this exact format:
+  [Director Name] | [Birthplace] | [Population]
+Where:
+  Director Name  = the director's full name in English
+  Birthplace     = the city or place of birth in English (write "unknown" if not found)
+  Population     = the population of that place as a number (write "unknown" if not found)
+If no directors match the criteria, write:
+  No matching directors found.
+Do not include any other text after the ANSWER: section.
+Do not invent or estimate facts. Omit any director you cannot verify.
+
+ANSWER:
