@@ -19,9 +19,9 @@
     "source_file": "source_books_films.csv",
     "reference_file": "directors_films_by_year.csv",
     "ground_truth_file": "df_gt_films.csv",
-    "timestamp": "2026-11-05T07:20:45.285190",
-    "total_queries": 1,
-    "successful_records": 1,
+    "timestamp": "2026-11-05T07:23:15.883554",
+    "total_queries": 2,
+    "successful_records": 2,
     "error_records": 0,
     "max_output_tokens_requested": 3000,
     "max_thinking_tokens_env": null,
@@ -147,6 +147,109 @@
       ],
       "generation_time_seconds": 142.1,
       "processing_timestamp": "2026-11-05T07:20:45.284916",
+      "prompt_builder": "v5_strategy_preamble",
+      "attention_mean": 0.0,
+      "attention_min": 0.0,
+      "attention_max": 0.0,
+      "attention_std": 0.0,
+      "attention_entropy": 0.0,
+      "hidden_state_norm_mean": 0.0,
+      "hidden_state_norm_min": 0.0,
+      "hidden_state_norm_max": 0.0,
+      "hidden_state_norm_std": 0.0,
+      "token_prob_mean": 0.0,
+      "token_prob_min": 0.0,
+      "token_prob_max": 0.0,
+      "token_prob_p10": 0.0,
+      "token_prob_p90": 0.0,
+      "confidence_score": 0.0,
+      "perplexity_estimate": 0.0
+    },
+    {
+      "Query_ID": 2,
+      "Film_Title": "Citizen Kane",
+      "Source_URI": "http://dbpedia.org/resource/Citizen_Kane",
+      "SPARQL_URI": "http://dbpedia.org/resource/Citizen_Kane",
+      "Wikidata_QID": "Q24815",
+      "Source_ReleaseYear": "1941",
+      "mode": "nlq_wikipedia",
+      "strategy": "flat_conjunctive",
+      "rag_tier": "full_with_population",
+      "rag_evidence_injected": true,
+      "system_mode_requested": "neutral",
+      "model_alias": "claude-sonnet-4-6",
+      "model_id": "claude-sonnet-4-6",
+      "model_family": "claude",
+      "system_mode": "native",
+      "prompt_sent": "You are an encyclopaedic film research assistant. You reason exclusively from information consistent with Wikipedia articles, infoboxes, and filmography tables. You do not include any fact not clearly supported by encyclopaedic sources.\n\n[Query ID: 2]  [Mode: nlq_wikipedia]  [Strategy: flat_conjunctive]\n\nTask (Strategy 1 — flat conjunctive)\n--------------------------------------\nTarget film: \"Citizen Kane\"\n\nRETRIEVED EVIDENCE (S.No=2, release year = 1941)\n------------------------------------------------------------\nComplete evidence including population:\n  - [Palme D'or] Alf Sjöberg | birthplace=Stockholm | population=984748\n  - [Palme D'or] Alf Sjöberg | birthplace=Sweden | population=10588230\n  - [Palme D'or] Ben Sharpsteen | birthplace=Tacoma, Washington | population=219346\n  - [Oscar] Carol Reed | birthplace=Putney | population=77140\n  - [Palme D'or] Carol Reed | birthplace=Putney | population=77140\n  - [Oscar] David Lean | birthplace=Surrey | population=unknown\n  - [Palme D'or] David Lean | birthplace=Surrey | population=unknown\n  - [Oscar] David Lean | birthplace=Croydon | population=192064\n  - [Palme D'or] David Lean | birthplace=Croydon | population=192064\n  - [Palme D'or] Edward Dmytryk | birthplace=Grand Forks, British Columbia | population=4112\n  - [Oscar] Frank Borzage | birthplace=Salt Lake City | population=199723\n  - [Oscar] Frank Capra | birthplace=Sicily | population=4779371\n  - [Oscar] Frank Capra | birthplace=Kingdom of Italy | population=unknown\n  - [Oscar] Frank Capra | birthplace=Bisacquino | population=4527\n  - [Oscar] Frank Lloyd | birthplace=Lanarkshire | population=unknown\n  - [Oscar] Frank Lloyd | birthplace=Cambuslang | population=unknown\n  - [Palme D'or] František Čáp | birthplace=Austria-Hungary | population=51390223\n  - [Palme D'or] František Čáp | birthplace=Bohemia | population=6880000\n  - [Palme D'or] František Čáp | birthplace=Čachovice | population=882\n  - [Oscar] Fred Zinnemann | birthplace=Rzeszów | population=198317\n  - [Oscar] Fred Zinnemann | birthplace=Austria-Hungary | population=51390223\n  - [Oscar] George Cukor | birthplace=unknown | population=unknown\n  - [Oscar] George Stevens | birthplace=Oakland, California | population=440646\n  - [Palme D'or] Jean Delannoy | birthplace=French Third Republic | population=unknown\n  - [Palme D'or] Jean Delannoy | birthplace=Île-de-France | population=12271794\n  - [Palme D'or] Jean Delannoy | birthplace=Noisy-le-Sec | population=unknown\n  - [Oscar] John Ford | birthplace=Cape Elizabeth, Maine | population=9535\n  - [Oscar] John Huston | birthplace=Nevada, Missouri | population=8212\n  - [Palme D'or] Lau Lauritzen Jr. | birthplace=Vejle | population=unknown\n  - [Oscar] Lewis Milestone | birthplace=Chișinău | population=719687\n  - [Oscar] Lewis Milestone | birthplace=Russian Empire | population=unknown\n  - [Oscar] Lewis Milestone | birthplace=Bessarabia Governorate | population=1935412\n  - [Oscar] Michael Curtiz | birthplace=Budapest | population=1685209\n  - [Oscar] Michael Curtiz | birthplace=Austria-Hungary | population=51390223\n  - [Palme D'or] Mikhail Kalatozov | birthplace=Tbilisi | population=1330217\n  - [Palme D'or] Mikhail Kalatozov | birthplace=Russian Empire | population=unknown\n  - [Oscar] Norman Taurog | birthplace=Chicago | population=2746388\n  - [Oscar] Norman Taurog | birthplace=Illinois | population=unknown\n  - [Palme D'or] Orson Welles | birthplace=Kenosha, Wisconsin | population=99986\n  - [Palme D'or] Roberto Rossellini | birthplace=Rome | population=2746984\n  - [Palme D'or] Roberto Rossellini | birthplace=Kingdom of Italy | population=unknown\n  - [Oscar] Victor Fleming | birthplace=La Cañada Flintridge, California | population=20573\n  - [Palme D'or] Vincente Minnelli | birthplace=Chicago | population=2746388\n  - [Oscar] Vincente Minnelli | birthplace=Chicago | population=2746388\n  - [Palme D'or] Vittorio De Sica | birthplace=Sora, Lazio | population=24733\n  - [Oscar] William Wyler | birthplace=German Empire | population=unknown\n  - [Palme D'or] William Wyler | birthplace=German Empire | population=unknown\n  - [Palme D'or] William Wyler | birthplace=Mulhouse | population=unknown\n  - [Oscar] William Wyler | birthplace=Mulhouse | population=unknown\n  - [Oscar] William Wyler | birthplace=Alsace–Lorraine | population=unknown\n  - [Palme D'or] William Wyler | birthplace=Alsace–Lorraine | population=unknown\n------------------------------------------------------------\nUse the evidence above only where it is directly relevant to THIS film's S.No and year. Do not use distractor or mismatched-year rows as qualifying. Where evidence is silent or marked unknown/NO RESULT, rely on your own verified knowledge rather than inventing a fact.\n\nFind every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as \"Citizen Kane\".  For each matching director state their birthplace and the population of that birthplace.\n\nNote: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.\nDo not invent or estimate any fact.\n\nOutput format\n-------------\nStart your answer with the line:\n  ANSWER:\nOn the very next line write:\n  Release year: [YYYY]\nThen list one line per matching director in this exact format:\n  [Director Name] | [Birthplace] | [Population]\nWhere:\n  Director Name  = the director's full name in English\n  Birthplace     = the city or place of birth in English (write \"unknown\" if not found)\n  Population     = the population of that place as a number (write \"unknown\" if not found)\nIf no directors match the criteria, write:\n  No matching directors found.\nDo not include any other text after the ANSWER: section.\nDo not invent or estimate facts. Omit any director you cannot verify.\n\nANSWER:",
+      "rag_rows_injected": 51,
+      "est_prompt_tokens": 1474,
+      "Generated_Response": "API Error: Claude's response exceeded the 3000 output token maximum. To configure this behavior, set the CLAUDE_CODE_MAX_OUTPUT_TOKENS environment variable.",
+      "Parse_Text_Altered": false,
+      "Degenerate_Flag": false,
+      "Degenerate_Reason": "",
+      "Parsed_Rows": [
+        {
+          "ReleaseYear": "",
+          "Director": "NO RESULT",
+          "Birthplace": "",
+          "PopCount": "",
+          "JointConfidence": ""
+        }
+      ],
+      "ReleaseYear_Parsed": "",
+      "Director_Parsed": "NO RESULT",
+      "Birthplace_Parsed": "",
+      "PopCount_Parsed": "",
+      "JointConfidence_Parsed": "",
+      "generation_status": "truncated_length",
+      "finish_reason": "output_token_cap",
+      "max_tokens_sent": 3000,
+      "usage": {
+        "input_tokens": 12,
+        "cache_creation_input_tokens": 11538,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 12000,
+        "output_tokens_details": {
+          "thinking_tokens": 11999
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 11538,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 3,
+            "output_tokens": 3000,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 2946,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 2946
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd_reported": 0.24926399999999999,
+      "thinking_chars": 0,
+      "text_chars": 156,
+      "raw_files": [
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG5_POPULATION/raw_calls/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG5_POPULATION_q2_try1_prompt.txt",
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG5_POPULATION/raw_calls/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG5_POPULATION_q2_try1_events.jsonl",
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG5_POPULATION/raw_calls/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG5_POPULATION_q2_try1_text.txt",
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG5_POPULATION/raw_calls/claude-sonnet-4-6_NLQ_WIKIPEDIA_S1_FLAT_RAG5_POPULATION_q2_try1_stderr.txt"
+      ],
+      "generation_time_seconds": 150.594,
+      "processing_timestamp": "2026-11-05T07:23:15.881457",
       "prompt_builder": "v5_strategy_preamble",
       "attention_mean": 0.0,
       "attention_min": 0.0,

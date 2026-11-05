@@ -13,3 +13,5 @@ claude-sonnet-4-6,nlq_wikipedia,flat_conjunctive,titles_authors_prize,neutral,1,
 claude-sonnet-4-6,nlq_wikipedia,flat_conjunctive,titles_authors_prize,neutral,2,truncated_length,False,True,False,False,148.332,12000.0,156,0,0.24396,,1941,,0,True,0,0,0,26,True,0,0,0,0
 claude-sonnet-4-6,nlq_wikipedia,flat_conjunctive,full_with_birthplace,neutral,1,truncated_length,False,True,False,False,154.988,12000.0,156,0,0.239688,,1972,,0,True,0,0,0,30,True,0,0,0,0
 claude-sonnet-4-6,nlq_wikipedia,flat_conjunctive,full_with_birthplace,neutral,2,truncated_length,False,True,False,False,157.358,12000.0,156,0,0.24388800000000002,,1941,,0,True,0,0,0,26,True,0,0,0,0
+claude-sonnet-4-6,nlq_wikipedia,flat_conjunctive,full_with_population,neutral,1,truncated_length,False,True,False,False,142.1,12000.0,156,0,0.24367200000000003,,1972,,0,True,0,0,0,30,True,0,0,0,0
+claude-sonnet-4-6,nlq_wikipedia,flat_conjunctive,full_with_population,neutral,2,truncated_length,False,True,False,False,150.594,12000.0,156,0,0.24926399999999999,,1941,,0,True,0,0,0,26,True,0,0,0,0
