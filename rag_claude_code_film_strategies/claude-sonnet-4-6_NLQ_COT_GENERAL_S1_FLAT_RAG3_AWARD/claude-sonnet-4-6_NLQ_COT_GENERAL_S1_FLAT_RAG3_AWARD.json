@@ -19,9 +19,9 @@
     "source_file": "source_books_films.csv",
     "reference_file": "directors_films_by_year.csv",
     "ground_truth_file": "df_gt_films.csv",
-    "timestamp": "2026-11-05T07:45:42.586094",
-    "total_queries": 1,
-    "successful_records": 1,
+    "timestamp": "2026-11-05T07:48:14.962029",
+    "total_queries": 2,
+    "successful_records": 2,
     "error_records": 0,
     "max_output_tokens_requested": 3000,
     "max_thinking_tokens_env": null,
@@ -147,6 +147,109 @@
       ],
       "generation_time_seconds": 146.148,
       "processing_timestamp": "2026-11-05T07:45:42.585716",
+      "prompt_builder": "v5_strategy_preamble",
+      "attention_mean": 0.0,
+      "attention_min": 0.0,
+      "attention_max": 0.0,
+      "attention_std": 0.0,
+      "attention_entropy": 0.0,
+      "hidden_state_norm_mean": 0.0,
+      "hidden_state_norm_min": 0.0,
+      "hidden_state_norm_max": 0.0,
+      "hidden_state_norm_std": 0.0,
+      "token_prob_mean": 0.0,
+      "token_prob_min": 0.0,
+      "token_prob_max": 0.0,
+      "token_prob_p10": 0.0,
+      "token_prob_p90": 0.0,
+      "confidence_score": 0.0,
+      "perplexity_estimate": 0.0
+    },
+    {
+      "Query_ID": 2,
+      "Film_Title": "Citizen Kane",
+      "Source_URI": "http://dbpedia.org/resource/Citizen_Kane",
+      "SPARQL_URI": "http://dbpedia.org/resource/Citizen_Kane",
+      "Wikidata_QID": "Q24815",
+      "Source_ReleaseYear": "1941",
+      "mode": "nlq_cot_general",
+      "strategy": "flat_conjunctive",
+      "rag_tier": "titles_authors_prize",
+      "rag_evidence_injected": true,
+      "system_mode_requested": "neutral",
+      "model_alias": "claude-sonnet-4-6",
+      "model_id": "claude-sonnet-4-6",
+      "model_family": "claude",
+      "system_mode": "native",
+      "prompt_sent": "You are a film history research assistant with comprehensive knowledge of Academy Award and Palme d'Or records, director filmographies, and international biographical reference data.  You reason carefully and only state facts you can verify.\n\n[Query ID: 2]  [Mode: nlq_cot_general]  [Strategy: flat_conjunctive]\n\nTask (Strategy 1 — flat conjunctive)\n--------------------------------------\nTarget film: \"Citizen Kane\"\n\nRETRIEVED EVIDENCE (S.No=2, release year = 1941)\n------------------------------------------------------------\nFilms, directors, and award provenance for this year:\n  - A Letter from Home (film) | Carol Reed | award_source=Oscar\n  - A Letter from Home (film) | Carol Reed | award_source=Palme d'Or\n  - A Woman's Face | George Cukor | award_source=Oscar\n  - Babes on Broadway | Vincente Minnelli | award_source=Oscar\n  - Babes on Broadway | Vincente Minnelli | award_source=Palme d'Or\n  - Confessions of Boston Blackie | Edward Dmytryk | award_source=Palme d'Or\n  - Design for Scandal | Norman Taurog | award_source=Oscar\n  - Dive Bomber (film) | Michael Curtiz | award_source=Oscar\n  - Dr. Jekyll and Mr. Hyde (1941 film) | Victor Fleming | award_source=Oscar\n  - Dumbo | Ben Sharpsteen | award_source=Palme d'Or\n  - Far skal giftes | Lau Lauritzen Jr. | award_source=Palme d'Or\n  - Forbidden Passage | Fred Zinnemann | award_source=Oscar\n  - Frøken Kirkemus | Lau Lauritzen Jr. | award_source=Palme d'Or\n  - Home from Babylon | Alf Sjöberg | award_source=Palme d'Or\n  - How Green Was My Valley (film) | John Ford | award_source=Oscar\n  - Jan Cimbura | František Čáp | award_source=Palme d'Or\n  - Kipps (1941 film) | Carol Reed | award_source=Oscar\n  - Kipps (1941 film) | Carol Reed | award_source=Palme d'Or\n  - Major Barbara (film) | David Lean | award_source=Oscar\n  - Major Barbara (film) | David Lean | award_source=Palme d'Or\n  - Meet John Doe | Frank Capra | award_source=Oscar\n  - Men of Boys Town | Norman Taurog | award_source=Oscar\n  - My Life with Caroline | Lewis Milestone | award_source=Oscar\n  - Nocturnal Butterfly | František Čáp | award_source=Palme d'Or\n  - Penny Serenade | George Stevens | award_source=Oscar\n  - Secrets of the Lone Wolf | Edward Dmytryk | award_source=Palme d'Or\n  - Smilin' Through (1941 film) | Frank Borzage | award_source=Oscar\n  - Sweetheart of the Campus | Edward Dmytryk | award_source=Palme d'Or\n  - Teresa Venerdì | Vittorio De Sica | award_source=Palme d'Or\n  - The Black Diamond (1941 film) | Jean Delannoy | award_source=Palme d'Or\n  - The Blonde from Singapore | Edward Dmytryk | award_source=Palme d'Or\n  - The Devil Commands | Edward Dmytryk | award_source=Palme d'Or\n  - The Lady from Cheyenne | Frank Lloyd | award_source=Oscar\n  - The Little Foxes (film) | William Wyler | award_source=Oscar\n  - The Little Foxes (film) | William Wyler | award_source=Palme d'Or\n  - The Maltese Falcon (1941 film) | John Huston | award_source=Oscar\n  - The Sea Wolf (1941 film) | Michael Curtiz | award_source=Oscar\n  - The White Ship (1941 film) | Roberto Rossellini | award_source=Palme d'Or\n  - This Woman Is Mine | Frank Lloyd | award_source=Oscar\n  - Tobacco Road (film) | John Ford | award_source=Oscar\n  - Tror du jeg er født i går! | Lau Lauritzen Jr. | award_source=Palme d'Or\n  - Two-Faced Woman | George Cukor | award_source=Oscar\n  - Under Age (1941 film) | Edward Dmytryk | award_source=Palme d'Or\n  - Valery Chkalov (film) | Mikhail Kalatozov | award_source=Palme d'Or\n  - Women in Defense | John Ford | award_source=Oscar\n------------------------------------------------------------\nUse the evidence above only where it is directly relevant to THIS film's S.No and year. Do not use distractor or mismatched-year rows as qualifying. Where evidence is silent or marked unknown/NO RESULT, rely on your own verified knowledge rather than inventing a fact.\n\nFind every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as \"Citizen Kane\".  For each matching director state their birthplace and the population of that birthplace.\n\nNote: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.\nDo not invent or estimate any fact.\n\nReasoning steps (work through before writing ANSWER:)\nSTEP 1: State the release year of the target film.\nSTEP 2: List directors who have EVER won Academy Award for Best Director or Palme d'Or.\nSTEP 3: Keep only those who directed >=1 film in that same year (not necessarily an award-winning film).\nSTEP 4: For each retained director, state birthplace and population.\nSTEP 5: Write ANSWER: using the output format above.\n\nOutput format\n-------------\nStart your answer with the line:\n  ANSWER:\nOn the very next line write:\n  Release year: [YYYY]\nThen list one line per matching director in this exact format:\n  [Director Name] | [Birthplace] | [Population]\nWhere:\n  Director Name  = the director's full name in English\n  Birthplace     = the city or place of birth in English (write \"unknown\" if not found)\n  Population     = the population of that place as a number (write \"unknown\" if not found)\nIf no directors match the criteria, write:\n  No matching directors found.\nDo not include any other text after the ANSWER: section.\nDo not invent or estimate facts. Omit any director you cannot verify.\n\nSTEP 1:",
+      "rag_rows_injected": 45,
+      "est_prompt_tokens": 1360,
+      "Generated_Response": "API Error: Claude's response exceeded the 3000 output token maximum. To configure this behavior, set the CLAUDE_CODE_MAX_OUTPUT_TOKENS environment variable.",
+      "Parse_Text_Altered": false,
+      "Degenerate_Flag": false,
+      "Degenerate_Reason": "",
+      "Parsed_Rows": [
+        {
+          "ReleaseYear": "",
+          "Director": "NO RESULT",
+          "Birthplace": "",
+          "PopCount": "",
+          "JointConfidence": ""
+        }
+      ],
+      "ReleaseYear_Parsed": "",
+      "Director_Parsed": "NO RESULT",
+      "Birthplace_Parsed": "",
+      "PopCount_Parsed": "",
+      "JointConfidence_Parsed": "",
+      "generation_status": "truncated_length",
+      "finish_reason": "output_token_cap",
+      "max_tokens_sent": 3000,
+      "usage": {
+        "input_tokens": 12,
+        "cache_creation_input_tokens": 11118,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 12000,
+        "output_tokens_details": {
+          "thinking_tokens": 12000
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 11118,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 3,
+            "output_tokens": 3000,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 2841,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 2841
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd_reported": 0.246744,
+      "thinking_chars": 0,
+      "text_chars": 156,
+      "raw_files": [
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG3_AWARD/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG3_AWARD_q2_try1_prompt.txt",
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG3_AWARD/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG3_AWARD_q2_try1_events.jsonl",
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG3_AWARD/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG3_AWARD_q2_try1_text.txt",
+        "rag_claude_code_film_strategies/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG3_AWARD/raw_calls/claude-sonnet-4-6_NLQ_COT_GENERAL_S1_FLAT_RAG3_AWARD_q2_try1_stderr.txt"
+      ],
+      "generation_time_seconds": 152.373,
+      "processing_timestamp": "2026-11-05T07:48:14.960960",
       "prompt_builder": "v5_strategy_preamble",
       "attention_mean": 0.0,
       "attention_min": 0.0,
