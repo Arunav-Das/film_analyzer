@@ -31,3 +31,6 @@ Sydney Pollack | Lafayette, Indiana | 70783
 Vittorio De Sica | Sora, Lazio | 24733
 Woody Allen | New York City | 8804190
 Yılmaz Güney | Yenice, Yüreğir | unknown
+
+===== Query_ID 2 | Citizen Kane =====
+API Error: Claude's response exceeded the 3000 output token maximum. To configure this behavior, set the CLAUDE_CODE_MAX_OUTPUT_TOKENS environment variable.
