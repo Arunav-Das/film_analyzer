@@ -1,0 +1,94 @@
+You are an encyclopaedic film research assistant. You reason exclusively from information consistent with Wikipedia articles, infoboxes, and filmography tables. You do not include any fact not clearly supported by encyclopaedic sources.
+
+[Query ID: 1]  [Mode: nlq_cot_wikipedia]  [Strategy: flat_conjunctive]
+
+Task (Strategy 1 — flat conjunctive)
+--------------------------------------
+Target film: "The Godfather"
+
+RETRIEVED EVIDENCE (S.No=1, release year = 1972)
+------------------------------------------------------------
+Films, directors, and award provenance for this year:
+  - Alfredo, Alfredo | Pietro Germi | award_source=Palme d'Or
+  - And Hope to Die | René Clément | award_source=Palme d'Or
+  - Avanti! | Billy Wilder | award_source=Oscar
+  - Avanti! | Billy Wilder | award_source=Palme d'Or
+  - Ağıt | Yılmaz Güney | award_source=Palme d'Or
+  - Bad Company (1972 film) | Robert Benton | award_source=Oscar
+  - Bluebeard (1972 film) | Edward Dmytryk | award_source=Palme d'Or
+  - Boxcar Bertha | Martin Scorsese | award_source=Oscar
+  - Boxcar Bertha | Martin Scorsese | award_source=Palme d'Or
+  - Cabaret (1972 film) | Bob Fosse | award_source=Oscar
+  - Cabaret (1972 film) | Bob Fosse | award_source=Palme d'Or
+  - Chung Kuo, Cina | Michelangelo Antonioni | award_source=Palme d'Or
+  - Days of '36 | Theo Angelopoulos | award_source=Palme d'Or
+  - Everything You Always Wanted to Know About Sex* (*But Were Afraid to Ask) (film) | Woody Allen | award_source=Oscar
+  - Fat City (film) | John Huston | award_source=Oscar
+  - Follow Me! (film) | Carol Reed | award_source=Oscar
+  - Follow Me! (film) | Carol Reed | award_source=Palme d'Or
+  - Images (film) | Robert Altman | award_source=Palme d'Or
+  - Jeremiah Johnson (film) | Sydney Pollack | award_source=Oscar
+  - L'aventure, c'est l'aventure | Claude Lelouch | award_source=Palme d'Or
+  - Last Tango in Paris | Bernardo Bertolucci | award_source=Oscar
+  - Liza with a Z | Bob Fosse | award_source=Oscar
+  - Liza with a Z | Bob Fosse | award_source=Palme d'Or
+  - Lo chiameremo Andrea | Vittorio De Sica | award_source=Palme d'Or
+  - No Place to Run (film) | Delbert Mann | award_source=Oscar
+  - No Place to Run (film) | Delbert Mann | award_source=Palme d'Or
+  - Roma (1972 film) | Federico Fellini | award_source=Palme d'Or
+  - She Waits | Delbert Mann | award_source=Oscar
+  - She Waits | Delbert Mann | award_source=Palme d'Or
+  - Slaughterhouse-Five (film) | George Roy Hill | award_source=Oscar
+  - Sleuth (1972 film) | Joseph L. Mankiewicz | award_source=Oscar
+  - Something Evil | Steven Spielberg | award_source=Oscar
+  - St. Michael Had a Rooster | Paolo and Vittorio Taviani | award_source=Palme d'Or
+  - State of Siege | Costa-Gavras | award_source=Palme d'Or
+  - The Assassination of Trotsky | Joseph Losey | award_source=Palme d'Or
+  - The Discreet Charm of the Bourgeoisie | Luis Buñuel | award_source=Palme d'Or
+  - The Goalkeeper's Fear of the Penalty | Wim Wenders | award_source=Palme d'Or
+  - The Life and Times of Judge Roy Bean | John Huston | award_source=Oscar
+  - The Mattei Affair | Francesco Rosi | award_source=Palme d'Or
+  - The Morals of Ruth Halbfass | Volker Schlöndorff | award_source=Palme d'Or
+  - The Pied Piper (1972 film) | Jacques Demy | award_source=Palme d'Or
+  - The Stoolie | John G. Avildsen | award_source=Oscar
+  - The Visitors (1972 film) | Elia Kazan | award_source=Oscar
+  - The Wedding (1972 film) | Andrzej Wajda | award_source=Palme d'Or
+  - Travels with My Aunt (film) | George Cukor | award_source=Oscar
+  - Weekend of a Champion | Roman Polanski | award_source=Oscar
+  - Weekend of a Champion | Roman Polanski | award_source=Palme d'Or
+  - What? (film) | Roman Polanski | award_source=Oscar
+  - What? (film) | Roman Polanski | award_source=Palme d'Or
+  - Young Winston | Richard Attenborough | award_source=Oscar
+------------------------------------------------------------
+Use the evidence above only where it is directly relevant to THIS film's S.No and year. Do not use distractor or mismatched-year rows as qualifying. Where evidence is silent or marked unknown/NO RESULT, rely on your own verified knowledge rather than inventing a fact.
+
+Find every director who (a) has EVER won the Academy Award for Best Director OR the Palme d'Or, AND (b) directed at least one film released in the same calendar year as "The Godfather".  For each matching director state their birthplace and the population of that birthplace.
+
+Note: The award-winning film and the co-year film are typically different films.  Condition (b) does not require an award-winning film — any film released by that director in that year qualifies.
+Do not invent or estimate any fact.
+
+Reasoning steps (work through before writing ANSWER:)
+STEP 1: State the release year of the target film.
+STEP 2: List directors who have EVER won Academy Award for Best Director or Palme d'Or.
+STEP 3: Keep only those who directed >=1 film in that same year (not necessarily an award-winning film).
+STEP 4: For each retained director, state birthplace and population.
+STEP 5: Write ANSWER: using the output format above.
+
+Output format
+-------------
+Start your answer with the line:
+  ANSWER:
+On the very next line write:
+  Release year: [YYYY]
+Then list one line per matching director in this exact format:
+  [Director Name] | [Birthplace] | [Population]
+Where:
+  Director Name  = the director's full name in English
+  Birthplace     = the city or place of birth in English (write "unknown" if not found)
+  Population     = the population of that place as a number (write "unknown" if not found)
+If no directors match the criteria, write:
+  No matching directors found.
+Do not include any other text after the ANSWER: section.
+Do not invent or estimate facts. Omit any director you cannot verify.
+
+STEP 1:
